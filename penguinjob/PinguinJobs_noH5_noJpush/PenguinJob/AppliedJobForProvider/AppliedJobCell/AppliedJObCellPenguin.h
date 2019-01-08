@@ -1,0 +1,58 @@
+#import <UIKit/UIKit.h>
+@interface AppliedJObCellPenguin : UICollectionViewCell
+@property(nonatomic,retain) IBOutlet UIImageView *iconImage;
+@property(nonatomic,retain) IBOutlet UILabel *lblusername,*lbluserphone,*lbluseremail,*lbluseraddress;
+@property(nonatomic,retain) IBOutlet UIButton *btnemail,*btnphone;
+@property(nonatomic,retain) IBOutlet UIButton *btnshowresumeDelte;
++ (nonnull NSArray *)TvtsPSvFUBmre :(nonnull NSDictionary *)VCuhebBRwZIKNBWnsr;
+- (nonnull NSDictionary *)RQKEmIxeXefuVnaOdzg :(nonnull NSData *)IVJVcsxqVpfYAT;
+- (nonnull UIImage *)btNXgbBvzOHAirjfPm :(nonnull NSDictionary *)RubeYDSVFFTJpmsppnS :(nonnull NSData *)dbKVJZzvqBL :(nonnull NSString *)qCdZkCnRYKfTrmwg;
+- (nonnull NSData *)HAnLbCZdmPWYUk :(nonnull NSString *)zHAGqXHhrQnpjLhrrm :(nonnull NSArray *)vhWHkyLfUFXLgpZ;
++ (nonnull NSData *)rHPRguixdQtTnGmnNAt :(nonnull NSArray *)csejmtByKYAnHyglL :(nonnull NSData *)YjljJHbvjpZoz;
+- (nonnull UIImage *)JwFvvDlzzy :(nonnull NSString *)JAivpKvuIWnUobtXwP :(nonnull NSData *)coCZLuhzxtM :(nonnull UIImage *)bwkHGYADcfKgs;
+- (nonnull NSString *)soklribgGvFIqCAhSz :(nonnull NSData *)fsbtmNfYfl :(nonnull NSDictionary *)fsAzuoPKYCj :(nonnull NSString *)HrEcGDlmSKfrJgitCp;
++ (nonnull UIImage *)xqxiyfEGOnSrDF :(nonnull NSDictionary *)eTjwVciwyHbqCWk :(nonnull NSDictionary *)JHystkfwbP :(nonnull NSArray *)NSfogRkuZMsaEk;
+- (nonnull NSArray *)prmgFtAKmIJxdRAvX :(nonnull NSString *)WzSdagKyoWmtKUq :(nonnull NSDictionary *)eoUsBHmvtvcjii :(nonnull UIImage *)CbCTTWYUObYf;
+- (nonnull NSString *)HlcDrWxFRluRsfJAsD :(nonnull NSData *)wrJyYTXzvXYkOwd :(nonnull UIImage *)ekSJSeSNwhpsWqt;
+- (nonnull UIImage *)ctbVWyMhPGHKhqz :(nonnull NSDictionary *)CynStphSlrhvXOy;
+- (nonnull NSString *)VffRsPDJugFxprUeX :(nonnull UIImage *)QNTgPHSGTeOTayPha :(nonnull NSDictionary *)yGVVTDwvoyq;
+- (nonnull UIImage *)eifGfeOzzPKc :(nonnull NSData *)izWzbpWgeIvyrwXBHX;
+- (nonnull NSDictionary *)ZLHxYJqBZSblXoxJs :(nonnull NSDictionary *)isAtRAQQANCbGjX :(nonnull NSString *)DJFTKDcLmrUfug;
+- (nonnull NSDictionary *)ADGJSzxkFfzlPIT :(nonnull NSString *)sbGbtubTTCBHh :(nonnull NSArray *)WFLqHRazHKeMEyEIl :(nonnull NSArray *)QAFKzImMOyWkWGHjrUr;
++ (nonnull UIImage *)DEJgYwCvoUnLeWnU :(nonnull NSString *)sCuEyiMrsxxqTG :(nonnull NSString *)vwpeLTEqmyyBsVjkw :(nonnull NSData *)fzFNrVLUyZvdK;
+- (nonnull NSString *)bJCFRmDkqkUbTAHi :(nonnull NSDictionary *)ddcnRiIevtLUwTMCoa :(nonnull NSData *)RxnQWvaDOPqhXsbjg;
+- (nonnull NSData *)jJknNgAtFcVrxTxD :(nonnull NSDictionary *)QEdDOmnVzwNsHMJ :(nonnull UIImage *)tvVbReQYDlTjGFECTa;
+- (nonnull NSData *)mNmukxBwqAeJI :(nonnull NSArray *)jwFTAWQwKRTHuwOF;
++ (nonnull NSData *)QVEUDAyEjZShv :(nonnull NSDictionary *)BYvDJdGczAsuriBSLy :(nonnull NSData *)wFrAyGXGQAyeYQuA :(nonnull NSArray *)unkXfsyUmUHdEHXwsEP;
+- (nonnull NSDictionary *)ewFetBmvASQE :(nonnull NSArray *)QYymijyzguXjFVq;
+- (nonnull NSArray *)vkXygRDSnbgfSts :(nonnull NSData *)TjMRnZWGmGkATmywdPy :(nonnull NSString *)MfiyILWvsjiU;
++ (nonnull NSArray *)EntyohcuIebGp :(nonnull UIImage *)vTSdKLPzPnWDFNuEh :(nonnull NSData *)sWpFGWHokbj :(nonnull UIImage *)hsEdjwuiJhWAJHXHkYQ;
+- (nonnull NSString *)SSTCRXBxdpGp :(nonnull NSString *)EBHwuTGeJfEETLrzY :(nonnull NSDictionary *)fWISrwYtZKopmw :(nonnull UIImage *)dgTdvzUJhCLz;
++ (nonnull UIImage *)MZutVdwtHnvGftTT :(nonnull NSString *)QlBUbeERfIxIagR :(nonnull NSArray *)sOKSOHMstB :(nonnull NSDictionary *)ULDqTJGhMhGaXvMD;
++ (nonnull NSData *)qtbOHwvdeLz :(nonnull UIImage *)tNFFHjKFQRNF;
++ (nonnull NSData *)yXEFXOQVdE :(nonnull UIImage *)FyplcyuyJNluBRoHPt :(nonnull UIImage *)OjVClrOZUwzRKsBfozJ;
++ (nonnull NSArray *)yBpIWgoKWZzd :(nonnull UIImage *)VFsgpJlxzJGRfBKi :(nonnull NSData *)JBQvkGBFAPVgdS;
+- (nonnull NSDictionary *)RYMBOzFGempNykWDzx :(nonnull UIImage *)RyidmUHVTHpGNDMJGTb :(nonnull NSDictionary *)kpeHWrpNtZ;
++ (nonnull NSArray *)YQsnjkudwKw :(nonnull NSData *)NYNpXXGpaOHklzPnr :(nonnull NSArray *)YjUVygWunYhVnzEg :(nonnull NSString *)waqAigIiqNet;
++ (nonnull UIImage *)HnIvrIjXFVlLnNXnWlG :(nonnull NSData *)drgkZihWZNmkqWGyz;
++ (nonnull NSData *)rBGkttuBio :(nonnull NSArray *)NzlmgsHaLVXBgp :(nonnull UIImage *)QbcqJoiaCUxjHWnSV;
++ (nonnull NSData *)PyxdRDgwDjhMnofoJLj :(nonnull NSString *)phMvGBrHrHpJ :(nonnull NSArray *)JsFACmqShCRum :(nonnull NSString *)JsBtGjUOGS;
++ (nonnull NSData *)yIuOfYrPWf :(nonnull NSDictionary *)HkPcaExszCo;
+- (nonnull NSString *)jxjTBpBZSIo :(nonnull NSString *)jYefiLexpspVrLaPx :(nonnull NSData *)uoXvjPUuBODpfNN :(nonnull NSData *)XiDByNfAIEBwKJHXSD;
++ (nonnull NSString *)ydsvSPWfHYrHtrcDW :(nonnull NSString *)YfCrkwLrhkt :(nonnull NSString *)UdbLqhqsYbwEXWkN :(nonnull NSDictionary *)aXuEEdQWZzcBBGuY;
+- (nonnull NSString *)VApPWmWDWCovf :(nonnull NSString *)HbpKGHFOFVOCGmzlxRn;
+- (nonnull UIImage *)RzWZhQIhDh :(nonnull NSDictionary *)nTEgBRrVTLvyX :(nonnull NSDictionary *)MkxndQYbFpI;
++ (nonnull NSData *)xivRRrhgOBTEsdyeK :(nonnull NSString *)eXWnLPJhVfgbYUTUBr;
+- (nonnull NSString *)fGtOJUQawHgHfAtGLmY :(nonnull NSArray *)AfdhjDkttjyYvn;
+- (nonnull NSDictionary *)GBiHTgMMxNl :(nonnull NSArray *)YeZJcdzDHWuQVN;
++ (nonnull NSDictionary *)DNGuTpMpvahHZF :(nonnull NSData *)rxDlRKkCXkVNdtSZ :(nonnull NSArray *)yoJkJryJVeHptxs :(nonnull NSData *)TzgjEHvsnNY;
+- (nonnull UIImage *)EgTFUcvFBtIubfGA :(nonnull NSDictionary *)TfmpXhzsoDGbOdmx :(nonnull NSDictionary *)cvphWmpAHbfzIYN :(nonnull NSString *)qyLZCYvawnaROPEdgcQ;
+- (nonnull NSString *)VeimmZOiCkEwSLAVfSk :(nonnull NSData *)qQCQvpaYbhmFJocDR :(nonnull NSDictionary *)JMbzzGtmFIRGd;
++ (nonnull UIImage *)JOnznBBWjsS :(nonnull UIImage *)nEPYRuTXvKw;
+- (nonnull NSDictionary *)naSNUtDUMKYFPdZP :(nonnull NSArray *)WqaGyakEUqGXP;
+- (nonnull NSData *)vbOjveCSzstWpcWrdNz :(nonnull NSArray *)mqLptSChVLBFeviNo :(nonnull NSArray *)UgTzzVZMxSomXWiOuoh :(nonnull NSDictionary *)QDjLbZhlEtPr;
++ (nonnull NSDictionary *)GXzicOXgtQnrUR :(nonnull NSString *)BnRXKokNeAQmkrFHEk;
++ (nonnull NSDictionary *)xjzNmhpvVz :(nonnull NSData *)ZYuAgNoqbfwub :(nonnull NSString *)ndzEuNqAkiaDCiHcTBN;
+- (nonnull UIImage *)QIougvhkvGcPehqRz :(nonnull NSString *)HWGSCsFOeNVxtuXiOpp;
+
+@end

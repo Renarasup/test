@@ -1,0 +1,1626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126DDDEF203C4176008B6FF7 /* PenguinCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 126DDDED203C4176008B6FF7 /* PenguinCategories.m */; };
+		126DDDF0203C4176008B6FF7 /* PenguinCategories.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126DDDEE203C4176008B6FF7 /* PenguinCategories.xib */; };
+		126DDDF4203C423E008B6FF7 /* SaveJobPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 126DDDF2203C423E008B6FF7 /* SaveJobPenguin.m */; };
+		126DDDF5203C423E008B6FF7 /* SaveJobPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126DDDF3203C423E008B6FF7 /* SaveJobPenguin.xib */; };
+		126DDDF9203C42D7008B6FF7 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 126DDDF7203C42D7008B6FF7 /* Profile.m */; };
+		126DDDFA203C42D7008B6FF7 /* Profile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126DDDF8203C42D7008B6FF7 /* Profile.xib */; };
+		126DDE03203C438C008B6FF7 /* PrivacyPolicyPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126DDDFB203C438B008B6FF7 /* PrivacyPolicyPenguin.xib */; };
+		126DDE04203C438C008B6FF7 /* AboutUsPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 126DDDFC203C438C008B6FF7 /* AboutUsPenguin.m */; };
+		126DDE06203C438C008B6FF7 /* AboutUsPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126DDDFE203C438C008B6FF7 /* AboutUsPenguin.xib */; };
+		126DDE08203C438C008B6FF7 /* PrivacyPolicyPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 126DDE00203C438C008B6FF7 /* PrivacyPolicyPenguin.m */; };
+		12717536205000F100864E0D /* PenguinJobProviderCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12717535205000F100864E0D /* PenguinJobProviderCell_iPad.xib */; };
+		127175382050019100864E0D /* PenguinCategories_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127175372050019100864E0D /* PenguinCategories_iPad.xib */; };
+		1271753A205001D200864E0D /* PenguinCategoryCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12717539205001D200864E0D /* PenguinCategoryCell_iPad.xib */; };
+		1271753C205001FE00864E0D /* CategoryListPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1271753B205001FD00864E0D /* CategoryListPenguin_iPad.xib */; };
+		127175402050024B00864E0D /* DetailViewControllerPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1271753F2050024B00864E0D /* DetailViewControllerPenguin_iPad.xib */; };
+		12717542205002B200864E0D /* SaveJobPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12717541205002B200864E0D /* SaveJobPenguin_iPad.xib */; };
+		127175442050030000864E0D /* Profile_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12717543205002FF00864E0D /* Profile_iPad.xib */; };
+		127175462050035B00864E0D /* EditProfilePenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127175452050035A00864E0D /* EditProfilePenguin_iPad.xib */; };
+		12717548205003A700864E0D /* SearchJobsPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12717547205003A600864E0D /* SearchJobsPenguin_iPad.xib */; };
+		1271754A205003E800864E0D /* AddsJobPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12717549205003E700864E0D /* AddsJobPenguin_iPad.xib */; };
+		1271754C2050044D00864E0D /* EditJob_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1271754B2050044D00864E0D /* EditJob_iPad.xib */; };
+		1271754E2050048400864E0D /* ApplieHdJobPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1271754D2050048400864E0D /* ApplieHdJobPenguin_iPad.xib */; };
+		12717550205004BD00864E0D /* AppliedJObCellPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1271754F205004BC00864E0D /* AppliedJObCellPenguin_iPad.xib */; };
+		12717552205004F400864E0D /* AboutUsPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12717551205004F400864E0D /* AboutUsPenguin_iPad.xib */; };
+		127175542050055900864E0D /* PrivacyPolicyPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127175532050055900864E0D /* PrivacyPolicyPenguin_iPad.xib */; };
+		12819BCA2046894E00E36638 /* JobApp.db in Resources */ = {isa = PBXBuildFile; fileRef = 12819BC92046894E00E36638 /* JobApp.db */; };
+		12819BCE2046A46F00E36638 /* Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12819BCD2046A46F00E36638 /* Modal.m */; };
+		128F97CD204FDB750093C687 /* Login_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128F97CC204FDB750093C687 /* Login_iPad.xib */; };
+		128F97CF204FEA650093C687 /* PenguinRegister_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128F97CE204FEA650093C687 /* PenguinRegister_iPad.xib */; };
+		128F97D1204FF47F0093C687 /* PenguinForgotPasswordViewCtlr_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128F97D0204FF47F0093C687 /* PenguinForgotPasswordViewCtlr_iPad.xib */; };
+		128F97D3204FF7920093C687 /* Latest_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128F97D2204FF7920093C687 /* Latest_iPad.xib */; };
+		128F97D5204FF7CA0093C687 /* PenguinJobCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128F97D4204FF7CA0093C687 /* PenguinJobCell_iPad.xib */; };
+		12A3A525203D2CC40032ED30 /* PenguinJobCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A3A523203D2CC40032ED30 /* PenguinJobCell.m */; };
+		12A3A526203D2CC40032ED30 /* PenguinJobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A3A524203D2CC40032ED30 /* PenguinJobCell.xib */; };
+		12A3A530203D41920032ED30 /* PenguinCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A3A52E203D41920032ED30 /* PenguinCategoryCell.m */; };
+		12A3A531203D41920032ED30 /* PenguinCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A3A52F203D41920032ED30 /* PenguinCategoryCell.xib */; };
+		12A3A535203D4C670032ED30 /* CategoryListPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A3A533203D4C670032ED30 /* CategoryListPenguin.m */; };
+		12A3A536203D4C670032ED30 /* CategoryListPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A3A534203D4C670032ED30 /* CategoryListPenguin.xib */; };
+		12A3A540203D6EF50032ED30 /* DetailViewControllerPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A3A53E203D6EF50032ED30 /* DetailViewControllerPenguin.m */; };
+		12A3A541203D6EF50032ED30 /* DetailViewControllerPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A3A53F203D6EF50032ED30 /* DetailViewControllerPenguin.xib */; };
+		12AD77B6204D3FAE0039758F /* IQActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD77AE204D3FAD0039758F /* IQActionSheetViewController.m */; };
+		12AD77B7204D3FAE0039758F /* IQActionSheetPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD77B1204D3FAD0039758F /* IQActionSheetPickerView.m */; };
+		12AD77B8204D3FAE0039758F /* IQActionSheetToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD77B3204D3FAD0039758F /* IQActionSheetToolbar.m */; };
+		12AD77B9204D3FAE0039758F /* IQActionSheetTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD77B5204D3FAE0039758F /* IQActionSheetTitleBarButtonItem.m */; };
+		12AD77BD204D594B0039758F /* EditJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD77BB204D594B0039758F /* EditJob.m */; };
+		12AD77BE204D594B0039758F /* EditJob.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12AD77BC204D594B0039758F /* EditJob.xib */; };
+		12AD77C2204D5F3A0039758F /* PenguinJobProviderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD77C0204D5F3A0039758F /* PenguinJobProviderCell.m */; };
+		12AD77C3204D5F3A0039758F /* PenguinJobProviderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12AD77C1204D5F3A0039758F /* PenguinJobProviderCell.xib */; };
+		12B16253204EAE8E0065D126 /* ApplieHdJobPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B16251204EAE8E0065D126 /* ApplieHdJobPenguin.m */; };
+		12B16254204EAE8E0065D126 /* ApplieHdJobPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B16252204EAE8E0065D126 /* ApplieHdJobPenguin.xib */; };
+		12B16258204EB3220065D126 /* AppliedJObCellPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B16256204EB3210065D126 /* AppliedJObCellPenguin.m */; };
+		12B16259204EB3220065D126 /* AppliedJObCellPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B16257204EB3220065D126 /* AppliedJObCellPenguin.xib */; };
+		12B6800F20412B3000161364 /* EditProfilePenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B6800D20412B3000161364 /* EditProfilePenguin.m */; };
+		12B6801020412B3000161364 /* EditProfilePenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B6800E20412B3000161364 /* EditProfilePenguin.xib */; };
+		12B680142041661E00161364 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B680132041661E00161364 /* Photos.framework */; };
+		12D61A452047F87800AD15EA /* DialogContent1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D61A402047F87800AD15EA /* DialogContent1.xib */; };
+		12D61A462047F87800AD15EA /* DialogContentViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D61A422047F87800AD15EA /* DialogContentViewController1.m */; };
+		12D61A472047F87800AD15EA /* UIXOverlayController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D61A432047F87800AD15EA /* UIXOverlayController1.m */; };
+		12D61A4B2047FA4E00AD15EA /* SearchJobsPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D61A492047FA4E00AD15EA /* SearchJobsPenguin.m */; };
+		12D61A4C2047FA4E00AD15EA /* SearchJobsPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D61A4A2047FA4E00AD15EA /* SearchJobsPenguin.xib */; };
+		12D61A5020480DF900AD15EA /* AddsJobPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D61A4E20480DF900AD15EA /* AddsJobPenguin.m */; };
+		12D61A5120480DF900AD15EA /* AddsJobPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D61A4F20480DF900AD15EA /* AddsJobPenguin.xib */; };
+		12D61A5B204818D000AD15EA /* SLPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D61A5A204818D000AD15EA /* SLPickerView.m */; };
+		12E34B7A203AB1F9002A9328 /* PenguinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34B79203AB1F9002A9328 /* PenguinAppDelegate.m */; };
+		12E34B82203AB1FA002A9328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E34B81203AB1FA002A9328 /* Assets.xcassets */; };
+		12E34B88203AB1FA002A9328 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34B87203AB1FA002A9328 /* main.m */; };
+		12E34BAD203AC4DA002A9328 /* VKSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BAB203AC4D9002A9328 /* VKSideMenu.m */; };
+		12E34BB9203AC4ED002A9328 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BAF203AC4EC002A9328 /* SVProgressHUD.m */; };
+		12E34BBA203AC4ED002A9328 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12E34BB0203AC4EC002A9328 /* SVProgressHUD.bundle */; };
+		12E34BBB203AC4ED002A9328 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BB3203AC4ED002A9328 /* SVProgressAnimatedView.m */; };
+		12E34BBC203AC4ED002A9328 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BB6203AC4ED002A9328 /* SVRadialGradientLayer.m */; };
+		12E34BBD203AC4ED002A9328 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BB8203AC4ED002A9328 /* SVIndefiniteAnimatedView.m */; };
+		12E34BE0203AC506002A9328 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BBF203AC504002A9328 /* UIImage+GIF.m */; };
+		12E34BE1203AC506002A9328 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BC0203AC504002A9328 /* UIImage+WebP.m */; };
+		12E34BE2203AC506002A9328 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BC3203AC504002A9328 /* UIButton+WebCache.m */; };
+		12E34BE3203AC506002A9328 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BC5203AC504002A9328 /* SDWebImageManager.m */; };
+		12E34BE4203AC506002A9328 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BC6203AC504002A9328 /* UIImageView+WebCache.m */; };
+		12E34BE5203AC506002A9328 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BC8203AC504002A9328 /* SDImageCache.m */; };
+		12E34BE6203AC506002A9328 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BCB203AC504002A9328 /* SDWebImageDownloaderOperation.m */; };
+		12E34BE7203AC506002A9328 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BCC203AC504002A9328 /* UIView+WebCacheOperation.m */; };
+		12E34BE8203AC506002A9328 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BCE203AC504002A9328 /* SDWebImageDecoder.m */; };
+		12E34BE9203AC506002A9328 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BD2203AC505002A9328 /* SDWebImageDownloader.m */; };
+		12E34BEA203AC506002A9328 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BD3203AC505002A9328 /* UIImageView+HighlightedWebCache.m */; };
+		12E34BEB203AC506002A9328 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BD7203AC505002A9328 /* SDWebImagePrefetcher.m */; };
+		12E34BEC203AC506002A9328 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BD8203AC505002A9328 /* MKAnnotationView+WebCache.m */; };
+		12E34BED203AC506002A9328 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BD9203AC505002A9328 /* UIImage+MultiFormat.m */; };
+		12E34BEE203AC506002A9328 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BDD203AC506002A9328 /* SDWebImageCompat.m */; };
+		12E34BEF203AC506002A9328 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BDE203AC506002A9328 /* NSData+ImageContentType.m */; };
+		12E34BF3203AC51A002A9328 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BF1203AC51A002A9328 /* Reachability.m */; };
+		12E34BF7203AC52D002A9328 /* KSToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BF6203AC52D002A9328 /* KSToastView.m */; };
+		12E34BFB203AC540002A9328 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BFA203AC540002A9328 /* HexColors.m */; };
+		12E34C05203AC556002A9328 /* EGODatabaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BFD203AC555002A9328 /* EGODatabaseRow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		12E34C06203AC556002A9328 /* EGODatabaseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34BFE203AC556002A9328 /* EGODatabaseResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		12E34C07203AC556002A9328 /* EGODatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C00203AC556002A9328 /* EGODatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		12E34C08203AC556002A9328 /* EGODatabaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C01203AC556002A9328 /* EGODatabaseRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		12E34C0C203AC566002A9328 /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C0B203AC566002A9328 /* CommonUtils.m */; };
+		12E34C1B203AC580002A9328 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C0E203AC57F002A9328 /* AFURLRequestSerialization.m */; };
+		12E34C1C203AC580002A9328 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C0F203AC57F002A9328 /* AFURLResponseSerialization.m */; };
+		12E34C1D203AC580002A9328 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C10203AC57F002A9328 /* AFHTTPSessionManager.m */; };
+		12E34C1E203AC580002A9328 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C12203AC57F002A9328 /* AFNetworkReachabilityManager.m */; };
+		12E34C1F203AC580002A9328 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C13203AC57F002A9328 /* AFSecurityPolicy.m */; };
+		12E34C20203AC580002A9328 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C15203AC57F002A9328 /* AFURLSessionManager.m */; };
+		12E34C25203AC794002A9328 /* PenguinLatest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C23203AC794002A9328 /* PenguinLatest.m */; };
+		12E34C26203AC794002A9328 /* PenguinLatest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E34C24203AC794002A9328 /* PenguinLatest.xib */; };
+		12E34C29203AC949002A9328 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E34C28203AC949002A9328 /* libsqlite3.0.tbd */; };
+		12E34C2B203AC951002A9328 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E34C2A203AC951002A9328 /* UIKit.framework */; };
+		12E34C2D203AC959002A9328 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E34C2C203AC959002A9328 /* SystemConfiguration.framework */; };
+		12E34C33203ACD30002A9328 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E34C2F203ACD30002A9328 /* OpenSans-Regular.ttf */; };
+		12E34C34203ACD30002A9328 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E34C30203ACD30002A9328 /* Lato-Regular.ttf */; };
+		12E34C35203ACD30002A9328 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E34C31203ACD30002A9328 /* OpenSans-Semibold.ttf */; };
+		12E34C36203ACD30002A9328 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E34C32203ACD30002A9328 /* Lato-Bold.ttf */; };
+		12E34C47203AD859002A9328 /* PenguinLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C45203AD859002A9328 /* PenguinLoginVC.m */; };
+		12E34C48203AD859002A9328 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E34C46203AD859002A9328 /* Login.xib */; };
+		12E34C4C203AD882002A9328 /* PenguinRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C4A203AD882002A9328 /* PenguinRegister.m */; };
+		12E34C4D203AD882002A9328 /* PenguinRegister.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E34C4B203AD882002A9328 /* PenguinRegister.xib */; };
+		12E34C51203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E34C4F203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.m */; };
+		12E34C52203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E34C50203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.xib */; };
+		12E34C58203AE36E002A9328 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E34C57203AE36D002A9328 /* MobileCoreServices.framework */; };
+		12E798ED203EEB1000C2D5AD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E798EC203EEB1000C2D5AD /* MessageUI.framework */; };
+		1812BB8920EB8783001A5D35 /* PersonalizedAdConsent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1812BB8820EB8782001A5D35 /* PersonalizedAdConsent.bundle */; };
+		1817A25C20ECBDB2006B5237 /* ExternalLinkPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817A25A20ECBDB2006B5237 /* ExternalLinkPenguin.m */; };
+		1817A25D20ECBDB2006B5237 /* ExternalLinkPenguin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1817A25B20ECBDB2006B5237 /* ExternalLinkPenguin.xib */; };
+		1817A26020ECC4FD006B5237 /* ExternalLinkPenguin_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1817A25F20ECC4FC006B5237 /* ExternalLinkPenguin_iPad.xib */; };
+		18E9448020EB7DD900D9F4E5 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9447F20EB7DD900D9F4E5 /* UserNotifications.framework */; };
+		18E9448220EB7DE100D9F4E5 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9448120EB7DE100D9F4E5 /* UserNotificationsUI.framework */; };
+		18E9448D20EB7E7600D9F4E5 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9448C20EB7E7600D9F4E5 /* NotificationService.m */; };
+		18E9449120EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18E9448920EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18E9449720EB7F9600D9F4E5 /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9447C20EB7D6E00D9F4E5 /* OneSignal.framework */; };
+		9A19E28D2179E8A70019B821 /* UIWindow+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A19E28C2179E8A70019B821 /* UIWindow+Extension.m */; };
+		9A1A05F92179E261007EEEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1A05F82179E261007EEEA0 /* LaunchScreen.storyboard */; };
+		9A5B1FC121CA34D300353373 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5B1FC021CA34D300353373 /* CloudKit.framework */; };
+		9AFFF022217D7A1E00B5A2CA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFF021217D7A1E00B5A2CA /* main.storyboard */; };
+		A49E9EE402ABA55C353D6C81 /* libPods-PinguinJobs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED82E0DE90596CFEB01167E /* libPods-PinguinJobs.a */; };
+		CA2B0E2A3713DDC05F754A16 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7363D880A8FA76A27D5649A3 /* libPods-OneSignalNotificationServiceExtension.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1812BB8620EB875E001A5D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1812BB8220EB875E001A5D35 /* PersonalizedAdConsent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A92D29F2076961800FFE51D;
+			remoteInfo = PersonalizedAdConsent;
+		};
+		18E9448F20EB7E7600D9F4E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E34B6D203AB1F9002A9328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E9448820EB7E7600D9F4E5;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18E9449520EB7E7600D9F4E5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18E9449120EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		126DDDEC203C4176008B6FF7 /* PenguinCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinCategories.h; sourceTree = "<group>"; };
+		126DDDED203C4176008B6FF7 /* PenguinCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinCategories.m; sourceTree = "<group>"; };
+		126DDDEE203C4176008B6FF7 /* PenguinCategories.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinCategories.xib; sourceTree = "<group>"; };
+		126DDDF1203C423E008B6FF7 /* SaveJobPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveJobPenguin.h; sourceTree = "<group>"; };
+		126DDDF2203C423E008B6FF7 /* SaveJobPenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveJobPenguin.m; sourceTree = "<group>"; };
+		126DDDF3203C423E008B6FF7 /* SaveJobPenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaveJobPenguin.xib; sourceTree = "<group>"; };
+		126DDDF6203C42D7008B6FF7 /* Profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		126DDDF7203C42D7008B6FF7 /* Profile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		126DDDF8203C42D7008B6FF7 /* Profile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Profile.xib; sourceTree = "<group>"; };
+		126DDDFB203C438B008B6FF7 /* PrivacyPolicyPenguin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivacyPolicyPenguin.xib; sourceTree = "<group>"; };
+		126DDDFC203C438C008B6FF7 /* AboutUsPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsPenguin.m; sourceTree = "<group>"; };
+		126DDDFE203C438C008B6FF7 /* AboutUsPenguin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsPenguin.xib; sourceTree = "<group>"; };
+		126DDE00203C438C008B6FF7 /* PrivacyPolicyPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyPolicyPenguin.m; sourceTree = "<group>"; };
+		126DDE01203C438C008B6FF7 /* PrivacyPolicyPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyPolicyPenguin.h; sourceTree = "<group>"; };
+		126DDE02203C438C008B6FF7 /* AboutUsPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsPenguin.h; sourceTree = "<group>"; };
+		12717535205000F100864E0D /* PenguinJobProviderCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenguinJobProviderCell_iPad.xib; sourceTree = "<group>"; };
+		127175372050019100864E0D /* PenguinCategories_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenguinCategories_iPad.xib; sourceTree = "<group>"; };
+		12717539205001D200864E0D /* PenguinCategoryCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenguinCategoryCell_iPad.xib; sourceTree = "<group>"; };
+		1271753B205001FD00864E0D /* CategoryListPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryListPenguin_iPad.xib; sourceTree = "<group>"; };
+		1271753F2050024B00864E0D /* DetailViewControllerPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewControllerPenguin_iPad.xib; sourceTree = "<group>"; };
+		12717541205002B200864E0D /* SaveJobPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaveJobPenguin_iPad.xib; sourceTree = "<group>"; };
+		12717543205002FF00864E0D /* Profile_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Profile_iPad.xib; sourceTree = "<group>"; };
+		127175452050035A00864E0D /* EditProfilePenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditProfilePenguin_iPad.xib; sourceTree = "<group>"; };
+		12717547205003A600864E0D /* SearchJobsPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchJobsPenguin_iPad.xib; sourceTree = "<group>"; };
+		12717549205003E700864E0D /* AddsJobPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddsJobPenguin_iPad.xib; sourceTree = "<group>"; };
+		1271754B2050044D00864E0D /* EditJob_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditJob_iPad.xib; sourceTree = "<group>"; };
+		1271754D2050048400864E0D /* ApplieHdJobPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplieHdJobPenguin_iPad.xib; sourceTree = "<group>"; };
+		1271754F205004BC00864E0D /* AppliedJObCellPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppliedJObCellPenguin_iPad.xib; sourceTree = "<group>"; };
+		12717551205004F400864E0D /* AboutUsPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsPenguin_iPad.xib; sourceTree = "<group>"; };
+		127175532050055900864E0D /* PrivacyPolicyPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivacyPolicyPenguin_iPad.xib; sourceTree = "<group>"; };
+		12819BC92046894E00E36638 /* JobApp.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = JobApp.db; path = Database/JobApp.db; sourceTree = "<group>"; };
+		12819BCC2046A46F00E36638 /* Modal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Modal.h; path = Modal/Modal.h; sourceTree = "<group>"; };
+		12819BCD2046A46F00E36638 /* Modal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Modal.m; path = Modal/Modal.m; sourceTree = "<group>"; };
+		128F97CC204FDB750093C687 /* Login_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login_iPad.xib; sourceTree = "<group>"; };
+		128F97CE204FEA650093C687 /* PenguinRegister_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenguinRegister_iPad.xib; sourceTree = "<group>"; };
+		128F97D0204FF47F0093C687 /* PenguinForgotPasswordViewCtlr_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenguinForgotPasswordViewCtlr_iPad.xib; sourceTree = "<group>"; };
+		128F97D2204FF7920093C687 /* Latest_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Latest_iPad.xib; sourceTree = "<group>"; };
+		128F97D4204FF7CA0093C687 /* PenguinJobCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenguinJobCell_iPad.xib; sourceTree = "<group>"; };
+		12A3A522203D2CC40032ED30 /* PenguinJobCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinJobCell.h; sourceTree = "<group>"; };
+		12A3A523203D2CC40032ED30 /* PenguinJobCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinJobCell.m; sourceTree = "<group>"; };
+		12A3A524203D2CC40032ED30 /* PenguinJobCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinJobCell.xib; sourceTree = "<group>"; };
+		12A3A52D203D41920032ED30 /* PenguinCategoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinCategoryCell.h; sourceTree = "<group>"; };
+		12A3A52E203D41920032ED30 /* PenguinCategoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinCategoryCell.m; sourceTree = "<group>"; };
+		12A3A52F203D41920032ED30 /* PenguinCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinCategoryCell.xib; sourceTree = "<group>"; };
+		12A3A532203D4C670032ED30 /* CategoryListPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryListPenguin.h; sourceTree = "<group>"; };
+		12A3A533203D4C670032ED30 /* CategoryListPenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryListPenguin.m; sourceTree = "<group>"; };
+		12A3A534203D4C670032ED30 /* CategoryListPenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryListPenguin.xib; sourceTree = "<group>"; };
+		12A3A53D203D6EF50032ED30 /* DetailViewControllerPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewControllerPenguin.h; sourceTree = "<group>"; };
+		12A3A53E203D6EF50032ED30 /* DetailViewControllerPenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewControllerPenguin.m; sourceTree = "<group>"; };
+		12A3A53F203D6EF50032ED30 /* DetailViewControllerPenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewControllerPenguin.xib; sourceTree = "<group>"; };
+		12AD77AE204D3FAD0039758F /* IQActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQActionSheetViewController.m; path = IQActionSheetPickerView/IQActionSheetViewController.m; sourceTree = "<group>"; };
+		12AD77AF204D3FAD0039758F /* IQActionSheetPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQActionSheetPickerView.h; path = IQActionSheetPickerView/IQActionSheetPickerView.h; sourceTree = "<group>"; };
+		12AD77B0204D3FAD0039758F /* IQActionSheetTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQActionSheetTitleBarButtonItem.h; path = IQActionSheetPickerView/IQActionSheetTitleBarButtonItem.h; sourceTree = "<group>"; };
+		12AD77B1204D3FAD0039758F /* IQActionSheetPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQActionSheetPickerView.m; path = IQActionSheetPickerView/IQActionSheetPickerView.m; sourceTree = "<group>"; };
+		12AD77B2204D3FAD0039758F /* IQActionSheetToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQActionSheetToolbar.h; path = IQActionSheetPickerView/IQActionSheetToolbar.h; sourceTree = "<group>"; };
+		12AD77B3204D3FAD0039758F /* IQActionSheetToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQActionSheetToolbar.m; path = IQActionSheetPickerView/IQActionSheetToolbar.m; sourceTree = "<group>"; };
+		12AD77B4204D3FAD0039758F /* IQActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQActionSheetViewController.h; path = IQActionSheetPickerView/IQActionSheetViewController.h; sourceTree = "<group>"; };
+		12AD77B5204D3FAE0039758F /* IQActionSheetTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQActionSheetTitleBarButtonItem.m; path = IQActionSheetPickerView/IQActionSheetTitleBarButtonItem.m; sourceTree = "<group>"; };
+		12AD77BA204D594B0039758F /* EditJob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditJob.h; sourceTree = "<group>"; };
+		12AD77BB204D594B0039758F /* EditJob.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditJob.m; sourceTree = "<group>"; };
+		12AD77BC204D594B0039758F /* EditJob.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditJob.xib; sourceTree = "<group>"; };
+		12AD77BF204D5F3A0039758F /* PenguinJobProviderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinJobProviderCell.h; sourceTree = "<group>"; };
+		12AD77C0204D5F3A0039758F /* PenguinJobProviderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinJobProviderCell.m; sourceTree = "<group>"; };
+		12AD77C1204D5F3A0039758F /* PenguinJobProviderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinJobProviderCell.xib; sourceTree = "<group>"; };
+		12B16250204EAE8E0065D126 /* ApplieHdJobPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplieHdJobPenguin.h; sourceTree = "<group>"; };
+		12B16251204EAE8E0065D126 /* ApplieHdJobPenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplieHdJobPenguin.m; sourceTree = "<group>"; };
+		12B16252204EAE8E0065D126 /* ApplieHdJobPenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApplieHdJobPenguin.xib; sourceTree = "<group>"; };
+		12B16255204EB3210065D126 /* AppliedJObCellPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppliedJObCellPenguin.h; sourceTree = "<group>"; };
+		12B16256204EB3210065D126 /* AppliedJObCellPenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppliedJObCellPenguin.m; sourceTree = "<group>"; };
+		12B16257204EB3220065D126 /* AppliedJObCellPenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppliedJObCellPenguin.xib; sourceTree = "<group>"; };
+		12B6800C20412B3000161364 /* EditProfilePenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProfilePenguin.h; sourceTree = "<group>"; };
+		12B6800D20412B3000161364 /* EditProfilePenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditProfilePenguin.m; sourceTree = "<group>"; };
+		12B6800E20412B3000161364 /* EditProfilePenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfilePenguin.xib; sourceTree = "<group>"; };
+		12B680132041661E00161364 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		12D61A402047F87800AD15EA /* DialogContent1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DialogContent1.xib; path = UIXOverlayController/DialogContent1.xib; sourceTree = "<group>"; };
+		12D61A412047F87800AD15EA /* DialogContentViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogContentViewController1.h; path = UIXOverlayController/DialogContentViewController1.h; sourceTree = "<group>"; };
+		12D61A422047F87800AD15EA /* DialogContentViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialogContentViewController1.m; path = UIXOverlayController/DialogContentViewController1.m; sourceTree = "<group>"; };
+		12D61A432047F87800AD15EA /* UIXOverlayController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIXOverlayController1.m; path = UIXOverlayController/UIXOverlayController1.m; sourceTree = "<group>"; };
+		12D61A442047F87800AD15EA /* UIXOverlayController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIXOverlayController1.h; path = UIXOverlayController/UIXOverlayController1.h; sourceTree = "<group>"; };
+		12D61A482047FA4E00AD15EA /* SearchJobsPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchJobsPenguin.h; sourceTree = "<group>"; };
+		12D61A492047FA4E00AD15EA /* SearchJobsPenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchJobsPenguin.m; sourceTree = "<group>"; };
+		12D61A4A2047FA4E00AD15EA /* SearchJobsPenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchJobsPenguin.xib; sourceTree = "<group>"; };
+		12D61A4D20480DF900AD15EA /* AddsJobPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddsJobPenguin.h; sourceTree = "<group>"; };
+		12D61A4E20480DF900AD15EA /* AddsJobPenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddsJobPenguin.m; sourceTree = "<group>"; };
+		12D61A4F20480DF900AD15EA /* AddsJobPenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddsJobPenguin.xib; sourceTree = "<group>"; };
+		12D61A59204818D000AD15EA /* SLPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLPickerView.h; path = SLPickerView/SLPickerView.h; sourceTree = "<group>"; };
+		12D61A5A204818D000AD15EA /* SLPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLPickerView.m; path = SLPickerView/SLPickerView.m; sourceTree = "<group>"; };
+		12E34B75203AB1F9002A9328 /* PinguinJobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinguinJobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E34B78203AB1F9002A9328 /* PenguinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinAppDelegate.h; sourceTree = "<group>"; };
+		12E34B79203AB1F9002A9328 /* PenguinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinAppDelegate.m; sourceTree = "<group>"; };
+		12E34B81203AB1FA002A9328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12E34B86203AB1FA002A9328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E34B87203AB1FA002A9328 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E34BAB203AC4D9002A9328 /* VKSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKSideMenu.m; path = VKSideMenu/VKSideMenu.m; sourceTree = "<group>"; };
+		12E34BAC203AC4D9002A9328 /* VKSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKSideMenu.h; path = VKSideMenu/VKSideMenu.h; sourceTree = "<group>"; };
+		12E34BAF203AC4EC002A9328 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		12E34BB0203AC4EC002A9328 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		12E34BB1203AC4EC002A9328 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SVProgressHUD-Prefix.pch"; path = "SVProgressHUD/SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		12E34BB2203AC4EC002A9328 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		12E34BB3203AC4ED002A9328 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		12E34BB4203AC4ED002A9328 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		12E34BB5203AC4ED002A9328 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		12E34BB6203AC4ED002A9328 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		12E34BB7203AC4ED002A9328 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		12E34BB8203AC4ED002A9328 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		12E34BBF203AC504002A9328 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		12E34BC0203AC504002A9328 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WebP.m"; path = "SDWebImage/UIImage+WebP.m"; sourceTree = "<group>"; };
+		12E34BC1203AC504002A9328 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		12E34BC2203AC504002A9328 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		12E34BC3203AC504002A9328 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		12E34BC4203AC504002A9328 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		12E34BC5203AC504002A9328 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		12E34BC6203AC504002A9328 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		12E34BC7203AC504002A9328 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		12E34BC8203AC504002A9328 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		12E34BC9203AC504002A9328 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		12E34BCA203AC504002A9328 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		12E34BCB203AC504002A9328 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		12E34BCC203AC504002A9328 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		12E34BCD203AC504002A9328 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+WebCache.h"; path = "SDWebImage/MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		12E34BCE203AC504002A9328 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		12E34BCF203AC504002A9328 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		12E34BD0203AC505002A9328 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		12E34BD1203AC505002A9328 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		12E34BD2203AC505002A9328 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		12E34BD3203AC505002A9328 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		12E34BD4203AC505002A9328 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		12E34BD5203AC505002A9328 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		12E34BD6203AC505002A9328 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+WebP.h"; path = "SDWebImage/UIImage+WebP.h"; sourceTree = "<group>"; };
+		12E34BD7203AC505002A9328 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		12E34BD8203AC505002A9328 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+WebCache.m"; path = "SDWebImage/MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		12E34BD9203AC505002A9328 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		12E34BDA203AC505002A9328 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		12E34BDB203AC506002A9328 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		12E34BDC203AC506002A9328 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		12E34BDD203AC506002A9328 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		12E34BDE203AC506002A9328 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		12E34BDF203AC506002A9328 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		12E34BF1203AC51A002A9328 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
+		12E34BF2203AC51A002A9328 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		12E34BF5203AC52C002A9328 /* KSToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSToastView.h; path = KSToastView/KSToastView.h; sourceTree = "<group>"; };
+		12E34BF6203AC52D002A9328 /* KSToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSToastView.m; path = KSToastView/KSToastView.m; sourceTree = "<group>"; };
+		12E34BF9203AC540002A9328 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexColors.h; path = HexColor/HexColors.h; sourceTree = "<group>"; };
+		12E34BFA203AC540002A9328 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexColors.m; path = HexColor/HexColors.m; sourceTree = "<group>"; };
+		12E34BFD203AC555002A9328 /* EGODatabaseRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGODatabaseRow.m; path = EGODatabase/EGODatabaseRow.m; sourceTree = "<group>"; };
+		12E34BFE203AC556002A9328 /* EGODatabaseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGODatabaseResult.m; path = EGODatabase/EGODatabaseResult.m; sourceTree = "<group>"; };
+		12E34BFF203AC556002A9328 /* EGODatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGODatabase.h; path = EGODatabase/EGODatabase.h; sourceTree = "<group>"; };
+		12E34C00203AC556002A9328 /* EGODatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGODatabase.m; path = EGODatabase/EGODatabase.m; sourceTree = "<group>"; };
+		12E34C01203AC556002A9328 /* EGODatabaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGODatabaseRequest.m; path = EGODatabase/EGODatabaseRequest.m; sourceTree = "<group>"; };
+		12E34C02203AC556002A9328 /* EGODatabaseRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGODatabaseRow.h; path = EGODatabase/EGODatabaseRow.h; sourceTree = "<group>"; };
+		12E34C03203AC556002A9328 /* EGODatabaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGODatabaseRequest.h; path = EGODatabase/EGODatabaseRequest.h; sourceTree = "<group>"; };
+		12E34C04203AC556002A9328 /* EGODatabaseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGODatabaseResult.h; path = EGODatabase/EGODatabaseResult.h; sourceTree = "<group>"; };
+		12E34C0A203AC566002A9328 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonUtils.h; path = CommonUtils/CommonUtils.h; sourceTree = "<group>"; };
+		12E34C0B203AC566002A9328 /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonUtils.m; path = CommonUtils/CommonUtils.m; sourceTree = "<group>"; };
+		12E34C0E203AC57F002A9328 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		12E34C0F203AC57F002A9328 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		12E34C10203AC57F002A9328 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		12E34C11203AC57F002A9328 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		12E34C12203AC57F002A9328 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		12E34C13203AC57F002A9328 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		12E34C14203AC57F002A9328 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		12E34C15203AC57F002A9328 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		12E34C16203AC57F002A9328 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		12E34C17203AC57F002A9328 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		12E34C18203AC57F002A9328 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		12E34C19203AC57F002A9328 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		12E34C1A203AC580002A9328 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		12E34C22203AC794002A9328 /* PenguinLatest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinLatest.h; sourceTree = "<group>"; };
+		12E34C23203AC794002A9328 /* PenguinLatest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinLatest.m; sourceTree = "<group>"; };
+		12E34C24203AC794002A9328 /* PenguinLatest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinLatest.xib; sourceTree = "<group>"; };
+		12E34C28203AC949002A9328 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		12E34C2A203AC951002A9328 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12E34C2C203AC959002A9328 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		12E34C2F203ACD30002A9328 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Font/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		12E34C30203ACD30002A9328 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Font/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		12E34C31203ACD30002A9328 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "Font/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		12E34C32203ACD30002A9328 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Font/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		12E34C44203AD859002A9328 /* PenguinLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinLoginVC.h; sourceTree = "<group>"; };
+		12E34C45203AD859002A9328 /* PenguinLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinLoginVC.m; sourceTree = "<group>"; };
+		12E34C46203AD859002A9328 /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		12E34C49203AD882002A9328 /* PenguinRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinRegister.h; sourceTree = "<group>"; };
+		12E34C4A203AD882002A9328 /* PenguinRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinRegister.m; sourceTree = "<group>"; };
+		12E34C4B203AD882002A9328 /* PenguinRegister.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinRegister.xib; sourceTree = "<group>"; };
+		12E34C4E203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenguinForgotPasswordViewCtlr.h; sourceTree = "<group>"; };
+		12E34C4F203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinForgotPasswordViewCtlr.m; sourceTree = "<group>"; };
+		12E34C50203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinForgotPasswordViewCtlr.xib; sourceTree = "<group>"; };
+		12E34C57203AE36D002A9328 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		12E798EC203EEB1000C2D5AD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1812BB8220EB875E001A5D35 /* PersonalizedAdConsent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PersonalizedAdConsent.xcodeproj; path = "Admob GDPR/PersonalizedAdConsent/PersonalizedAdConsent.xcodeproj"; sourceTree = "<group>"; };
+		1812BB8820EB8782001A5D35 /* PersonalizedAdConsent.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PersonalizedAdConsent.bundle; path = "Admob GDPR/PersonalizedAdConsent/PersonalizedAdConsent.bundle"; sourceTree = "<group>"; };
+		1817A25920ECBDB1006B5237 /* ExternalLinkPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExternalLinkPenguin.h; sourceTree = "<group>"; };
+		1817A25A20ECBDB2006B5237 /* ExternalLinkPenguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExternalLinkPenguin.m; sourceTree = "<group>"; };
+		1817A25B20ECBDB2006B5237 /* ExternalLinkPenguin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExternalLinkPenguin.xib; sourceTree = "<group>"; };
+		1817A25F20ECC4FC006B5237 /* ExternalLinkPenguin_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExternalLinkPenguin_iPad.xib; sourceTree = "<group>"; };
+		18E9447C20EB7D6E00D9F4E5 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSignal.framework; sourceTree = "<group>"; };
+		18E9447F20EB7DD900D9F4E5 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		18E9448120EB7DE100D9F4E5 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		18E9448920EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E9448B20EB7E7600D9F4E5 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		18E9448C20EB7E7600D9F4E5 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		18E9448E20EB7E7600D9F4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E9449620EB7E8C00D9F4E5 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		3116062F056F1BF28C3F7926 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		66CF234C21588517E84C4284 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		7363D880A8FA76A27D5649A3 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A043CD72182C6DA007971DD /* Confuse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Confuse.h; sourceTree = "<group>"; };
+		9A19E28B2179E8A60019B821 /* UIWindow+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Extension.h"; sourceTree = "<group>"; };
+		9A19E28C2179E8A70019B821 /* UIWindow+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Extension.m"; sourceTree = "<group>"; };
+		9A1A05F82179E261007EEEA0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A5B1FBC21CA332000353373 /* PenguinJob.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PenguinJob.entitlements; sourceTree = "<group>"; };
+		9A5B1FC021CA34D300353373 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		9A6BC168217F017400E7B4A9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9AFFF021217D7A1E00B5A2CA /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		AB620C326D54D42949171D33 /* Pods-PinguinJobs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinguinJobs.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinguinJobs/Pods-PinguinJobs.release.xcconfig"; sourceTree = "<group>"; };
+		CED82E0DE90596CFEB01167E /* libPods-PinguinJobs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PinguinJobs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35C34C94B92369EDCE9BC9F /* Pods-PinguinJobs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinguinJobs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinguinJobs/Pods-PinguinJobs.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E34B72203AB1F9002A9328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E9448220EB7DE100D9F4E5 /* UserNotificationsUI.framework in Frameworks */,
+				18E9448020EB7DD900D9F4E5 /* UserNotifications.framework in Frameworks */,
+				12B680142041661E00161364 /* Photos.framework in Frameworks */,
+				12E798ED203EEB1000C2D5AD /* MessageUI.framework in Frameworks */,
+				12E34C58203AE36E002A9328 /* MobileCoreServices.framework in Frameworks */,
+				12E34C2D203AC959002A9328 /* SystemConfiguration.framework in Frameworks */,
+				12E34C2B203AC951002A9328 /* UIKit.framework in Frameworks */,
+				12E34C29203AC949002A9328 /* libsqlite3.0.tbd in Frameworks */,
+				A49E9EE402ABA55C353D6C81 /* libPods-PinguinJobs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E9448620EB7E7600D9F4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5B1FC121CA34D300353373 /* CloudKit.framework in Frameworks */,
+				18E9449720EB7F9600D9F4E5 /* OneSignal.framework in Frameworks */,
+				CA2B0E2A3713DDC05F754A16 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12819BC82046894000E36638 /* PinguinDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				12819BC92046894E00E36638 /* JobApp.db */,
+			);
+			name = PinguinDatabase;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12819BCB2046A46500E36638 /* PinguinModal */ = {
+			isa = PBXGroup;
+			children = (
+				12819BCC2046A46F00E36638 /* Modal.h */,
+				12819BCD2046A46F00E36638 /* Modal.m */,
+			);
+			name = PinguinModal;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		128F9759204FBB400093C687 /* OneSignalFolder */ = {
+			isa = PBXGroup;
+			children = (
+				18E9447C20EB7D6E00D9F4E5 /* OneSignal.framework */,
+			);
+			name = OneSignalFolder;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12AD77AD204D3F950039758F /* IQActionPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9A1192FE21CB8AE300938262 /* PickerView */,
+				9A1192FB21CB8AB800938262 /* ToolBar */,
+				9A1192FC21CB8AC900938262 /* SheetToolBar */,
+				9A1192FD21CB8AD400938262 /* SheetView */,
+			);
+			name = IQActionPickerView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12D61A3F2047F86A00AD15EA /* UIXOverlayPinguinController */ = {
+			isa = PBXGroup;
+			children = (
+				12D61A412047F87800AD15EA /* DialogContentViewController1.h */,
+				12D61A422047F87800AD15EA /* DialogContentViewController1.m */,
+				12D61A402047F87800AD15EA /* DialogContent1.xib */,
+				12D61A442047F87800AD15EA /* UIXOverlayController1.h */,
+				12D61A432047F87800AD15EA /* UIXOverlayController1.m */,
+			);
+			name = UIXOverlayPinguinController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12D61A58204818C200AD15EA /* SLPickerViewPinguin */ = {
+			isa = PBXGroup;
+			children = (
+				12D61A59204818D000AD15EA /* SLPickerView.h */,
+				12D61A5A204818D000AD15EA /* SLPickerView.m */,
+			);
+			name = SLPickerViewPinguin;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34B6C203AB1F9002A9328 = {
+			isa = PBXGroup;
+			children = (
+				1812BB8820EB8782001A5D35 /* PersonalizedAdConsent.bundle */,
+				1812BB8220EB875E001A5D35 /* PersonalizedAdConsent.xcodeproj */,
+				9A11930021CB8B6A00938262 /* Helper */,
+				12E34C09203AC55E002A9328 /* CommonSettings */,
+				12E34B77203AB1F9002A9328 /* PenguinJob */,
+				18E9448A20EB7E7600D9F4E5 /* OneSignalAPNExtension */,
+				12E34B76203AB1F9002A9328 /* Products */,
+				12E34C27203AC948002A9328 /* Frameworks */,
+				E2AF1804B4C1426E5DA1494D /* Pods */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		12E34B76203AB1F9002A9328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E34B75203AB1F9002A9328 /* PinguinJobs.app */,
+				18E9448920EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E34B77203AB1F9002A9328 /* PenguinJob */ = {
+			isa = PBXGroup;
+			children = (
+				9A11930121CB8BD100938262 /* MainFiles */,
+				9A11931721CB8D3200938262 /* SupportingFiles */,
+				9A11930221CB8BF100938262 /* Login */,
+				9A11930321CB8BFA00938262 /* Register */,
+				9A11930421CB8C0300938262 /* ForgotPassword */,
+				9A11930521CB8C0E00938262 /* MainViewController */,
+				9A11930621CB8C2000938262 /* JobCell */,
+				9A11930721CB8C2B00938262 /* ProviderCell */,
+				9A11930821CB8C3F00938262 /* Category */,
+				9A11930B21CB8C7600938262 /* JobDetail */,
+				9A11930C21CB8C8300938262 /* SaveJobs */,
+				9A11930D21CB8C8D00938262 /* ProfileViewController */,
+				9A11930F21CB8CAE00938262 /* SearchJob */,
+				9A11931021CB8CB600938262 /* AddJobsForProvider */,
+				9A11931221CB8CD900938262 /* AppliedJobForProvider */,
+				9A11931421CB8CF700938262 /* AbousUsPenguin */,
+				9A11931521CB8D0300938262 /* PrivacyPolicyPenguin */,
+				9A11931621CB8D1000938262 /* ExternalLinkPenguin */,
+			);
+			path = PenguinJob;
+			sourceTree = "<group>";
+		};
+		12E34BAA203AC4C8002A9328 /* VKSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				12E34BAC203AC4D9002A9328 /* VKSideMenu.h */,
+				12E34BAB203AC4D9002A9328 /* VKSideMenu.m */,
+			);
+			name = VKSideMenu;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34BAE203AC4E1002A9328 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				12E34BB7203AC4ED002A9328 /* SVIndefiniteAnimatedView.h */,
+				12E34BB8203AC4ED002A9328 /* SVIndefiniteAnimatedView.m */,
+				12E34BB2203AC4EC002A9328 /* SVProgressAnimatedView.h */,
+				12E34BB3203AC4ED002A9328 /* SVProgressAnimatedView.m */,
+				12E34BB1203AC4EC002A9328 /* SVProgressHUD-Prefix.pch */,
+				12E34BB0203AC4EC002A9328 /* SVProgressHUD.bundle */,
+				12E34BB5203AC4ED002A9328 /* SVProgressHUD.h */,
+				12E34BAF203AC4EC002A9328 /* SVProgressHUD.m */,
+				12E34BB4203AC4ED002A9328 /* SVRadialGradientLayer.h */,
+				12E34BB6203AC4ED002A9328 /* SVRadialGradientLayer.m */,
+			);
+			name = SVProgressHUD;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34BBE203AC4F7002A9328 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				12E34BCD203AC504002A9328 /* MKAnnotationView+WebCache.h */,
+				12E34BD8203AC505002A9328 /* MKAnnotationView+WebCache.m */,
+				12E34BD5203AC505002A9328 /* NSData+ImageContentType.h */,
+				12E34BDE203AC506002A9328 /* NSData+ImageContentType.m */,
+				12E34BDF203AC506002A9328 /* SDImageCache.h */,
+				12E34BC8203AC504002A9328 /* SDImageCache.m */,
+				12E34BD4203AC505002A9328 /* SDWebImageCompat.h */,
+				12E34BDD203AC506002A9328 /* SDWebImageCompat.m */,
+				12E34BC7203AC504002A9328 /* SDWebImageDecoder.h */,
+				12E34BCE203AC504002A9328 /* SDWebImageDecoder.m */,
+				12E34BDB203AC506002A9328 /* SDWebImageDownloader.h */,
+				12E34BD2203AC505002A9328 /* SDWebImageDownloader.m */,
+				12E34BCF203AC504002A9328 /* SDWebImageDownloaderOperation.h */,
+				12E34BCB203AC504002A9328 /* SDWebImageDownloaderOperation.m */,
+				12E34BCA203AC504002A9328 /* SDWebImageManager.h */,
+				12E34BC5203AC504002A9328 /* SDWebImageManager.m */,
+				12E34BC2203AC504002A9328 /* SDWebImageOperation.h */,
+				12E34BD1203AC505002A9328 /* SDWebImagePrefetcher.h */,
+				12E34BD7203AC505002A9328 /* SDWebImagePrefetcher.m */,
+				12E34BC4203AC504002A9328 /* UIButton+WebCache.h */,
+				12E34BC3203AC504002A9328 /* UIButton+WebCache.m */,
+				12E34BD0203AC505002A9328 /* UIImage+GIF.h */,
+				12E34BBF203AC504002A9328 /* UIImage+GIF.m */,
+				12E34BDC203AC506002A9328 /* UIImage+MultiFormat.h */,
+				12E34BD9203AC505002A9328 /* UIImage+MultiFormat.m */,
+				12E34BD6203AC505002A9328 /* UIImage+WebP.h */,
+				12E34BC0203AC504002A9328 /* UIImage+WebP.m */,
+				12E34BC9203AC504002A9328 /* UIImageView+HighlightedWebCache.h */,
+				12E34BD3203AC505002A9328 /* UIImageView+HighlightedWebCache.m */,
+				12E34BC1203AC504002A9328 /* UIImageView+WebCache.h */,
+				12E34BC6203AC504002A9328 /* UIImageView+WebCache.m */,
+				12E34BDA203AC505002A9328 /* UIView+WebCacheOperation.h */,
+				12E34BCC203AC504002A9328 /* UIView+WebCacheOperation.m */,
+			);
+			name = SDWebImage;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34BF0203AC510002A9328 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				12E34BF2203AC51A002A9328 /* Reachability.h */,
+				12E34BF1203AC51A002A9328 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34BF4203AC522002A9328 /* KSToastViewPinguin */ = {
+			isa = PBXGroup;
+			children = (
+				12E34BF5203AC52C002A9328 /* KSToastView.h */,
+				12E34BF6203AC52D002A9328 /* KSToastView.m */,
+			);
+			name = KSToastViewPinguin;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34BF8203AC536002A9328 /* HexColorPingui */ = {
+			isa = PBXGroup;
+			children = (
+				12E34BF9203AC540002A9328 /* HexColors.h */,
+				12E34BFA203AC540002A9328 /* HexColors.m */,
+			);
+			name = HexColorPingui;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34BFC203AC54B002A9328 /* EGODatabase */ = {
+			isa = PBXGroup;
+			children = (
+				12E34BFF203AC556002A9328 /* EGODatabase.h */,
+				12E34C00203AC556002A9328 /* EGODatabase.m */,
+				12E34C03203AC556002A9328 /* EGODatabaseRequest.h */,
+				12E34C01203AC556002A9328 /* EGODatabaseRequest.m */,
+				12E34C04203AC556002A9328 /* EGODatabaseResult.h */,
+				12E34BFE203AC556002A9328 /* EGODatabaseResult.m */,
+				12E34C02203AC556002A9328 /* EGODatabaseRow.h */,
+				12E34BFD203AC555002A9328 /* EGODatabaseRow.m */,
+			);
+			name = EGODatabase;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34C09203AC55E002A9328 /* CommonSettings */ = {
+			isa = PBXGroup;
+			children = (
+				12E34C0A203AC566002A9328 /* CommonUtils.h */,
+				12E34C0B203AC566002A9328 /* CommonUtils.m */,
+			);
+			name = CommonSettings;
+			sourceTree = "<group>";
+		};
+		12E34C0D203AC56F002A9328 /* AFNetworkingPinguin */ = {
+			isa = PBXGroup;
+			children = (
+				12E34C17203AC57F002A9328 /* AFHTTPSessionManager.h */,
+				12E34C10203AC57F002A9328 /* AFHTTPSessionManager.m */,
+				12E34C11203AC57F002A9328 /* AFNetworking.h */,
+				12E34C1A203AC580002A9328 /* AFNetworkReachabilityManager.h */,
+				12E34C12203AC57F002A9328 /* AFNetworkReachabilityManager.m */,
+				12E34C16203AC57F002A9328 /* AFSecurityPolicy.h */,
+				12E34C13203AC57F002A9328 /* AFSecurityPolicy.m */,
+				12E34C14203AC57F002A9328 /* AFURLRequestSerialization.h */,
+				12E34C0E203AC57F002A9328 /* AFURLRequestSerialization.m */,
+				12E34C18203AC57F002A9328 /* AFURLResponseSerialization.h */,
+				12E34C0F203AC57F002A9328 /* AFURLResponseSerialization.m */,
+				12E34C19203AC57F002A9328 /* AFURLSessionManager.h */,
+				12E34C15203AC57F002A9328 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworkingPinguin;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12E34C27203AC948002A9328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A5B1FC021CA34D300353373 /* CloudKit.framework */,
+				18E9448120EB7DE100D9F4E5 /* UserNotificationsUI.framework */,
+				18E9447F20EB7DD900D9F4E5 /* UserNotifications.framework */,
+				12B680132041661E00161364 /* Photos.framework */,
+				12E798EC203EEB1000C2D5AD /* MessageUI.framework */,
+				12E34C57203AE36D002A9328 /* MobileCoreServices.framework */,
+				12E34C2C203AC959002A9328 /* SystemConfiguration.framework */,
+				12E34C2A203AC951002A9328 /* UIKit.framework */,
+				12E34C28203AC949002A9328 /* libsqlite3.0.tbd */,
+				7363D880A8FA76A27D5649A3 /* libPods-OneSignalNotificationServiceExtension.a */,
+				CED82E0DE90596CFEB01167E /* libPods-PinguinJobs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12E34C2E203AC9F6002A9328 /* FontPinguin */ = {
+			isa = PBXGroup;
+			children = (
+				12E34C32203ACD30002A9328 /* Lato-Bold.ttf */,
+				12E34C30203ACD30002A9328 /* Lato-Regular.ttf */,
+				12E34C2F203ACD30002A9328 /* OpenSans-Regular.ttf */,
+				12E34C31203ACD30002A9328 /* OpenSans-Semibold.ttf */,
+			);
+			name = FontPinguin;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1812BB8320EB875E001A5D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1812BB8720EB875E001A5D35 /* PersonalizedAdConsent.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E9448A20EB7E7600D9F4E5 /* OneSignalAPNExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18E9449620EB7E8C00D9F4E5 /* OneSignalNotificationServiceExtension.entitlements */,
+				18E9448B20EB7E7600D9F4E5 /* NotificationService.h */,
+				18E9448C20EB7E7600D9F4E5 /* NotificationService.m */,
+				18E9448E20EB7E7600D9F4E5 /* Info.plist */,
+			);
+			path = OneSignalAPNExtension;
+			sourceTree = "<group>";
+		};
+		9A1192FB21CB8AB800938262 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				12AD77B0204D3FAD0039758F /* IQActionSheetTitleBarButtonItem.h */,
+				12AD77B5204D3FAE0039758F /* IQActionSheetTitleBarButtonItem.m */,
+			);
+			name = ToolBar;
+			sourceTree = "<group>";
+		};
+		9A1192FC21CB8AC900938262 /* SheetToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				12AD77B2204D3FAD0039758F /* IQActionSheetToolbar.h */,
+				12AD77B3204D3FAD0039758F /* IQActionSheetToolbar.m */,
+			);
+			name = SheetToolBar;
+			sourceTree = "<group>";
+		};
+		9A1192FD21CB8AD400938262 /* SheetView */ = {
+			isa = PBXGroup;
+			children = (
+				12AD77B4204D3FAD0039758F /* IQActionSheetViewController.h */,
+				12AD77AE204D3FAD0039758F /* IQActionSheetViewController.m */,
+			);
+			name = SheetView;
+			sourceTree = "<group>";
+		};
+		9A1192FE21CB8AE300938262 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				12AD77AF204D3FAD0039758F /* IQActionSheetPickerView.h */,
+				12AD77B1204D3FAD0039758F /* IQActionSheetPickerView.m */,
+			);
+			name = PickerView;
+			sourceTree = "<group>";
+		};
+		9A11930021CB8B6A00938262 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				128F9759204FBB400093C687 /* OneSignalFolder */,
+				12AD77AD204D3F950039758F /* IQActionPickerView */,
+				12D61A58204818C200AD15EA /* SLPickerViewPinguin */,
+				12D61A3F2047F86A00AD15EA /* UIXOverlayPinguinController */,
+				12819BCB2046A46500E36638 /* PinguinModal */,
+				12819BC82046894000E36638 /* PinguinDatabase */,
+				12E34C2E203AC9F6002A9328 /* FontPinguin */,
+				12E34C0D203AC56F002A9328 /* AFNetworkingPinguin */,
+				12E34BFC203AC54B002A9328 /* EGODatabase */,
+				12E34BF8203AC536002A9328 /* HexColorPingui */,
+				12E34BF4203AC522002A9328 /* KSToastViewPinguin */,
+				12E34BF0203AC510002A9328 /* Reachability */,
+				12E34BBE203AC4F7002A9328 /* SDWebImage */,
+				12E34BAE203AC4E1002A9328 /* SVProgressHUD */,
+				12E34BAA203AC4C8002A9328 /* VKSideMenu */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9A11930121CB8BD100938262 /* MainFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9A5B1FBC21CA332000353373 /* PenguinJob.entitlements */,
+				9A043CD72182C6DA007971DD /* Confuse.h */,
+				9A6BC168217F017400E7B4A9 /* PrefixHeader.pch */,
+				9A19E28B2179E8A60019B821 /* UIWindow+Extension.h */,
+				9A19E28C2179E8A70019B821 /* UIWindow+Extension.m */,
+				12E34B78203AB1F9002A9328 /* PenguinAppDelegate.h */,
+				12E34B79203AB1F9002A9328 /* PenguinAppDelegate.m */,
+			);
+			path = MainFiles;
+			sourceTree = "<group>";
+		};
+		9A11930221CB8BF100938262 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				12E34C44203AD859002A9328 /* PenguinLoginVC.h */,
+				12E34C45203AD859002A9328 /* PenguinLoginVC.m */,
+				12E34C46203AD859002A9328 /* Login.xib */,
+				128F97CC204FDB750093C687 /* Login_iPad.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9A11930321CB8BFA00938262 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				12E34C49203AD882002A9328 /* PenguinRegister.h */,
+				12E34C4A203AD882002A9328 /* PenguinRegister.m */,
+				12E34C4B203AD882002A9328 /* PenguinRegister.xib */,
+				128F97CE204FEA650093C687 /* PenguinRegister_iPad.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		9A11930421CB8C0300938262 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				12E34C4E203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.h */,
+				12E34C4F203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.m */,
+				12E34C50203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.xib */,
+				128F97D0204FF47F0093C687 /* PenguinForgotPasswordViewCtlr_iPad.xib */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		9A11930521CB8C0E00938262 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				12E34C22203AC794002A9328 /* PenguinLatest.h */,
+				12E34C23203AC794002A9328 /* PenguinLatest.m */,
+				12E34C24203AC794002A9328 /* PenguinLatest.xib */,
+				128F97D2204FF7920093C687 /* Latest_iPad.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		9A11930621CB8C2000938262 /* JobCell */ = {
+			isa = PBXGroup;
+			children = (
+				12A3A522203D2CC40032ED30 /* PenguinJobCell.h */,
+				12A3A523203D2CC40032ED30 /* PenguinJobCell.m */,
+				12A3A524203D2CC40032ED30 /* PenguinJobCell.xib */,
+				128F97D4204FF7CA0093C687 /* PenguinJobCell_iPad.xib */,
+			);
+			path = JobCell;
+			sourceTree = "<group>";
+		};
+		9A11930721CB8C2B00938262 /* ProviderCell */ = {
+			isa = PBXGroup;
+			children = (
+				12AD77BF204D5F3A0039758F /* PenguinJobProviderCell.h */,
+				12AD77C0204D5F3A0039758F /* PenguinJobProviderCell.m */,
+				12AD77C1204D5F3A0039758F /* PenguinJobProviderCell.xib */,
+				12717535205000F100864E0D /* PenguinJobProviderCell_iPad.xib */,
+			);
+			path = ProviderCell;
+			sourceTree = "<group>";
+		};
+		9A11930821CB8C3F00938262 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				126DDDEC203C4176008B6FF7 /* PenguinCategories.h */,
+				126DDDED203C4176008B6FF7 /* PenguinCategories.m */,
+				126DDDEE203C4176008B6FF7 /* PenguinCategories.xib */,
+				127175372050019100864E0D /* PenguinCategories_iPad.xib */,
+				9A11930A21CB8C6100938262 /* CategoryList */,
+				9A11930921CB8C4D00938262 /* CategoryCell */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9A11930921CB8C4D00938262 /* CategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				12A3A52D203D41920032ED30 /* PenguinCategoryCell.h */,
+				12A3A52E203D41920032ED30 /* PenguinCategoryCell.m */,
+				12A3A52F203D41920032ED30 /* PenguinCategoryCell.xib */,
+				12717539205001D200864E0D /* PenguinCategoryCell_iPad.xib */,
+			);
+			path = CategoryCell;
+			sourceTree = "<group>";
+		};
+		9A11930A21CB8C6100938262 /* CategoryList */ = {
+			isa = PBXGroup;
+			children = (
+				12A3A532203D4C670032ED30 /* CategoryListPenguin.h */,
+				12A3A533203D4C670032ED30 /* CategoryListPenguin.m */,
+				12A3A534203D4C670032ED30 /* CategoryListPenguin.xib */,
+				1271753B205001FD00864E0D /* CategoryListPenguin_iPad.xib */,
+			);
+			path = CategoryList;
+			sourceTree = "<group>";
+		};
+		9A11930B21CB8C7600938262 /* JobDetail */ = {
+			isa = PBXGroup;
+			children = (
+				12A3A53D203D6EF50032ED30 /* DetailViewControllerPenguin.h */,
+				12A3A53E203D6EF50032ED30 /* DetailViewControllerPenguin.m */,
+				12A3A53F203D6EF50032ED30 /* DetailViewControllerPenguin.xib */,
+				1271753F2050024B00864E0D /* DetailViewControllerPenguin_iPad.xib */,
+			);
+			path = JobDetail;
+			sourceTree = "<group>";
+		};
+		9A11930C21CB8C8300938262 /* SaveJobs */ = {
+			isa = PBXGroup;
+			children = (
+				126DDDF1203C423E008B6FF7 /* SaveJobPenguin.h */,
+				126DDDF2203C423E008B6FF7 /* SaveJobPenguin.m */,
+				126DDDF3203C423E008B6FF7 /* SaveJobPenguin.xib */,
+				12717541205002B200864E0D /* SaveJobPenguin_iPad.xib */,
+			);
+			path = SaveJobs;
+			sourceTree = "<group>";
+		};
+		9A11930D21CB8C8D00938262 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A11930E21CB8C9800938262 /* EditProfile */,
+				126DDDF6203C42D7008B6FF7 /* Profile.h */,
+				126DDDF7203C42D7008B6FF7 /* Profile.m */,
+				126DDDF8203C42D7008B6FF7 /* Profile.xib */,
+				12717543205002FF00864E0D /* Profile_iPad.xib */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		9A11930E21CB8C9800938262 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				12B6800C20412B3000161364 /* EditProfilePenguin.h */,
+				12B6800D20412B3000161364 /* EditProfilePenguin.m */,
+				12B6800E20412B3000161364 /* EditProfilePenguin.xib */,
+				127175452050035A00864E0D /* EditProfilePenguin_iPad.xib */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		9A11930F21CB8CAE00938262 /* SearchJob */ = {
+			isa = PBXGroup;
+			children = (
+				12D61A482047FA4E00AD15EA /* SearchJobsPenguin.h */,
+				12D61A492047FA4E00AD15EA /* SearchJobsPenguin.m */,
+				12D61A4A2047FA4E00AD15EA /* SearchJobsPenguin.xib */,
+				12717547205003A600864E0D /* SearchJobsPenguin_iPad.xib */,
+			);
+			path = SearchJob;
+			sourceTree = "<group>";
+		};
+		9A11931021CB8CB600938262 /* AddJobsForProvider */ = {
+			isa = PBXGroup;
+			children = (
+				9A11931121CB8CC300938262 /* EditJob */,
+				12D61A4D20480DF900AD15EA /* AddsJobPenguin.h */,
+				12D61A4E20480DF900AD15EA /* AddsJobPenguin.m */,
+				12D61A4F20480DF900AD15EA /* AddsJobPenguin.xib */,
+				12717549205003E700864E0D /* AddsJobPenguin_iPad.xib */,
+			);
+			path = AddJobsForProvider;
+			sourceTree = "<group>";
+		};
+		9A11931121CB8CC300938262 /* EditJob */ = {
+			isa = PBXGroup;
+			children = (
+				12AD77BA204D594B0039758F /* EditJob.h */,
+				12AD77BB204D594B0039758F /* EditJob.m */,
+				12AD77BC204D594B0039758F /* EditJob.xib */,
+				1271754B2050044D00864E0D /* EditJob_iPad.xib */,
+			);
+			path = EditJob;
+			sourceTree = "<group>";
+		};
+		9A11931221CB8CD900938262 /* AppliedJobForProvider */ = {
+			isa = PBXGroup;
+			children = (
+				12B16250204EAE8E0065D126 /* ApplieHdJobPenguin.h */,
+				12B16251204EAE8E0065D126 /* ApplieHdJobPenguin.m */,
+				12B16252204EAE8E0065D126 /* ApplieHdJobPenguin.xib */,
+				1271754D2050048400864E0D /* ApplieHdJobPenguin_iPad.xib */,
+				9A11931321CB8CEB00938262 /* AppliedJobCell */,
+			);
+			path = AppliedJobForProvider;
+			sourceTree = "<group>";
+		};
+		9A11931321CB8CEB00938262 /* AppliedJobCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B16255204EB3210065D126 /* AppliedJObCellPenguin.h */,
+				12B16256204EB3210065D126 /* AppliedJObCellPenguin.m */,
+				12B16257204EB3220065D126 /* AppliedJObCellPenguin.xib */,
+				1271754F205004BC00864E0D /* AppliedJObCellPenguin_iPad.xib */,
+			);
+			path = AppliedJobCell;
+			sourceTree = "<group>";
+		};
+		9A11931421CB8CF700938262 /* AbousUsPenguin */ = {
+			isa = PBXGroup;
+			children = (
+				126DDE02203C438C008B6FF7 /* AboutUsPenguin.h */,
+				126DDDFC203C438C008B6FF7 /* AboutUsPenguin.m */,
+				126DDDFE203C438C008B6FF7 /* AboutUsPenguin.xib */,
+				12717551205004F400864E0D /* AboutUsPenguin_iPad.xib */,
+			);
+			path = AbousUsPenguin;
+			sourceTree = "<group>";
+		};
+		9A11931521CB8D0300938262 /* PrivacyPolicyPenguin */ = {
+			isa = PBXGroup;
+			children = (
+				126DDE01203C438C008B6FF7 /* PrivacyPolicyPenguin.h */,
+				126DDE00203C438C008B6FF7 /* PrivacyPolicyPenguin.m */,
+				126DDDFB203C438B008B6FF7 /* PrivacyPolicyPenguin.xib */,
+				127175532050055900864E0D /* PrivacyPolicyPenguin_iPad.xib */,
+			);
+			path = PrivacyPolicyPenguin;
+			sourceTree = "<group>";
+		};
+		9A11931621CB8D1000938262 /* ExternalLinkPenguin */ = {
+			isa = PBXGroup;
+			children = (
+				1817A25920ECBDB1006B5237 /* ExternalLinkPenguin.h */,
+				1817A25A20ECBDB2006B5237 /* ExternalLinkPenguin.m */,
+				1817A25B20ECBDB2006B5237 /* ExternalLinkPenguin.xib */,
+				1817A25F20ECC4FC006B5237 /* ExternalLinkPenguin_iPad.xib */,
+			);
+			path = ExternalLinkPenguin;
+			sourceTree = "<group>";
+		};
+		9A11931721CB8D3200938262 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A05F82179E261007EEEA0 /* LaunchScreen.storyboard */,
+				9AFFF021217D7A1E00B5A2CA /* main.storyboard */,
+				12E34B81203AB1FA002A9328 /* Assets.xcassets */,
+				12E34B86203AB1FA002A9328 /* Info.plist */,
+				12E34B87203AB1FA002A9328 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E2AF1804B4C1426E5DA1494D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66CF234C21588517E84C4284 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				3116062F056F1BF28C3F7926 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				F35C34C94B92369EDCE9BC9F /* Pods-PinguinJobs.debug.xcconfig */,
+				AB620C326D54D42949171D33 /* Pods-PinguinJobs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E34B74203AB1F9002A9328 /* PinguinJobs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E34BA1203AB1FC002A9328 /* Build configuration list for PBXNativeTarget "PinguinJobs" */;
+			buildPhases = (
+				7F608A47F6CEA4F1B4401081 /* [CP] Check Pods Manifest.lock */,
+				12E34B71203AB1F9002A9328 /* Sources */,
+				12E34B72203AB1F9002A9328 /* Frameworks */,
+				12E34B73203AB1F9002A9328 /* Resources */,
+				18E9449520EB7E7600D9F4E5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E9449020EB7E7600D9F4E5 /* PBXTargetDependency */,
+			);
+			name = PinguinJobs;
+			productName = JobsApp;
+			productReference = 12E34B75203AB1F9002A9328 /* PinguinJobs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E9448820EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E9449220EB7E7600D9F4E5 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				FD61DB3863E62468BAAEECDA /* [CP] Check Pods Manifest.lock */,
+				18E9448520EB7E7600D9F4E5 /* Sources */,
+				18E9448620EB7E7600D9F4E5 /* Frameworks */,
+				18E9448720EB7E7600D9F4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 18E9448920EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E34B6D203AB1F9002A9328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = NoahBen;
+				TargetAttributes = {
+					12E34B74203AB1F9002A9328 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					18E9448820EB7E7600D9F4E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 12E34B70203AB1F9002A9328 /* Build configuration list for PBXProject "PinguinJobs" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E34B6C203AB1F9002A9328;
+			productRefGroup = 12E34B76203AB1F9002A9328 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1812BB8320EB875E001A5D35 /* Products */;
+					ProjectRef = 1812BB8220EB875E001A5D35 /* PersonalizedAdConsent.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				12E34B74203AB1F9002A9328 /* PinguinJobs */,
+				18E9448820EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1812BB8720EB875E001A5D35 /* PersonalizedAdConsent.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PersonalizedAdConsent.framework;
+			remoteRef = 1812BB8620EB875E001A5D35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E34B73203AB1F9002A9328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1812BB8920EB8783001A5D35 /* PersonalizedAdConsent.bundle in Resources */,
+				128F97D3204FF7920093C687 /* Latest_iPad.xib in Resources */,
+				1271753C205001FE00864E0D /* CategoryListPenguin_iPad.xib in Resources */,
+				127175442050030000864E0D /* Profile_iPad.xib in Resources */,
+				128F97CD204FDB750093C687 /* Login_iPad.xib in Resources */,
+				1817A25D20ECBDB2006B5237 /* ExternalLinkPenguin.xib in Resources */,
+				12E34C36203ACD30002A9328 /* Lato-Bold.ttf in Resources */,
+				12AD77C3204D5F3A0039758F /* PenguinJobProviderCell.xib in Resources */,
+				128F97D1204FF47F0093C687 /* PenguinForgotPasswordViewCtlr_iPad.xib in Resources */,
+				1271753A205001D200864E0D /* PenguinCategoryCell_iPad.xib in Resources */,
+				1271754E2050048400864E0D /* ApplieHdJobPenguin_iPad.xib in Resources */,
+				126DDDF0203C4176008B6FF7 /* PenguinCategories.xib in Resources */,
+				12717552205004F400864E0D /* AboutUsPenguin_iPad.xib in Resources */,
+				12AD77BE204D594B0039758F /* EditJob.xib in Resources */,
+				128F97CF204FEA650093C687 /* PenguinRegister_iPad.xib in Resources */,
+				128F97D5204FF7CA0093C687 /* PenguinJobCell_iPad.xib in Resources */,
+				12A3A526203D2CC40032ED30 /* PenguinJobCell.xib in Resources */,
+				126DDDF5203C423E008B6FF7 /* SaveJobPenguin.xib in Resources */,
+				9A1A05F92179E261007EEEA0 /* LaunchScreen.storyboard in Resources */,
+				12B6801020412B3000161364 /* EditProfilePenguin.xib in Resources */,
+				12717550205004BD00864E0D /* AppliedJObCellPenguin_iPad.xib in Resources */,
+				9AFFF022217D7A1E00B5A2CA /* main.storyboard in Resources */,
+				12D61A4C2047FA4E00AD15EA /* SearchJobsPenguin.xib in Resources */,
+				12E34C35203ACD30002A9328 /* OpenSans-Semibold.ttf in Resources */,
+				12D61A5120480DF900AD15EA /* AddsJobPenguin.xib in Resources */,
+				12E34B82203AB1FA002A9328 /* Assets.xcassets in Resources */,
+				126DDE06203C438C008B6FF7 /* AboutUsPenguin.xib in Resources */,
+				12717536205000F100864E0D /* PenguinJobProviderCell_iPad.xib in Resources */,
+				12E34BBA203AC4ED002A9328 /* SVProgressHUD.bundle in Resources */,
+				12B16254204EAE8E0065D126 /* ApplieHdJobPenguin.xib in Resources */,
+				12E34C52203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.xib in Resources */,
+				12A3A536203D4C670032ED30 /* CategoryListPenguin.xib in Resources */,
+				12A3A541203D6EF50032ED30 /* DetailViewControllerPenguin.xib in Resources */,
+				127175542050055900864E0D /* PrivacyPolicyPenguin_iPad.xib in Resources */,
+				12E34C34203ACD30002A9328 /* Lato-Regular.ttf in Resources */,
+				12D61A452047F87800AD15EA /* DialogContent1.xib in Resources */,
+				1271754C2050044D00864E0D /* EditJob_iPad.xib in Resources */,
+				126DDE03203C438C008B6FF7 /* PrivacyPolicyPenguin.xib in Resources */,
+				12717548205003A700864E0D /* SearchJobsPenguin_iPad.xib in Resources */,
+				12819BCA2046894E00E36638 /* JobApp.db in Resources */,
+				127175462050035B00864E0D /* EditProfilePenguin_iPad.xib in Resources */,
+				12E34C4D203AD882002A9328 /* PenguinRegister.xib in Resources */,
+				1817A26020ECC4FD006B5237 /* ExternalLinkPenguin_iPad.xib in Resources */,
+				12E34C33203ACD30002A9328 /* OpenSans-Regular.ttf in Resources */,
+				12717542205002B200864E0D /* SaveJobPenguin_iPad.xib in Resources */,
+				12B16259204EB3220065D126 /* AppliedJObCellPenguin.xib in Resources */,
+				127175382050019100864E0D /* PenguinCategories_iPad.xib in Resources */,
+				126DDDFA203C42D7008B6FF7 /* Profile.xib in Resources */,
+				127175402050024B00864E0D /* DetailViewControllerPenguin_iPad.xib in Resources */,
+				12E34C26203AC794002A9328 /* PenguinLatest.xib in Resources */,
+				12E34C48203AD859002A9328 /* Login.xib in Resources */,
+				12A3A531203D41920032ED30 /* PenguinCategoryCell.xib in Resources */,
+				1271754A205003E800864E0D /* AddsJobPenguin_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E9448720EB7E7600D9F4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F608A47F6CEA4F1B4401081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinguinJobs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD61DB3863E62468BAAEECDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E34B71203AB1F9002A9328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126DDDF4203C423E008B6FF7 /* SaveJobPenguin.m in Sources */,
+				12E34C07203AC556002A9328 /* EGODatabase.m in Sources */,
+				12AD77B9204D3FAE0039758F /* IQActionSheetTitleBarButtonItem.m in Sources */,
+				12E34C51203AD8AC002A9328 /* PenguinForgotPasswordViewCtlr.m in Sources */,
+				12E34BE0203AC506002A9328 /* UIImage+GIF.m in Sources */,
+				12E34C0C203AC566002A9328 /* CommonUtils.m in Sources */,
+				12E34BEB203AC506002A9328 /* SDWebImagePrefetcher.m in Sources */,
+				12E34BEA203AC506002A9328 /* UIImageView+HighlightedWebCache.m in Sources */,
+				12819BCE2046A46F00E36638 /* Modal.m in Sources */,
+				12AD77BD204D594B0039758F /* EditJob.m in Sources */,
+				12D61A4B2047FA4E00AD15EA /* SearchJobsPenguin.m in Sources */,
+				12A3A530203D41920032ED30 /* PenguinCategoryCell.m in Sources */,
+				12E34C05203AC556002A9328 /* EGODatabaseRow.m in Sources */,
+				12E34BE4203AC506002A9328 /* UIImageView+WebCache.m in Sources */,
+				12AD77C2204D5F3A0039758F /* PenguinJobProviderCell.m in Sources */,
+				12E34C08203AC556002A9328 /* EGODatabaseRequest.m in Sources */,
+				12E34C1F203AC580002A9328 /* AFSecurityPolicy.m in Sources */,
+				12E34BF3203AC51A002A9328 /* Reachability.m in Sources */,
+				12E34BBC203AC4ED002A9328 /* SVRadialGradientLayer.m in Sources */,
+				12E34C1E203AC580002A9328 /* AFNetworkReachabilityManager.m in Sources */,
+				12A3A535203D4C670032ED30 /* CategoryListPenguin.m in Sources */,
+				12B16258204EB3220065D126 /* AppliedJObCellPenguin.m in Sources */,
+				12E34BE2203AC506002A9328 /* UIButton+WebCache.m in Sources */,
+				12E34C1D203AC580002A9328 /* AFHTTPSessionManager.m in Sources */,
+				126DDE08203C438C008B6FF7 /* PrivacyPolicyPenguin.m in Sources */,
+				12E34C1C203AC580002A9328 /* AFURLResponseSerialization.m in Sources */,
+				12E34C47203AD859002A9328 /* PenguinLoginVC.m in Sources */,
+				126DDE04203C438C008B6FF7 /* AboutUsPenguin.m in Sources */,
+				12E34B88203AB1FA002A9328 /* main.m in Sources */,
+				12E34BE6203AC506002A9328 /* SDWebImageDownloaderOperation.m in Sources */,
+				1817A25C20ECBDB2006B5237 /* ExternalLinkPenguin.m in Sources */,
+				12AD77B7204D3FAE0039758F /* IQActionSheetPickerView.m in Sources */,
+				12B6800F20412B3000161364 /* EditProfilePenguin.m in Sources */,
+				12E34C4C203AD882002A9328 /* PenguinRegister.m in Sources */,
+				12E34BE8203AC506002A9328 /* SDWebImageDecoder.m in Sources */,
+				12E34BEF203AC506002A9328 /* NSData+ImageContentType.m in Sources */,
+				12A3A540203D6EF50032ED30 /* DetailViewControllerPenguin.m in Sources */,
+				12E34BED203AC506002A9328 /* UIImage+MultiFormat.m in Sources */,
+				12E34BBD203AC4ED002A9328 /* SVIndefiniteAnimatedView.m in Sources */,
+				12E34C1B203AC580002A9328 /* AFURLRequestSerialization.m in Sources */,
+				12E34C25203AC794002A9328 /* PenguinLatest.m in Sources */,
+				12E34BEC203AC506002A9328 /* MKAnnotationView+WebCache.m in Sources */,
+				12AD77B8204D3FAE0039758F /* IQActionSheetToolbar.m in Sources */,
+				12D61A472047F87800AD15EA /* UIXOverlayController1.m in Sources */,
+				12E34BB9203AC4ED002A9328 /* SVProgressHUD.m in Sources */,
+				9A19E28D2179E8A70019B821 /* UIWindow+Extension.m in Sources */,
+				12D61A462047F87800AD15EA /* DialogContentViewController1.m in Sources */,
+				12E34BF7203AC52D002A9328 /* KSToastView.m in Sources */,
+				12E34BE9203AC506002A9328 /* SDWebImageDownloader.m in Sources */,
+				12E34BAD203AC4DA002A9328 /* VKSideMenu.m in Sources */,
+				12AD77B6204D3FAE0039758F /* IQActionSheetViewController.m in Sources */,
+				12E34BE1203AC506002A9328 /* UIImage+WebP.m in Sources */,
+				126DDDF9203C42D7008B6FF7 /* Profile.m in Sources */,
+				12D61A5B204818D000AD15EA /* SLPickerView.m in Sources */,
+				12E34C20203AC580002A9328 /* AFURLSessionManager.m in Sources */,
+				12A3A525203D2CC40032ED30 /* PenguinJobCell.m in Sources */,
+				12B16253204EAE8E0065D126 /* ApplieHdJobPenguin.m in Sources */,
+				12E34BE3203AC506002A9328 /* SDWebImageManager.m in Sources */,
+				12E34BFB203AC540002A9328 /* HexColors.m in Sources */,
+				12E34BE7203AC506002A9328 /* UIView+WebCacheOperation.m in Sources */,
+				12E34BEE203AC506002A9328 /* SDWebImageCompat.m in Sources */,
+				126DDDEF203C4176008B6FF7 /* PenguinCategories.m in Sources */,
+				12E34B7A203AB1F9002A9328 /* PenguinAppDelegate.m in Sources */,
+				12E34BBB203AC4ED002A9328 /* SVProgressAnimatedView.m in Sources */,
+				12E34BE5203AC506002A9328 /* SDImageCache.m in Sources */,
+				12E34C06203AC556002A9328 /* EGODatabaseResult.m in Sources */,
+				12D61A5020480DF900AD15EA /* AddsJobPenguin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E9448520EB7E7600D9F4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E9448D20EB7E7600D9F4E5 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E9449020EB7E7600D9F4E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E9448820EB7E7600D9F4E5 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 18E9448F20EB7E7600D9F4E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12E34B9F203AB1FC002A9328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12E34BA0203AB1FC002A9328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E34BA2203AB1FC002A9328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35C34C94B92369EDCE9BC9F /* Pods-PinguinJobs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = PenguinJob/MainFiles/PenguinJob.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 662BPYDPB8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/PenguinJob/MainFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = PenguinJob/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.penguinjob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "PenguinJob dev";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		12E34BA3203AB1FC002A9328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB620C326D54D42949171D33 /* Pods-PinguinJobs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = PenguinJob/MainFiles/PenguinJob.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 662BPYDPB8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/PenguinJob/MainFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = PenguinJob/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.penguinjob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "PenguinJob Appstore";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18E9449320EB7E7600D9F4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CF234C21588517E84C4284 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalAPNExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 662BPYDPB8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OneSignalAPNExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.penguinjob.onesignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6dcb88f6-9525-44df-a1f2-cd826cd8c775";
+				PROVISIONING_PROFILE_SPECIFIER = "PenguinJob OneSignal dev2";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E9449420EB7E7600D9F4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3116062F056F1BF28C3F7926 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalAPNExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 662BPYDPB8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OneSignalAPNExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.penguinjob.onesignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d11db945-bfc2-4220-9072-4e21505f0244";
+				PROVISIONING_PROFILE_SPECIFIER = "PenguinJob OneSignal Appstore2";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E34B70203AB1F9002A9328 /* Build configuration list for PBXProject "PinguinJobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E34B9F203AB1FC002A9328 /* Debug */,
+				12E34BA0203AB1FC002A9328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E34BA1203AB1FC002A9328 /* Build configuration list for PBXNativeTarget "PinguinJobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E34BA2203AB1FC002A9328 /* Debug */,
+				12E34BA3203AB1FC002A9328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E9449220EB7E7600D9F4E5 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E9449320EB7E7600D9F4E5 /* Debug */,
+				18E9449420EB7E7600D9F4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E34B6D203AB1F9002A9328 /* Project object */;
+}

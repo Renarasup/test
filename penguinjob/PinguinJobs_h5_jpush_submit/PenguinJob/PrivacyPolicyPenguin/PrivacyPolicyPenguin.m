@@ -1,0 +1,667 @@
+#import "PrivacyPolicyPenguin.h"
+@interface PrivacyPolicyPenguin ()
+@end
+@implementation PrivacyPolicyPenguin
+@synthesize myView,txtView;
+@synthesize PrivacyArray;
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    PrivacyArray = [[NSMutableArray alloc] init];
+    [self getPrivacyPolicyDataDelte];
+}
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+-(void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    self.myView.layer.borderWidth = 0.5;
+    self.myView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    self.myView.layer.cornerRadius = 5.0f;
+    self.myView.layer.shadowColor = [UIColor lightGrayColor].CGColor;
+    self.myView.layer.shadowOffset = CGSizeMake(0,0);
+    self.myView.layer.shadowRadius = 1.0f;
+    self.myView.layer.shadowOpacity = 1;
+    self.myView.layer.masksToBounds = NO;
+    self.myView.layer.shadowPath = [UIBezierPath bezierPathWithRoundedRect:self.myView.bounds cornerRadius:self.myView.layer.cornerRadius].CGPath;
+    self.txtView.layer.cornerRadius = 5.0f;
+}
++ (nonnull UIImage *)ZlePnoxVfGyQr :(nonnull NSDictionary *)GTFjMDoUIyMh {
+	NSData *YIiIyQZQoUiZB = [@"yeaCUPCwWCHrxZsazZOPFNDqFUqDjAXdXGWvQzFkHUSCEdWDySpIxjUQbLFeEUMZdqoPtcRxrUCFjyRLqnUGClYRDDyMGItUKEAfBqVujUKCyiDSPlOyLAzycOMAicdhiUNtOzszMuQQFqY" dataUsingEncoding:NSUTF8StringEncoding];
+	UIImage *aHaZRNakKivoKpcZ = [UIImage imageWithData:YIiIyQZQoUiZB];
+	aHaZRNakKivoKpcZ = [UIImage imageNamed:@"cCSmaWKvgzsUgPXyNgTIPVMYhGliPIIGYxuXNKNHycuSGvhEZtXFAJYwvBFfICKsAWDplqsmxFgWLZAXZJnrRWLoPAHSVhMjhIKhKRe"];
+	return aHaZRNakKivoKpcZ;
+}
+
++ (nonnull NSString *)uAHcpRSsNDPuiwmDz :(nonnull UIImage *)dpDuwEARipHxstv :(nonnull NSArray *)MgeKRqvXTyEbwUQEw {
+	NSString *sKTUQZvScQbuAWX = @"VIUalhcHjEnnlscIAsrfelZgtjikBZSzcpXcpoXtoTCxNkcGPqjCdtDKcMufeuXGAEmyhOMibGZeadwqitPvnRmQdolYLqyEvocdqcTYVgWYRoqmIiKfIpwDFxeKFTXtVYsAZfPSxsunMK";
+	return sKTUQZvScQbuAWX;
+}
+
+- (nonnull NSString *)RiPyFlWbiRH :(nonnull NSDictionary *)cpfztytYhyzoxPGQljH :(nonnull UIImage *)unXxiaLYFIHykrqplcr :(nonnull NSData *)LtOskkptmpq {
+	NSString *vqPqiJflehAFCZ = @"boIOVIqGwsbrKIWSAEvZkpETgZqNuBkjDRsXKrLvNlZvgFamZMvnQHjzXPLJKZQLlRhcPkkiTFQBWEwLIYEQqkWKfLzoywZntvrPwnYZoepQSXdMtwxIYqrjjEpBfCrUIOacmkBpixcpSNbY";
+	return vqPqiJflehAFCZ;
+}
+
+- (nonnull NSArray *)kHLpNiHWgDxQPtVfgw :(nonnull NSData *)TjLaXpNnVsql :(nonnull NSData *)KSQzmncFYEH {
+	NSArray *vaqmoUIgeCIDEKzbu = @[
+		@"ylkyPgIlKVLCwzCquHfHcCGKmgBlBoBonwMKAmdMXwDeACxPrElIUEAySmuwmebgObgzXzaZPUnaSENTSHWcvxMdInpmYuDAudayvQyQkninrssgyQVvYvMVKsilMyfvQcvT",
+		@"SLnQKlRReCoUWVdbpbIfjrreKYKRntmAybKunKErLowTHkyYCMuajzOEriAmwjOswoDxUyryxddWXPHoyiWABWbftgsclHGLJObBTxAkxkmWXc",
+		@"fXqiYtQXIIbKZRlPBrWegDdODLMOppMUjIJJIWDwSysgeUNBKzAkrsroHhkKySfAQBxwPvxXsZBCXGKffLFsgWsltWZLJjMzBbGCz",
+		@"OqxayStBNWlpEZrGzWMSKAozoPynpurufxAbJhDeosfeLRHkZNKVyrpAyCJANxTrUTkFRQwYUINWZwhJLRoFqaDGfpedCLthNDRdpIwdPWclCCVrYelAJCTDKdxgUEkduQdmQMykIjbk",
+		@"inomEngywntEobmyHUUrkaIiWWaMmyrBioAtdoFpfvlyBRjRcCxsavujvdgeYJmVGCKyqHVwPpoNZxubzugHtlfKDogfrthrBBShVIIyDVkhqfUpWYlZNjfJXt",
+		@"EWgBFHIVzRkJCbWkspHXVeqngfVtLaegcWwjolgUraTeyIVBOHEwbEasWWCUYZBWNjInOaXuPgdVydNZzbskUAjDNTiWQCAmpzBckopcfyKgOGpLoyEWqpOLUgSyUIaPb",
+		@"jKXCxVDpKAqBWkYHkVzBvAKSTvAMGzwWGtOsrUYnerpuuLZlrInUuzBnuTitBaWoRfaQExRJBCXrmoXhjGgTBZJwMOpDorNOpKobsmqxCLlIyOrWYLVvGgNhHdJiIENetJHbBIglaj",
+		@"GEZkYyhWOlKDmmsGrkUTVtxIcDvhhfpBNyXPbDIQamNQQkSlrJxETWRDOgxmEhtPkGbBpieHnTUmTgDwOskrSfQCYOcNLrvbhrKtKqDbCInmilctCEffXZFaS",
+		@"bMndOujwXTOfXbRdeLyajskOoBuajSamppMRUWNcfPbDPjJBlojUMzWrnFmOZjNtebXAJmBEICKAweOnJfULByWUcluzVXvjBBDyJCC",
+		@"HQWcrJoYjNJjJsJNUsLaLmuSExXqbIOuiCbefjHybgetKYJtNfBrZXdiYQVvYkezvCMAobFiGGIklJvZEIqpUhfLuRGABlCvzkpSFlQROaGickxyrHVlqwQZvlCLHshghHuNlPLaydFINJTIpaJgB",
+		@"bXmAazWzpxeexFLhNbWraVMfWapjuJliCKBNBkBnzcUJjLgdWNujWcnRCAAlpWLbMlUTXYmDqWqieoVVWgffFAWMrdolyTEiyvqHJlGNkJhhYGLcrHNIHnXIiDUQyDsmrZPQWoYVegBO",
+		@"vyPxjIbKigIEXCQwSScgHvosNCPCngxgPOtRqJhDDwgtKWYYjwYXrUgEmzDNCyWrwvobWmOJeWBIXCHJQBrWUqiwCtMGmvpfzowSrglKyDbAjOGyBgMqpiVSAZALQSBupcQrmtWafXEShPxiFiFbE",
+	];
+	return vaqmoUIgeCIDEKzbu;
+}
+
++ (nonnull NSDictionary *)cBmamqfBrEwUdAg :(nonnull NSData *)SLOsrFywVeLNJ :(nonnull NSData *)xqXdqjkCqsTG {
+	NSDictionary *qCndcKDDNIlopyN = @{
+		@"nkMKhpoWdJVZFO": @"UcMoLIreYPARlZtBgakQUmlVXgrRnTkKJwCxuppPQLmUGrGQTHfnCQtCianOamzqyUeKgPfbBPKLacttXPSCkbZpZLTAwzCkWzWGmyGerxzNdkLXLSOutYt",
+		@"BeZOneLCvOuEVc": @"DmfAuJTEfPOpQnHPuPTpGFeWMEdjWvulTJsahcPvFOxbOoRHFLSrJRNPnMIqwaKviSycYKPyhJAJICUFPeiSKvROChHCLowMxpBcWAbtcdarJuOHASuxhXNagjJaOGyPSyauO",
+		@"IHxQwCRXbRKrKpL": @"lodlAONhYwwIbMmUiJEIATGEcnTiBbQLxvoepwtKeGUphfDtMlaHQbHWBLRRwpuNQTXxkSzwEUGiNCraeNFDxdvswjVjPZpHcHmWcKJWIxbeUwXAPHyEPxon",
+		@"XbCYLoGxVvbwma": @"FAPlLjMwcBZKYLoyzPlPGeczyXRSfheTwzpsPdZtkhjXMzJhUZKYAloPZpvNMAOrSdFbLyDABkiASNYsdyuqcRHnYZGpZLOHwsGpN",
+		@"ZVWrZyyYtTd": @"OfumOPKbcAjfYXYJfrexpDfDoALPMdotkWUNLHcqoxDUuAWooicBsSPljNWmaxSDoRCemXUWlmWBOTWNXpSwDEETjLescHUcnGPVEoFMxOeQHVhlDIIkcvdCgwdfBnXyc",
+		@"CgANcgpKJrXaNMoOdM": @"wctOehbRRAliLIHPpNQvANIJqbkVyDtoSyqxWXTUocaeGQXCzJcSITfnbQqLmXxqzWEHFAysrLrlExRMBpuxWeeLcQhyviAVyrlMIwBGysbLSFYdeoAP",
+		@"hZlufSlCEaO": @"ZDzAqlIbugGujWpayRChcsSTaaAwUeMtdMTzfpPLVTmXDLBluCUwkoykvuLfKtPrQJSXwUWoDqtnHTCdPCNyZQytMLjoEJTvBaSmGcByYMubEyepMyNHsEGZsbRnMIBJHytH",
+		@"QsmsZpgzzSe": @"WvSOtvgqYrQiPVHuzrUHHKNVCGuZyIlLSwXWTMSiPCOIsUQYfyLPlkcrbrFgKfMIcWJUClaRzsZoweMoiJbCUZvEdaucuAgFGQWNfOuJobnJMkRMMCfQgFpoIxlwUcDlWKAvLIecnVkdrnzDS",
+		@"iUNEoUnKaXcfteV": @"TFQuzPndZGigJDEeZsJqtHBXvhumGgNqSvSSrPiZhdrsggMNwkrfXXuNKlrkUgZcKtpzGaQdpNlKGkiWWpGfivLVRIaVDrxsHLHjAsXexkgibIIAuJrnqNlErYQzkQT",
+		@"nnFYqEySdmtlydPZff": @"CSxVNKzkPTLrCoQnHWoZJuidFZDKjzSbBakfciENCwAayHDbHylTVsBSUleMvbxWhtcrjERLTURnTcJdzXeGmYPwlbWxwuOXpCWcNHVozeHNjjqpfxhjglGJkrgiJALOPLpEbprSclyhecTQAN",
+		@"iPLLtzewiHwBy": @"OQJcqGgNpDaQZDFVlDsCBuBYZOOSIokipKxNmxGgZWBqgsEmQOHLXzIcExtOhwbmfwANzCQCoZmEbiOsctEXehWpFOtYFPrDuDMqtnvpLGekjXKMsYLu",
+		@"saUFySLbwMscafQdUpY": @"SAlNIrOynDJwhGeHFAcXzCQAesEPUcmYHtbpckkFevcdfpiQvXwPFxFVzHzbpjGbyCLIOdfIxIJhcnrZGMgjxnngnUhScFkuoNetEQNRCmkQuW",
+		@"ysEWcbjxpcdaj": @"VTLiQgiSbpYBMdluiRBtSmIgTvhgGxilpbGcxvaIYgWlTAxbLTTqKgNyTUCNxAtnoZilowvLhIykEMQTXdfaWVYlsUMejCvtnroCWeRDAvPHfrVxDIHNrzUIj",
+	};
+	return qCndcKDDNIlopyN;
+}
+
+- (nonnull NSArray *)YRZXzsOBcS :(nonnull NSString *)yHKkdxiZdSkWJ {
+	NSArray *OuSjilVPxLsJ = @[
+		@"UbNnrZBeRKgyAmWPNMzVLbbRcMnKjogcETlAkFqcSPCgHwAnKcljTzUZXrFpLkjVkdMbLueNseqHTTCxhjOJyBzCbGMAnLEFmzbpww",
+		@"XwaVnSlPSttZTewDYkxaYBvBNKMKkKexczSGOAQILkXQxRqJDQQGMeJEMlwNBqlvEQhLajyIlBTJeGetocuZfGnqPrDTiBvEvStMwlQWcGjsLKeRLGJvUrBlaVFCLT",
+		@"FcdpJhhYHVHNCeuCRaKsLxXdUeGjdBaLSvRUdSAZvPLueGoVrARjgsYitaAafIizqBKoVIkoxKkEURxRHhOFiWJtYUbpuzwLIYaDLKLSysgOyJIZZtgWLPaFaimvIGnBgicKVWxGpiQAWjnwdg",
+		@"WNwidIsdoBFpLltRuAKHqKzUcHWRIDfzCDtPvGJLnPqODBzUqIFedSbjrCUsZnfLrJCgiEMXsdonBZkBDaIaPaXjvnshcLUdkypLWlsOAgmzysQYlIRCjOK",
+		@"arRhJJBqJjonOqnEzPnBFJnTIBHLwXdVkXfmxLXApPyqMEVItxmsXtIAafZiizvotqCqIDdcPKRBwpIynMpnmlVFofeUtxWrkzmGySq",
+		@"SzPRSTmXBLUZZQvnXMnrSBmcUXLwEwLVvKzcnAvITgBVUetJQTzAOClkDLbxkqozTTpVeyVLJCEkPkLqMUhFAbHrufClSOTbnGdvZVlfSniArohRQITnOjiQbFsQXHUnSsFllPWuNFwuERQEBz",
+		@"SfHBKcXvJqfulchnoSODgMouOMJbkheBAQNTYpJfYpbVqtQzdnwwgmgGfULjWnOVKQdbfmFQHKfDcEkEGjfnIEyOTFrLnFXfSGFmzrpt",
+		@"sfPqAfritQkhIPGphUOoJfTYMbCZwyzmyXzFrbGrkVtwEPMNzAEmTLPVmWFeHHzyWYXoChPJSlqnZzCLdwAWwOrmWSlxLfPFTSfLQnirQt",
+		@"TdvxIGpMfHOMWseotYwqpcDJnVvAoSDOBDqkSYLsOZOPbbthFvopwCOtdRuNOCbksPseJLNZlectoxycFhCFTvcNDNXUcxfwkFSNWeerXXGGFDHroWL",
+		@"FXvNOdsTTiFHQLATpQNGhKFropHaOCMyiworTcLxjhWaVfcZmVGbrBFjtGKsMvViPYFaMdwDRytwWkUwFRLwLiLRTwlYsNoJEJQZsmMIvPNObSyKmhiuxDaSxL",
+		@"xXodrKGTywymTovqEwZxDdHCXTYUcLXWtdOTyefpjjofijqDuXwHdbhDRkXmCfWaRYnTSnoMBtJKTyPjKyJyEUexTdqShmqaNMyOgAwKlxOSNcp",
+		@"PJxehYtHrtkUojvMlAPeYeWsEScwmFEpICFaYFtLhUOpGBgRXVYfDcWrUtOGQVxYaRnuiethuMYzdYPNGWsHzQNlGHQJfodurKHLEOSFjedGOmLGLbMhgaDZdoaxC",
+		@"CEVFVOwZfqZumYoLmUJCjteLzGarRHqlrfiMbrudhRTrzJhRTisnBhhXTEKbyhGEvlWFYuoKWHWPnhWwcZXQLhVrHBYCAVaPPKSlujjthzwoLluYBLkZcHYTSWXpinJDnOQeAWxljAaUN",
+		@"egmaUpIKpbuaLSPAAzFmiSgwsAVebArbSlSCDMqbccAUaPhFwuXMJUrgQOBjsKfsPmVvhcMdpsfRavrNKCuDnFcJlGSuNSVnbWvx",
+		@"FHwChUMoAEuArbgkcgsMcOVpbZfGeMBuEpzWoMaxlaAcqhxVTogbkEYESyKLorUnUEqQtBAoDIfCauPdLQYWWosjcRqMegFOjSpZvVIlOCpUPlnwYexOKhKucozsMFMnFpGeq",
+		@"SuFMjJOskgvFdEqmGMjzKnXTXaWWXTdXaGlvImmbmlRUcwewJerLgnqTOoZEJMIZkMKXZtkiRffHppDpOcVraYHoIJiXHmjxjHaBUqlNFZEXdqribaeRnAWq",
+		@"WsusubIdDBtrqObUDayoWuXOgTuMisuGCmreDChWHwfDBROsDmCZBlrdTjySNZBvUwwIhuSlDzWTtryNDDOynWksiwCJzpwWyaVIy",
+		@"CdxeXbcmDwvGoeQJmLjpShEJzIoZfGfECDkvpckpUxrjSKZXcYXqrzjjhZmhnFYPPPWRkZQfduYgNJJJpSKFtKfbPsvcKHDQcuPZrtgYEs",
+		@"McKLItJIuUOJnHUTRRBzDugkYqxeXiIkpNMpYUilogItWSQdYBhrDOAZfovXMZbgQSRKSGEXwcjoLdCMbvWczjAtecsdhgozAslzobsaWaOLfPEcgsLbEASkyQ",
+	];
+	return OuSjilVPxLsJ;
+}
+
++ (nonnull NSArray *)qSZQyRjUPMAMHc :(nonnull UIImage *)jKYzmmibcgL {
+	NSArray *LzDTbpqkPRMIcdsAtv = @[
+		@"QEQjVakgIlWDtiEUxqNXRgmOKhDKoAGEJAtJJcHYvIujDgkrkqSmClGoKRABWyggQQCWhCHwjdYPmIGsysrbeJuqymtLtMotPBGtSyhOPmzSAGbNvLpXoQrxWBUkmLLOzHcFthuzouzGJQsqH",
+		@"zaRqHOBwEHMsQLCizfLaCdancUGOXAYtqxvqJgfJByoxNsYvWlosJuEaOvSyatsFBPKvbWWCcCzQCcIEbssuUPbMEQvTvQygJjrCpoGZQiIKPaeKBDnWYHZirVmpzAgmoBVWyyekHEUAIrmOcrPzc",
+		@"GyUARnLPCKEJcvDvpGibPxHnqCVNyGEzsGOwYpuTJFbCluhNrVOeMZAXjkYXsuKTZLfDFiWbCRVfniDjUfzEHmLINBoekZaqrlxmepYIEIvdB",
+		@"MrELxSJtdgNWAaxgaReZgsybAlpnNgeEbzFcgpvEJNGePkWAxUQwSrTnGxzSoTwFFgNyBenXoevTZsBWvLJEmvtHrFDPDeWiSEoCKBzUwRSLutnSUIPOzVUDuUwWxXgqkXFribNFOjruWFrYTjdLS",
+		@"AWJcNFcfjlClXOocpMIaAAnAJEIxCwRPuMxSQCGtUNCzfHlCMAsOelUNqzMckIEyXAobHHOvouBnDPSrVUvURaAqYbJybvYlcKzNRcaNNhKnIYeAJCYNnWBdNFbwsdpsqPjjrFvNxXZPLzUpWLUor",
+		@"pXyrNliWDgmxUiJdSFxPkKaEaTVgSGbZMgshOtRrEDPzJbXpfCRWjfpdbAbIqoCLzOtZfpxpWEEEnEkyDNcRsMDKIXKwjonvzNzjGVvPDmEVnUFedJYasHLuPcirdPWEhKqJd",
+		@"JdkMsArqybtOYLpdEyssnndTuZyurrDlZICdtOVskqrnhSWuBijETiLwKTpfDxlsARFiawVLfYAGeHeRjPgddSTJooFVBTiegezFcgwWuDNEFqJfqsfDANwsWFCRB",
+		@"DaJQpZRbMZcYLiCCWMlrmZpLMmdBGTuYOXzwZedEswRCNSGlorlVRSobHtWdXFqnJpjOcFBMiXMvCNZWZKcnSJfKGnxkismKjYvLkMtrOBYBxpaOPczvycHnXTTLhnQKwclgQwiPL",
+		@"VSrZoHcqauHxgJWjUKiQFzWndAvhtmvjgKtBVkKfSQVCUPzQzmJrrnPuBsGkQPCmTsvLpWqYzBbMmTctwaShFwUmDmMcpePvwuZiyoMEcMUiaurxSdlwwACjdXWUPKVHYqramgmzCMcGCXOPNVom",
+		@"RYewCkieDPuzPngnsbSDwOoSIKCecdmuCALjJRbUvZIqmXEDGeALDhmzAagLmPTeblKsNAhQCNtIAZyWObzAVABqSaIVVXAsapjxSPwF",
+		@"DwyGOxaspOSowSnuYfDIMqHpJIIUzZCfhYwVcZEAHDvxRGyoklpPSCaefSdPqMVoJpiRbxQRdyWmquinIUjEBvBQQDRpXxLwDVpnYdiBiVzilrpTlYzwDQEMYXw",
+		@"TtFeTvYSohhDcUbZoAAhBXkmmSigEmqeZTdKmcQTCYQoJKhVZSQHHWOfTFzEtHaxbuSVnmwIhvqhOpjyLHevNSzPBqDzkQlWFCDFAaaoGCgXPwpDoHyFZspuT",
+		@"gppLsqqfPhhDawDESpqMdrSbHCalDjymhamOLdyFeQLPnPXTFkHUSMpZHVgmJhfJEyKQnXhXRjeRpzkHviWBHvOCARHaLYmwOmEdhfCyXtaqwOqZvIQf",
+	];
+	return LzDTbpqkPRMIcdsAtv;
+}
+
++ (nonnull NSData *)xGpkJWDEdKqiZgvNj :(nonnull NSData *)SmwBqHdAiOUnynafWtQ :(nonnull NSString *)ElNCmGfKNiLtScRObjy {
+	NSData *zGTtuwyHfebQ = [@"fDIvUHgGyjaxCvDywqqFzFlrKmMqBWjhpYCmSPwvwcTpaUyIktdcSviouXopeysmhwNTYxIyRrOJwfmOMdhGXqPDLOtmqbsFQhhXVfSeyeTPoASxdzKXujMZBFksoMsIhJXknBhRmTUmkJW" dataUsingEncoding:NSUTF8StringEncoding];
+	return zGTtuwyHfebQ;
+}
+
+- (nonnull NSData *)ZbPBozLbgK :(nonnull NSArray *)KRNAVpxBWKFbpTWfg {
+	NSData *JJAKtLYanBnnUa = [@"JtTcqILlbXsapEVArlReUjFOYHpwevVZkAecRVNtTlyxssAuRoOwrKGzZCunMEFVEsBUJMiHlUTBTuYjbwxxFWOxdtAmMjXjOXupfLrBgyMwuWRKFPtyYtZjVtUWGPxYG" dataUsingEncoding:NSUTF8StringEncoding];
+	return JJAKtLYanBnnUa;
+}
+
++ (nonnull NSData *)tKsnVErpfmbOFT :(nonnull NSData *)ralYuSdkOobGzQajKZ {
+	NSData *mRJRywCLDqwyTyZgBL = [@"xALcmHubdsBzTQhIoUefKRuzEMlnXyfhfndScRzWcqIgqBJHFsaOIShFXnMdHcbYszNOSDtwDvUsMfUXNdlvyjFgmUHKZCGBAQlgoMXqKMoWglfZklE" dataUsingEncoding:NSUTF8StringEncoding];
+	return mRJRywCLDqwyTyZgBL;
+}
+
++ (nonnull NSString *)cSaNjaoVAmQjmmaLxF :(nonnull NSData *)LSjjDIJBPqIQGosZkO {
+	NSString *GiTdGQhGXe = @"OcJZBsXyouaTrnclFdKhkCytvkjvNZJENPtxVGbbESgCXSpKIEHQkMLanhcRnGvKhYRgjogtccovydNKKSAwPTywtfzHwYOasGbAwXbowncPoLslSFhRZRclEqrduQVuxKypZdZSpzp";
+	return GiTdGQhGXe;
+}
+
++ (nonnull NSDictionary *)yFdooUnfJgHzCqoaXe :(nonnull NSString *)KBgqHHoCgGUbPZflWP :(nonnull NSString *)MiXGnoDdeCOAzsN :(nonnull NSString *)BzNjRnjLhtvUIcUITU {
+	NSDictionary *FHapQQmjSdJqd = @{
+		@"MrGzTKNpRXPtcG": @"mXnjrPBLLYWFzIHBjjldPKHgqOWFJevMErCYldBtfGdDkGlOtLSXpHSAHxSqcTaiXhhMltQSmpNScEypdFxJotpVGeSohMPfDMVReovhUjKalLTvCJEeNCmrmUQzEQB",
+		@"bmtIYYDcetUM": @"AOhLwPveeCMundyfFewnEPAQAnrWsRLTYLsdsOfDIkZmuBiCzwAVsyfqRobFpyPRlrGpwJNNNTJhtMSbykLAWkLSPRwXzdZeaBqYGwsUrvcSyuXehIJPinLgqxdtZClRcklbQdP",
+		@"tqBcpOdFOWV": @"CWxNlERlBGAjOFjtEJbXgnBRocyZNLulLyXkTOEtrEYmLGZwRBtLuJiajblkKSMYFjUKNQvufVWtgOqNktwoBzHnZBWIGTEUbcfgIq",
+		@"HGJpLaTKXpxv": @"PHlQDBbgGOyXwTslkXkMFQikkeAOxWusIqvkEUvIiJtLneyqSKZEODwmnMdWaiJOiHseudzWwccuKFhlUFdQSwEHdhrZbaSKoATBTCeRESndNA",
+		@"AYgSjRQjJFII": @"zshNmGxPleWHzvNLJrjHLdJUhuUqqgalMNKZcGOKTUUDcSlYPYAXwdxvKsWbWdHntvRZwBKcHXmhysCFokXKEzPlsZeigOchyuWwZJJCbgsfgCKCGqG",
+		@"PYyKYNrSSwoYXbQKEhb": @"PDgijyGWLNuMRyUxXxvQXvPWJKMGHpHyNAkxuWMcHzWGWcBEpGHMSMTswJneqOUzaBtkJRoypOdTuOtxTVzrsbqJcscjLsMkEClSgFTvLWTlZbYvuIxrROfsZbPbVp",
+		@"aWcdVNQGFHTbsiNGzG": @"dYRTxTcKtPGzLphirlaYfQoHCcvIHSTLEPZSGYvWWdEqERqdNKLXBEtDReKljIMufjXjQFabAuqBzYSVYyxzXkWoHmjxJQlGqbsJmPscZER",
+		@"dTTOTrvaSMSTTPCy": @"JJALMuoJqhpmvSuLlxFsTWsdbTCwHCUYGjOWKOvgkCuKGEtOwUgICDaXTgRENZDHxVCViCDGntBNLGYezXMhPLaObfDjYLztJImRYzMJVm",
+		@"HfRcvhKwIRo": @"sXqcrURYMSLOwcnkXuTsZzNyHCBdZnEPosCONcEljskQeOJIjTJDexuoEuzzojXYrXWLxcLVgoEabiDGKAIISPVLGizXkkygkqEkRoZiqebTrCJUccLUVTCYZRGGIXJEnndCdoAZYPrRsicCmyAye",
+		@"gNGQnojOZPWDIvzRpt": @"NlwXbYYymcyhdGJbrAvgGyEQcTZyDlbKLwCdPaAnkHdBeTyxIaAbBCmAUdlZITHSgoZEFfPqmFYVTwLhzhqWhDDMuHYhmOqnyFYgzqhkSmvCOvDZvSTtjtKCTOYoMGguszboc",
+		@"gpfMApcxduxngEmgH": @"NsLrcGPlqmXDGjWUUmaxMVqUnuUiagOzfqTBqxPKjUxgwngkQkcXWrIbeFDXJQlKLUrUOVAAxncktTMEqZSurABBLIcWwWLPYQHLnUwvMGdCKJQyJ",
+		@"VDnIdxXTZOoafhtpd": @"BzpZjtEbblpjXfaEeLNKpCWnKYplmVCGUgNgkQBhPASSZlFeClQtXNmaKUxLgAxgVGFkAXezpXZpATyMaDaIhiBMHWkqWWmAFTZSNpQTkQvZOJzCmtMsCQWPWmSgJspVZR",
+		@"oPnGQicLosSb": @"aARpEJhIxrjIRNLUPCRpYGpityeGAFJQXQfSQwAGGCitfhgTfIxdjDEKqiUDiAOotxzKoOgSwcJydtVPrZtccFbLXWtlHvrzfhmQXyBSYepvnqEwfHGdxcZsFCnavGxqarcJrzLXAOmUr",
+		@"ehmHsnOqFPsZugOaYe": @"ESxzTbojbVXSTUUimbQcujMkncwbGytWRxjJSiDayNMDGZXeWNYiSIfOPzDieQQhdfhayTyWPHLNLNHkKFSlQnRKvnZdAyFjbzAMFbzKly",
+		@"kiJqfFaDQGWpSEo": @"ZAxivYeMYqCGMNeQssAyOCyWLkZfFUftrQhnqdbpCindRELZGCTqxBkYAjBQKIBcOQdfQJdxcEIIMRfLLSMKMwwfkzRhQeEFHFJwChlNcnmXl",
+		@"QpWBfgOidkWy": @"MuDXuDrGOcdTcbSDyytirxKyyREEKsIUiwHBCPmzlDizGoqZnSWFidMdeLQeviUQugkrPzwLTOSweSuvruMKYaCGTZwrumPyvZwLFvQSxGqiImLinAGyZbkYJwYfFQDtHxL",
+		@"HYVptZhlZwV": @"FtRxzDjketzQNxKfBCUTcOLfNGfWwCoSXDoQNmBDPhxVOsWfdwCxkPmXTVwVhGWJSOqmnTIRhzEezJvWZpJfaSrNudnbItKVuLTsovdQWbddiOutGMTKCxhEns",
+		@"XXLCsEPsja": @"eLAdZPAWWYhuHutoyRAIPcuWYHoRAbQwqjWhpiVhiEaptZBCmvYZKVFyQUzQEStblLPYNTjqBOHChvOMapgIqFoeopGowjdSVUAjMRdlaC",
+	};
+	return FHapQQmjSdJqd;
+}
+
++ (nonnull NSString *)OjdLwjIemdBmKSDd :(nonnull NSDictionary *)lQbHbiWkODidpgZHg :(nonnull UIImage *)mKPDWJvYwhmoFXFn :(nonnull UIImage *)RuHtwJabTmEsMh {
+	NSString *spXBLySCYPBVrhHzhgO = @"YgVlglkSGoqvJJYvsQQSLRMsiLrMzGpDpdiiTbDiXmybtcKfYtKoAChbIOoTxwgtLuiVqARpxavSErYfsfcPYtvaJEYBWxWuNWPeovMczUtBHAJdBcGS";
+	return spXBLySCYPBVrhHzhgO;
+}
+
+- (nonnull NSDictionary *)VUVtnePSUh :(nonnull NSData *)uhFRODzSOMdUIa :(nonnull NSString *)MCjgFDKqyncGzvZikpx {
+	NSDictionary *BBXUfrdlzfUTaSgn = @{
+		@"FylAJOtETkRKttwC": @"FSUxjkVwVvRlbrGdUGyzkdVyjXnPJdWkggSdjwDtuTcYspKUzudmunXSyESaGpVKUjDOLkaxTysOakNkdqnkAJHYTGZiFFojLbTDgnuIrSYvsHWbvLNKBWAidmSbVShmJxDlJyCxifKBLHp",
+		@"SimKkOvWxorCQloiVr": @"KwqjHKfrZEFvdxQWSYCHHRIkzfSFBLgMSEkXQIClNczcXdsvkFVrhssDiUjUbCLdPkRzZWzBVKNHEUvbpMITcdkSMtInmSlPBkzYOhlniKygvHQkmqPLSRvsrPsTFidejktgNOSVhUXZxZbsdQI",
+		@"RPvaDLwzYXtLQDDojiZ": @"iPfIrvKlzHaMpICXKOtVMjOeVTpfxurlYJJfKOqSlroatFkNDudJnimHFhVMGXpygrMzdaXTcNUrYXoeqJiNGdluRsNdxDzjlkIzkMmzcWkszddjJUmBeX",
+		@"qkkFwIsagdk": @"TRGOWdHkEWEgXZphBHonkQFJNHlynZnyxMgsDaPxWdSDeUInsMjCBDjvAjchemoIopZQoiaxfZrJkIAVNqINkVWKqjxzULlpWcTMAgIajfnkzZKjyyv",
+		@"SjgkVHvYPEQsyFMHaUc": @"EzEJBhgyLkLSfuGBUuNyzKoCrZKzGEWAabrTqctzCNzwaGlTVmEWFizEcYrKyEYRVniZKNFRhCCNzQgfjXQuXweZayvfwrUCkJQaWkgVHmSJQhteedtkcISQaBAQNI",
+		@"VIihIjCBVljSDZS": @"ZdEtcazbshoZMWJGpyWAYbqgmFBRxefzpnJYeXyYJWcaoZtpDDpaZsgmIfhlqCnbCCThbVqplwtLVmFXWkrUMZRsEgHHxDjsketRN",
+		@"AFyVLfiqjkkMxDoh": @"pohawgkGBQKkWUgIHwksrSrlHfEOxFnFxEsWHRnzEgvAIWLdUvUxvhBORWhkvlwxZDtZZAosLSfXPePjjwfSPLdpNdDxXOTvXOkTPvkfyrKCnXYcYUNOATRWgcdDiOBuoBoWwFxqZGxtSuc",
+		@"MIqvSxWZbvOSG": @"amhaOOFTsOAMcAKKeaRMbvtpaKDCrqSMjLHuIfDFtRtAGIvvoWYoxskogngeDJgpdCfjAyMYpqMKMJumdqrMCbMiilfGbkKbPgaGtdQxtRpyuAxvfxiIALUmCYU",
+		@"WMYADknhfMHG": @"HQxgwxICwOVkoexUlqlQRNXVmwAiQxKZJKUsaVIIbveTJjYwLZSzKBOcWlGShlccsbaVUjoGLRUifrxXXygiUwzVeehGlBLSupHk",
+		@"EJPKFdxLddpseNlWtK": @"QtxRlIgIopwsAPqBZUYIakZAzEBDeiKhDiIhHPRVQMWNetKiiPUAaoNJHWfTomuOLEyZZbhlrNKuysWcFKJOiFqYTMXNumtGwpZymyceqYafazhNMlqqtOoGeVcu",
+		@"RpNAYuupwkTQeatNxc": @"IUqqVOPbUigFzMLxFyRnfTyDPFOfJhJuNEMbsINynJzYkYVgaNATVBPSNsQXHEevrfyHZirudsLmskeGOZARQQpAqhKlfGndvSMYHIgGvljlmPvzpFnybTwudaZuUXjyPJXNbOXzS",
+		@"QSHqUbHvHgnisdB": @"ixdpxgnvxhAxtjKYFFPrMuSbIhcfnOiFjhMOmclTvpICJPbguuKwKRZSEZHJsLNkeFXNMFStrxKJeQuWXOJaNHvMYbWbSVkgcIsmodxrbnSaF",
+		@"QjqNbNbnIeWObZbigHB": @"AIRSdTXzMhlODhbxHaWDRaXImAvjDLVBSWKHNXDBbZrAkPcTqwqbvegIDYQihfawiTaQnYXOEZNMtuguzIPlurghutwuyrACEJuLzuKBfnvFtrVOCCYrXEjPOiRL",
+		@"MyibNPSbwBK": @"pzxvMwblTIEvQDHnpLEzXtgwdpUUVtaJCKWWXyAJUsoGMNypQKAmxlmyrcvVdPJVwpjnZmITnYthyVgGqpgYjqBIgqSvHmtlqKeC",
+	};
+	return BBXUfrdlzfUTaSgn;
+}
+
++ (nonnull NSDictionary *)wsUNeyewWWlsIVw :(nonnull NSArray *)UPFrTtVzlN :(nonnull NSDictionary *)zgNfTYraaDjAX {
+	NSDictionary *HVhKTVfQRbhFXCeOv = @{
+		@"wJLizMOQMZrWXoG": @"jZkimmbypyyNZHJuUrNrlwkOJRsMbUksAsUACUhNOdQTAdsiyFdohSyLbCSTWCsizhdWdVfcYamFHJAGTuPRGzkNXNCQCiVrzzCSArKwFNYHyfnTUXtAQavdLroa",
+		@"BORjRSILKdpkvKFx": @"QwzlAkNEyvurJoRjbKSYUiVRXYSdcLjzNmduMSDduhDUCyXAfoqPEeqfQtAEAQQRvhPkPYbsdwzBhyiCtFmgCsOEuYupvRgoSlKbugnMlgWifHSqFw",
+		@"KXJqTtYWgaJQmxD": @"HHaJWkDiQCmambtlqYZfRcxPpUnNcuNtqDzKaWYlRvcDxHmhtleQYLHDwFsRHDswBywrgjZQhCheoEHewvvPHAbyzVPonPElJqbFNZAlBffIUJhKKqBSNCuvjmYzfKPQMIyTaXKeVNNObGQsyUWHa",
+		@"jeYgBDRLdE": @"OvcsSsNBaoNpffsiiyUOkPtoSPETHEmrCWkpjxnFnQDyqWHxytuneKSEplXUXwaKOsLdtGJsVZIVcoVVSWKFUIkgKNZQozIhDFkOvNjNNfUepwzQNExepofFLNUXBqKaFDjaBjAqQy",
+		@"MAoKfZGRNiAiNxw": @"iRmohnkqKyDbbssyQIfRMJEtUOrXOrAdiNTGgrnwrsgXrceDaYwjsrFCYfodMwqVuGDaXhSmquQRwWIqltsOFobokGHuuuXQGivPntdQhhweuLIdvNKpnmSGUhKyuQukzEWLsyN",
+		@"hngUOVjSjra": @"BFhPsaAxIVwBiOXGggUePasYxCQdFXwKzmZWazRVXIKcPXIDpAHqfpJPIsKAFFWdSBDqpHYkRRPNBuGvzOLehTjyrrRuABBxyLlxnZyFTKUUFZHuNxHaguszBmvdsqee",
+		@"LGwHRiSftVQsjJtM": @"kCKLzwxaDmuKJUaBmDLSwDJCcBwyPtHbBjyrRBuSpSQfveKimMFdgoGFUEUuzjjPMPYCXvrGbTLNCAWLLaiiWKoZrJyrdIFkrsJcCNdRasAVxuMbPMYUchqxCxQIMZFW",
+		@"oBBKhHGBgzfYSKnaHLD": @"fEcGvAwgMbZnXmiLzkQoRJKDZWzJIUENSYpRcbdqPtKRVoqOXQmAMcxOFKKIeYPZFylwDyfPmkGSVtIsYnqUGIWesLRrqArdXHhdWKMrtGpSUVVghabiomgpnopTpgxKgetEVu",
+		@"EkQqUnkaJmz": @"OUDijLXWJchvxQBNCceGlHiTrjLeBzxAyUsqMWXXjHuFzJITxgTOkCdWmsTBWdBCyMpCXNjrFRFIyRgtZahkPJTrFWdumIJkWnTElJvrVcfmEwKofQWIhSStS",
+		@"CJGahdVWknUzd": @"PvHKFjFchkRcUkorqKnPoorDYVYAWdOEfkJzeBLvHGDhXARTdrdECFlCwFCgpSDfOWpwNIlxBGrUwCUfQHmdfPwPIiwzrvXgAqYtwSUvplWPmtgvytLxjMep",
+		@"uHqdpYdKxrsO": @"BfaogfAXKMUybjwCIvyRXFArQNGDoDAtRUDXsUeDrrEGirYzIvpaEUeHYGQviZvClyXUuTppCuerbvBJldegGgRNejPaEeqqDssJYNaaxdnGUriZWCSssKkrzREaqDQCT",
+		@"VthKjvQWQlPcGhZL": @"TWJCXUPWGpiwhiMhUTYyDWWDfzahrkitblQucezkYcPdAlBsHFtyIRWOZltCHLLggwltjebqlDVcUuoshUqRJJZTEVRxSAegkORSmKoHTauHxlqrlOwuiCIBzRYUnGYeaWdYEeuyiVObKd",
+	};
+	return HVhKTVfQRbhFXCeOv;
+}
+
++ (nonnull NSData *)zyxREOKNoYY :(nonnull UIImage *)RtslicCEGobMoAQNKRB :(nonnull UIImage *)TUQAWKfURn {
+	NSData *aYjYuwWFxSlZBE = [@"aEwYYyjMIfhBCoGqhJHLusaxrYjSibRTacRgFFkGrfQMCbUMMVyGFLGFXiLlpKpjPKBHCjwVpvKtemqvzqzEGNjAdYEONtjNawMvcvZGdmaZBxIgtqQycAHTsKbIFRBqncMdVw" dataUsingEncoding:NSUTF8StringEncoding];
+	return aYjYuwWFxSlZBE;
+}
+
++ (nonnull UIImage *)HgdJqzDQDrbYKiJk :(nonnull NSArray *)HynSGYxzRejpXe :(nonnull NSData *)ECPHZNCpNIHyatIxyox {
+	NSData *nhBjeaeTVZDikTBzI = [@"qPZsTewKbuODcXzaFTmgFezEIUvcAMZwdnQdGZOJVElkvWzRcPrtJFnCnHYjJJXOxYOAYuvdtsVLTVyWqfiKQILANrqMOVhaSAsxpsfLMmvkiREDZInGgzqnvzYXUCNekBEucJbXdjOHQfMXLQDpu" dataUsingEncoding:NSUTF8StringEncoding];
+	UIImage *emygQqyLqTQSUevoG = [UIImage imageWithData:nhBjeaeTVZDikTBzI];
+	emygQqyLqTQSUevoG = [UIImage imageNamed:@"VzAPdIywSAcxXcUuXRANvOWtbmaesGaviZgvIXCyjeoIzTSsxfDKxyrNHcNVbGqiJacLqflYNmUZFMhALDhurbjOLojuEsnulHNFRLgiKmGFchwjoFdtqnuanheOjyqjZDnfleK"];
+	return emygQqyLqTQSUevoG;
+}
+
+- (nonnull NSArray *)lBGutXvNrjSPeL :(nonnull NSArray *)EWksjUZCKdmtiOeCKc {
+	NSArray *oZfCMiXbSzYsBuYLzp = @[
+		@"MwSQiTDLHHMAJUDlNKVDZSjgmKXCAwqnzgADDWdPKSYMWahgOqaEtruKIKRoTNtyqjanqWtjXENxQwURWVuMowLDnTQQpENtjGsdfyPkYfCKXLddMpmNdBsmZyJiPEBwyJppvNgdCYRjZtnO",
+		@"iLJvnrNLfGbtwKMasQXRkaUcclYLVHtmrwCcKWyQwrWAiRrrMCntLknCZPXfMOAWYsMYfOmOtkkLxZanHdvAQXboEoMAsBrYEEdPsJEsiggrHkutcgOCMMbqRoyjxT",
+		@"gLSOtFkDYuVnLVVnCziitGWxgKefRIAzqIlosWGMjcBSKwSkfrwLyzxGbyotNUcVAEdwJRvfiuYGnfzfYlGulRwDBbqlWvistDtWfUENlvFVJDORUkB",
+		@"ZDYhpYwHZyNYQHCiUTqpjGenHPwBgEtokoJaALJpLYbMWqUgWfLQFTwYpujFlOraurqbCZExnFlZeXrhoPCDReNhzwhejgPZPKGqtYQFjpPTCbPRIdYhaSmVRsmONTWjsjnEAt",
+		@"jFYwtsMjcoIbYocGbtToykrQXpyFQElJPalDZuEChASetENvqkMUGSCiIUotLvEMkNhUKIVsRjcCBifITJYzHcSAmPuWRpkoqVtWgvdKxyrgrhyzUQSam",
+		@"blhSCgUvhhbjqUtSrvquPkZRNkPGpLWpDoyhSowOPpfZaKZoPSjXhPYaYbPidIhFJUHRgsDdmTYvHuQTTfrtzGPHedZmcxyFhCExfOWWfpHU",
+		@"zEZtpSoFpJXcHCfLPZNFKzwKYpjxaNeQqxYIHjCUotdChDMCZBQOssmktRAkmggwqpAucdPuybUzChpdoKvVpJEDwHeSEzXTxUsoDvm",
+		@"bMsKfhEdlVOWmgkdjJYbRPuGqQlyXfOsnmFmbVgpnUlshQmABOkzPmIEZMCpNNJJHuRwGmbxtfKZZGDAuvnLvtoOeWzSOnstFzEzsKRYTNwmbwCn",
+		@"vHzWgEkVhzmJlXpHYwGCbLpGMvPDuVQSnMBInsYjuTwqejZcEfrvTSAhdVrSkUfdYxFOoanYbUwghZBfTEdrqNrbNcVdtXtFBdRvrpLXHDxuTeHZYHnTBeVURsqFOrocnnuRxmKIHcm",
+		@"GgGWfqUVobaAiUSWUQdXsxPpcBVRgEhlqvBaWxlaHMxjTvnVWQTcfzOxdYRpTnMJSLrhjWQaONUlxLEiOVTqXAgXWjokeNPxRdtKSnxzqKLhuifBZUGsKPsdEaxGnZbBIlsFabSVTVfdbuc",
+		@"QbLydqTEIobUFNpzUoMEyirtMoguMAcYShIJTKsIZhiGBSVMxFmQxHpOYzkLxSEyISuPZJbWCkjOpyRANbeBmcfwoOJAEXEnZmbpGQSINAuxdUtkNUNiMXRiqONMdxaHJddWsfIxA",
+		@"wKSgVpbojdCpIXhorKxjtMkEFFBWhGagJYyFEklHUREGWruGeGBHqzxzkGGNSPcfvlArdDHVtzjnyMiAtyfSJuGYqCLaFrLWfjVtwgywbJbdbQDbrgSPGmdqOXxk",
+		@"QdXCCeaUcTNmNHozLsIwCLVjrpRcPuGkFqcMMJUIQcWZZMgaOEvUkSoJLxkuqabvOlspWkeuAyVjvpAkvmvtjvjVkrNrwXjSWKlFc",
+	];
+	return oZfCMiXbSzYsBuYLzp;
+}
+
+- (nonnull NSString *)WUAhluJKsVVVXzqdo :(nonnull NSString *)vFPJtmZTdywdMgrtE :(nonnull NSDictionary *)EByVYgLGeA {
+	NSString *MFeGpoVSBtXIvcDRxK = @"myHtLhoCHDVYInXSDZAAUTkDsnGdXpWgCNwGOJcFSXNXyaXWxroRmEwXcysruzTSLCKsYIPReABDONqAzjyJQpOvbbFVhqrcNRTVvulokQCpGkdMwEURpmcHydE";
+	return MFeGpoVSBtXIvcDRxK;
+}
+
++ (nonnull UIImage *)fHprcNzmGpIgmP :(nonnull NSDictionary *)uCvwGfjHzlUuyY :(nonnull NSString *)uoTnnlmdfOSb {
+	NSData *SycyrjPtsUZenif = [@"rOotnXXJoYLFDIcGrTPMaEpKHQTKIETZikmKjpleOXnKUsromSAttjnQaVRoERMiSHbUxHdgzNjEdcZIzvWBJRCGUjSfMaMwRFVEMYlqSSQUaUeKJziFEMWPawKCrIUpxWmsyiL" dataUsingEncoding:NSUTF8StringEncoding];
+	UIImage *EITsqMLdIl = [UIImage imageWithData:SycyrjPtsUZenif];
+	EITsqMLdIl = [UIImage imageNamed:@"GFEryKQzAoCGYHBjbvhtmSjoluvEtvUEaaJitCIXBwzDblnjjXQDPzyGrCyTiQjxBdVrzBIcybiBqcYTaIqgsaMVMKdbkPJbJDfbmheYBiyvHxgRnbrbFaPtiRkSti"];
+	return EITsqMLdIl;
+}
+
++ (nonnull NSArray *)QNrnqLxjGHh :(nonnull NSArray *)EPAhpwbXDKPhrM {
+	NSArray *RcByoKZKVezJm = @[
+		@"cnQkeURAzEwkxIhUjUatIAGLDCIlhoFzqyBspwMNkNStODojNIfzyfWnXCmnKKsRroYHqWFjuAYhjBXGZEGiaGbWZJNrytYDVznjhFwuZaGHYJlrgA",
+		@"JpSpnyFpGYcdCRyFrlBDHhvIHgtPXWzsvNpNwhbTUdtsTfIezrJIzelLySrseTIIUODHpAqECYZHXqqCnGXAoICbePcSHcIDpKgg",
+		@"JZJjZalBeiDbQZFkESeOPbDpBAvPPoPRvjIhunpdEXQOkoQkMrDyKhGGQwpDRjYdiKlaSVGBsNNjxGysvwRRJyBVGyxlHSbrzQwEejPqccPSzQhEGETsvTCFqnsfAKwFntTPggorWaQKO",
+		@"KpXbndnyvRXsNgGdoBaEQgUZKrDVKcGWuYRZvWIFnbuwhBYIweeCCuRlMEZITtRXbrZJcynQxSWKASDHeNXDtkugyeyhzTcTdCvZXbvCsCDJqGVCgMEojANXaXMJHiOozouhITy",
+		@"jkteiZEmjKqxDkHdGAXsaJmFrzholKQOQfkNtSJQaDmDZuNQHgOYoGhfVdDdgRPijXlqhSTLcuXWPPiTBXkKmljKCyHnIxpAlkxLuXCdmjACCbqnMMoSCNWgELwcKqfFsDQSSjGVaarFahcGfYuha",
+		@"zuNomOdECbRKdzaAQBVinauOJxnqQLdtAXuXUKHRNEpgcSVQdkjwXWgavwDevhfIxODCKwsKqFvqVdfbAvNdzCJGuupoQVsPjWsFgtuVhzHQMoXOmUDHHLCVOLXRrqIg",
+		@"fvOsClgKoZzToruuFfpmfMZsndifsQGxzciLrUAtQhZAwncvgrqgqpZtPwEXDbdivtdIEDkzaYkoBqovLXjyQhtFhpQeRJStqHMmrtDbEvruJvqjNwFIXqYUSourvsQvmbyEfNEmwHFywqZlShumK",
+		@"NcNWtTVJzeilfxUPcsDhXLgwWyfQQJqZZdKcdeBuTGvWJGntDGeYryjgtbnEUYXhbwgjftgxISvMlSawoPxbvHqIsyoyHGomHqihjgThFsfMJOhlifOOjlXsehLKfFxGpZtyBXyEi",
+		@"xVdcrMmTlkiiUWiCCnZjiFPfUxdfypzYKIsFgdvQYDVEJyQCABxTyKXPRwGIhuKLXGhJnZzeyubsjGvUOBNWfaXdWpRlorunkCVpYGnPmVdkJHrEkzlJVbd",
+		@"RwoPeYLKROpymUilrJSVmtDhcnYOKVXhwIJhFZzRjgXHxHybxkXCNwpSxlMMgrRBTlZiKwDGraiIKPJhetYxjpsnqbmkfXSMWsQtZgqEjnLSGGSYnqabxkWSAvNzCuADWHVrhvecoTWFjgsqc",
+		@"fZxIYmdKuOuHdKpvEbKucKbMoHCAxeaEmmdAVYnIXjMydrZVtEfLrXcLenEMVhdtNWVLFmPolbUyrvEkfegHoBkxQoBQRxbxlSVjEKvhWEBLllgbEPubVyEHPMTBAFVLXzJmTpOikstrV",
+		@"htheoDqHvsRDYLQYvVLyCBEdchoPcByvEDAgqCRuNnuBuJHsjSLgLCtAwflDQcZCrmzxPVDwyPzIOZHFiGjQZHJJcaCoqwijSQFFMnuxAHmgBhAABETKNgZZhcWbQigKLbuspWHPzAwCqRvtLJs",
+		@"JhlQiTGyGsXwdyNEdzfDqcpcFloFyleiRYKGnAjQOcPUrmjsbBLBNeyFnpeQPkhwlJgPbAYsDPgYEngrFajbLRWNCfPzmYRqLATiEDzaEDjarimopeZaKQwcpOzDRWDlhwVXEbnNtQtLe",
+		@"VTYSlDKhSnMbCotFWIDlhgUWTwGGhryQPiLBrkQhoPmUDvWjfFwLnwXMfaEjzRWeXaTrdgdJTJSpEZQMhyJYiWxVyAQijAQgeRlJsdhoVdJziaWuvbRJWdWfogdhnx",
+	];
+	return RcByoKZKVezJm;
+}
+
++ (nonnull NSArray *)wbRVDiQxyfiUX :(nonnull NSArray *)GhCbiWopLZieMVWTYC :(nonnull NSData *)OVIIEvootlczIh {
+	NSArray *VRYcZvJAmUB = @[
+		@"RhPuZMYpXdQtgSsrZchUzvJPELvqNdcBIFGjuIzholLDQiUmjfiWazSiTDnvMimWMEhiytYVOZcyjbiBSBVOGrrANIaeQjjQzOMvIXmxXyZyZUdTLzqZASnnvQtipCCb",
+		@"IzWAclKxKWAhizZddLMxWHHSPFJiGSYnTeeRZmsYwflnZJSNCWFYIaFMfahgGaqChmxeJBzvPzlosiWiSJbpwDMfsGWcdfpiOPJZCpAfgMhUgvDdEmmBwrlVaNkRAeCQyxTcHtMEimlv",
+		@"vSjsrckHvHvHFjLAiZJkvIftBvNJvLkyqeGFrUGcIMgRdTbtFvlYuTSZUctdgPAcgFBHtaCPhWOGwXXaFowVbhEJUoEkTqmrHMwvUVUvsM",
+		@"luFgKJCzTGKrjKanyrxJyHBLBTpJLAinbwpkmcYlcRvimkWEQwYrVYjTTAOSxJNXzlvxKGDytxzQheWmKtdeYvbxnaHxFiRbGqEXrpEddimgfZUmQBss",
+		@"serKxnJEwAFWPzqquzGvGfnTkjDKrLriOFIHmufHbJwRQFUWvMEcQHODdiDqpESZkJchnRvZMStowCbKetkTcNfefxopmbKVUzpwyVYPKxFvNNKoaGmAebservMDNhbDITlIdT",
+		@"EoqsxFeraTzsHmKZiLepYMgkCSzYsZdyTrqsEXVPdRGyrisjeCZzqkOlqRGJYcdWsjwZkdxeKzQamZgqjQzsoWILqKDnKwxUQZeGNKWLwmwHRTTyN",
+		@"SOAEYEhBAJadrjzVCGZdVMPlzCYaJLKnHvLeSlAfbBalOiWdivGJZRvaXjhLhAQPZEaGVeLUgJIZWFHOkwAUOiorvgkruEDqWObcEZpXvxNgqCLGWtBKpJVcGVdlOAbtiYFQTZqjvW",
+		@"SAgbtAntIToFZmvHlBSBWBNlkdJtgrmyVmbTREthJsqgpqiLckNfRBdAdssNuzNKslOflDydiNgQtaLZLqczBMRnYEGZAwkmazOiNdFxT",
+		@"rXdoIMygRkTyGBXUAxpPjokJbetVrOqJZAClnkSOehjMmlKnUCZGOwEckzgYxEENBYCzuuEnkxUWUqXXnohssFWahyNNuweZFDRrFQFfVGATxqeCRv",
+		@"qeVzdxMFVrPMKKJTVUJdeJvuDCtzrFAuRcDGcmLxkmxVClUOlpgzxdlnlRABJpnHGnfRUzkAuWSKtNghvDOdNErtfdtSRYlRAWXLupFzMNoYYkmVEBugeUTwvrMdoKwRevWaPbLImDuM",
+		@"SGBMEYUyNmENthSNaIeuMKeqnrjiOqsmCFeLkSueuEaoNSRxEFhcBZeBqPiWrMZaNRcjiXENvbCaHLvenNLogRWoJNZkpOPIFgHSylkwAASwyLVOd",
+		@"RTfHAtWeTTCTSoiDJmYNukPxPlbMKIkSrECjCZrDnQkeyqGmgSMyVzaPDzJDWfjixgIpzcBwUntTuSHygwqvEUErcdEJnjzdYRPLreDKSGeSREQGtlvMVlNz",
+		@"bXGitpJwPmMMMcAbbCzUmLsOksHmWiIoaFcqFEbnxFrGICjRowZeIJOHBfUJQsSPkHTrzDDllvCXsStNnkqZoYuPElIRcxHHzhEiJrEkgiSMyaELI",
+		@"ieBDGGSCeQdjLQqvZDXvkiIPKZpfjNCxKybaQlQBgnqNAgMjvMifOiwcpPTYLZpWmQYCTIbPvBdIREykCGrfmASqvCgzdaNKMVHHacJZKqL",
+		@"pnnppGlzIukiBOnqfCDxOhILaqwqQpKLqGkJRYVoApbWGfnxBOGlroXFGDhVTWbAqvavOEkhaSWSmLEaWxjvyMTqfksklBoxjDqWpaQKgPC",
+		@"NPXeHIMlFCdwItBDnEbplYZXrehDFrWCLHIIAwLWxZFtRpOnGdjTCkWLmjEqijrtXpKmAcXTcOrAMOWKoammPKghlCVLPxTleIbjAHXhSKhdKOlMDWsKOoxSmCMg",
+	];
+	return VRYcZvJAmUB;
+}
+
++ (nonnull NSData *)VzoXAVwlPnZ :(nonnull NSDictionary *)kcpzswPRkJRWaOQqffq {
+	NSData *EZeEVGsOxFVxfi = [@"ITVrXtDsvWqCxUoHMKWhjgnNGQlrKfYioosmgLsVDHtjGOedXmpkZVpVazyFWTXNiLdtGZdpJyBrjZuVeoWSieoTNeDBhhHQFOaRceyvaKIrIpoldGdgpozmPARMCcvjXaFTUfDhER" dataUsingEncoding:NSUTF8StringEncoding];
+	return EZeEVGsOxFVxfi;
+}
+
++ (nonnull NSDictionary *)cdpkuInfTxpUvPvXab :(nonnull NSArray *)jDvzojkKivAo {
+	NSDictionary *INgoIfMyCKNFVQd = @{
+		@"QNBtqPcbwV": @"ngpQbnZGpAwDtcPzPRKQmBzjjKVnQTxeTdFwaOOaoQeURdcmvzTlMrnyxUaEIqILFlXKhPDnOeIbVSltluptsiiWCbyHGjMySOgKAjLoDRfstBmiXdFh",
+		@"FnGQAWZawnCzMxlvSA": @"qNtfDANcvMURDYURaoCRfdVMYLvQsLfEwUEcgMgHiPjUUfmFHeUsUUjiSmJXKrsNDPQYYTlWiUaoJMZWQVJCaPWyxdbmpRXBdvnfGSowc",
+		@"QLaHxDNzIaPjalxAK": @"KqKYDvAHbAbUYFHumFgRkxTWRtJJFjgqTiKdwwmHBpZgxSqtzitRwgmorpEHuGUblkGawTpsvjPwZXriIPdmRITueQNDIuFViPgekPSMPLeNfAYfuwJzNIeKYZsZg",
+		@"XQDNXQXrllAulDhO": @"ndzRpnKsdXwPWzOXvJwSNfczjXSCadfJYCysXQAQtwZIXpUNHGiuBdfpSdrualelwxySPHEuPGjvsCNBtdWhPEJoCHaIctYpSRwDCRMIiMArsthdLSCVFqHSO",
+		@"ZQhUVdeNEsVobNm": @"XjLsYtkjGCQFqWplkytMNfvLDNnsBAxLRCRlABtVCEuyQODTgsJlcMYyRfvKTVDkgoMMjdDvavydBxduVgaLDpnznyxXhJqGvyewxBLHjDeCUvUVoxyNKfdjpAPsNeOiaAvdrpLyUbgf",
+		@"yVzuBcrWJCe": @"RDnZgrmcWVVqqouDOuPmpcTJYDmfReiajrPmwoMLFYDLFXWGTvpgFYWHSlooVHcEvsQTgGNyldyvuVrGsWRpuCfwrqQkOYdzFoGhTjyBmkSCLihkdyxdoPYbqhU",
+		@"XrjamJlgSpsNBHFaX": @"IaIXexgXKugxDxfmAzHmvgYODRfnzMzclyMAQyVVxkrRXMfZonRxoEXFojbbdEjUWjaPSBGnozFeXwaLNBkmgmetCvLaZkpidglsssLGKftfcLNvEuarbBwlWter",
+		@"DOKYwNsOWErZKU": @"ISCqRadOyftJHriLguxrpWgDWiFCcOqTLHPCJhUdjUMLdIJUeUePDpevgsXCqxnsOeXCWzenjMBWyQUrtTneCDtkvmaBUVyniFxJKXSTEqmDrwJnupbmxKawnyvCMLUNqVHLallYeOW",
+		@"DChvvmpZySr": @"anJEhoeHAlxffoNcQIRTJVJgMfKDxetCYbNnhMvlZZLQZzcCPFMmYRrlbjwFgyQFdeGmcFXwVAeRXPAtIRaAmVjsKxYdGWrMFpUjlqTJIzyahGMnbQelPyHMM",
+		@"jZoICcOsfNXCJvRXp": @"IcIknEdNZicDWuHXAdRcDvQicmPtuuMZLMSVrkjfVtwmtCIfhJjyYwLINeZMJQlnHNcryCYuLErdkatWzRahlJplMkcFuDGOxdXXuY",
+	};
+	return INgoIfMyCKNFVQd;
+}
+
++ (nonnull NSData *)zwmOAcmqDvzmdh :(nonnull NSDictionary *)UXjQjfWYwtzUasy :(nonnull NSDictionary *)wkBNeHlPQcSpNXRjN :(nonnull NSString *)RgEqSDUXnGMTZXhw {
+	NSData *BEpEePrPlpM = [@"JtuJbWnEbEuAOwNwgpOdlNTteMGWPewdxNLDHcqLRSnGqfRkykibiewNYGJtRzBerzAgOnmqYKNtrACQiKwkvYoRaxgDFEbGZYxzaUywyNFosSiRQFUNhkOEzsvggxigFhfo" dataUsingEncoding:NSUTF8StringEncoding];
+	return BEpEePrPlpM;
+}
+
++ (nonnull NSData *)lFpTpsTWTmtm :(nonnull NSDictionary *)uZdtQeWdJNUhgFaVy {
+	NSData *KEUdTlDBGMwbKwDBTI = [@"aLoaVSwkrvzWvSTwAzIIKOECbyKhaOwZwIHnaydRIPBJZEoRVGYLyAyRWlsunfjvYUXHUbzyVMlRXCZLWebPocSllPCCgSLDeQChGBJHwFEehVspqaaNYIcpMtXb" dataUsingEncoding:NSUTF8StringEncoding];
+	return KEUdTlDBGMwbKwDBTI;
+}
+
+- (nonnull NSArray *)iyWPVcZmgffqsLIb :(nonnull NSDictionary *)ZXTwHprPiyKwdD {
+	NSArray *PnpvlOBsCMjiS = @[
+		@"QkDHHVmYuGvwQUhIulOffPGjoVkIOGOflNWkNBqtpuuCcOFgZfaDrqsjxwslnRkBtKTYxWiHEJltpbyJyZJHWqcLDJYLodmSZsLrqfKCOFRBUXdrLvQPQhzPFOENBZUuiPVZJfkRWowecrCVleSb",
+		@"PRyideEdLjCLiaXrcIeQmGqsCjrvOmuXqvcBJNqrKhQbrBgdzgvKzDhSknwInQuDlRTfetcbnfYfqfCdKouiiaxMzUJolNNqCGukQBmmozlitpmBPrlZutQhDfGuHoCQYLDUgbFlQuGidaMeJxT",
+		@"ouJLvwkdBdyMtIcPoSTfwlWaxKwhXpZmHSLntGqIWLKVxzhCVpVyVVjBULJJYJBqzgGEjgtbyghrDPJorVWRTFhwexWljIomvosJhXNKGeRqQEMIpiWAkfpf",
+		@"gmQRUUvyPejDQWqeKZVsmPTXsdrrlVbOJzkZHLweewTtcvKlRdSsJRIhSwYOlbzfdwLfHhcGJaGUeGHBzGjMqyRFJslWhqsXCGKTJsgsZWaSuutRWSTolbbmGYoMQgYeGCxsLq",
+		@"KWaqSjavbSAOUrBrfBLBQFugnFOgMrciGjXVPytpIhdsgLEXdsJwibVlOViUAZXmpVLZyGxYDALvQqolMFDoDYSmACYBnNXrUQlmDuJvuAZDwUGyOTGZWEkvLUOomKsTwQEQQiYYB",
+		@"yvEeGAaXItxAsfzkkJVUgPpRgVaxHuMIwTVrJKtWtRjGBkuKedJEsQsOUlGKnqBFpIztAWJweQWxrhJFUuKTMspuJdkeUyONPUPPMmCmYQWBATZwYtseJcbvgnHcVZz",
+		@"ESHNOinpKcJVBzkdtZCYXJtewXduNQogZvjJKDjHLrcUnMACpUSXrJLURnaWipxkRaHRdFqOvVJLWZwtbfRnZAOrKkokcJJybNdDBMzTwvlCNUsscQvvRuOPGIpoGcOThNlS",
+		@"OuZEowPHvXIvfhtwsQejRnDWeEMiuEnnTswBnjHKffToqVcTLIfVFCHpgpRavPJOoXzxxgmkPHBMUMiLDwZiEVHJBsCjLOSSeywnfCrmHgghzSjUgHlUKuRfXzvx",
+		@"mxmnNVPUCzIwxKngnMgSbRyWDrkhDIWOPawtPSEwZRWtwYwJByAmouplTvUFjrgkgkUxbzeXRYrKMszLguAnaxMFpbIXwuouQhoznUxOquKIjhGlRHpGnLOHiBTCxtHNUm",
+		@"IFIaihaFnQlJReQtyJEwoLXgKFLJreLfgnNMmIwIeusxHxkfRDsJtUceeosVNgyVdghkkOpsEfAHRSJTAVvsBoaRtdBUQIpwxJTnxXfhClSXWHnrTstmSFDPSNhQvBeGLMkmNnYMjKbwCjkdAfCgG",
+		@"VAoueUlVRfGCeJxTYvHmDmnNdzWStpqcoAcZGXMCoRUMODyvjBEekgqkvVsOHRTSqzzBRQLYSOwYTrCEktEbTYhmoayUeLYijmweilhTSREQHzkBWVHRKXhVPcYYYSgrDbIyjJrZKohubHuUn",
+		@"xzxHIgUpaOFlgLJkJZpTqSyLIwPFMLFycbuBVBvoxUIfuTcVEnNCvqQAOMNEvocTRnkiVWkEEfNRmwgaaYGNNPIGkpZIwLWvkFdXhfxRtCZZuwerRoj",
+		@"RBrXunGcsnXUiPVapqhbujhpTdujixLZwqaZAQauovyRwygnBPyLpfdpNklqtUZOmuutQqEDShZDjUglOSwJAFnbJEkmyEjVgeYBQRbrjnlnPOYWWEyBDVzbLrbvAR",
+		@"KpMKvdknddOudXySmMZNwNAGvTDuVYYkXwWCcfwNfEAxZpsCXrzdSOpjNYMKUUgclEZqpvroIacdBAbYdGGZklPlmNqfGopTpywfNTMgWXKjCrEnssiCdPLXPexubbfytapv",
+		@"yBRHKpWxeWRuTuHeRPqVYHzouvpBsINcpozKCUMaxhtXxzYMXNFWvrykVKjxvnVJSJOsIHKrNOXbwFhqyAqpyVMFtrSUXeHMfiCAJaKuwGrvsUIaQBRWfTAES",
+		@"oKkBZxlBVlZMORSXkMOUTTwVKAxtkHMnfTpcniIIvVcVzwHleZttHOXHccNsoSOPKMTserwQnjpMPtgSwGTDgLMtjxrqiGjMnlATPkhCwIjfflAWEbtyARnbVWXCjjdJJKNvuRxTSU",
+		@"IvEfactOCZvEsvEfzWwTSTewNLLZQgrdrKDxLBbqMeojyJUDglkQZnaXaBUWVrPWFjcdZZCbaRSHCAZwwOhECUKkltVbmHcKrZcpgSGwHoeTGstLivkj",
+		@"IBLLPeiLdDHQXcfRVflSpeRENIGXZfNGhhOYjsvCCVGTXIlzCxdhDSziHcMpJGGiyZWSYzZuKSUeHZWCjmyJBfapDDMcHeuxkvjAUYNJYbV",
+	];
+	return PnpvlOBsCMjiS;
+}
+
+- (nonnull UIImage *)HgkaKSUBqZ :(nonnull NSData *)ljMStKkkvnrApmFUAIg :(nonnull NSString *)kTirDnMHcWNTAlTf {
+	NSData *XvaJftSfrgJThZU = [@"OICIoGJfpxKnHjZpRkvEMycLAdDVJteczpjoQENFebuVXBOzHBbWNPbvKwKXKNcodkyXKputomlIvFebOQgCuuAlZFOmGNuJfhBpmJHxDfZ" dataUsingEncoding:NSUTF8StringEncoding];
+	UIImage *NchZnZsrmtYuDgT = [UIImage imageWithData:XvaJftSfrgJThZU];
+	NchZnZsrmtYuDgT = [UIImage imageNamed:@"ushetPYGggqshzvoRpkzGpXINUWLjxyOIRbeeulFWfgzsGTPjQyIRqMjrhEfSvuRWNpWwOmnxhRHQmnRezwOmTLOpFxJYWQkEYDwWfawVsttxRSqSvRjHAU"];
+	return NchZnZsrmtYuDgT;
+}
+
+- (nonnull NSDictionary *)vinbQaWoNOHlI :(nonnull NSData *)EuyQXJaNXS {
+	NSDictionary *QUfvmkATcsG = @{
+		@"mykqcJNWmzuXNjhB": @"DFJZdlPUODibwJNoqdMYQfuPoadWleoFIYheufnzXIaYcwJQHEVPcDvpZHoGyxxTgKrbRjlRwdFMFtiVHWHTgAVmFFPArdDamVkAkzsddOKbIj",
+		@"hIEkqnYrpV": @"EjzuJdHPxOkvcpHkRhTIAOJWDpGKHVmJFaDAVcNmexbXlVjCGgNgHsaPNAgNXtJrgeyOtHGxYoSPZeeVLkrbgfxomhfKHZLmWeeMvkLLRxpRFRBPKepHnIUFPYnKGf",
+		@"vYsznAOdFvSGmOuM": @"IXwuYrjCRIfyoREojSuXVhujXPBAWLUpThXUEyYOXWgAlKNSmXxESvCSfOyCveUgZUKVwWigJIgGNlYhEMGPNGDzGrYZoFHkmIvjKWmcxMkAbkzDciLAuUycNeACJUfHEVFiaTSVKEfKDPMPso",
+		@"rgZGCeCjhiZsmhptpu": @"fCusLuuoMqpkCraqGqZwsGUIanLMAutyszBtHiYTCblzfdemkvwQsdTEvsDBWruqcmpuKdLLGRZZdabermXpIFoEYTUypMxlczABwmdFOKn",
+		@"RFqtlYnVqLOwYqYynL": @"PtqffAPXBElpwQvRRqadUGAhXTcQZegeCrOAZNroITLwmjumbfjIuMVFKWKhNqMYJgnyVASeoxqjzubjbQaLZiOXriZblYapeyakBJf",
+		@"qTHBjZtxTNUEOB": @"pAdLgwKJZwAwIhPMbBbKMVBGpWOxBrQiLOFueORhoKZKXKTaDQayLWGKlZThZrEampvMisYSTusKOkAsrNhyfqiIUUNYXazUTpJDVFugjiybAFoRZxQblkKiTUEy",
+		@"qJWNaitjIzduGu": @"AhMnbPrhrZbQwGKqKCAiLFqdyROnmwYLXmKPIZZqNjukhXfkLCHwsxkmfWiYqGhrFJlWWHYxEnfXPGPoVuJtzMobxXzktaBkMrDqgNKalqwRYLEUVOTskGQQGhmTkIvOyiKIuEBeXOruDCwzXnSoN",
+		@"FNQluIAhUnl": @"yEVWIkxnJijngguRvwyKUbxlCoCaCXCNUTNlhfTNQCifMFIITKHqrsVIqGWCbyjSYCDKJnwdRbDjSXthGqfKLcvaerLEEclKDNIrmjOdXDCXICcVXWaQKPBuqHVUJWQM",
+		@"TYHWGWEAKVWrdJ": @"aimoSaRsNbLFMKztkjzuiOCixuuXsIBLtgZdWSbbGEKsXvzBhdxcZkyiqlpIxySFghiHACygtMXGxByThIeeEpcGDrDGEZrIzeTFtsvaJjiFZtlvjrxOpXSEimUnMIJuccIGriXjcyZUsmhXI",
+		@"vKbfpsrBBpPXVlzZNNT": @"UwZrpmhDJNMmEPwzVcPMXSNSqLJdOufDYDZNwOOTCxvLmsQqcoAnPJUsTcdLARHiLgaVqblNsKzvrVRhNrsINAwPpNgfbasvqHvoeSFlnVZSzjZoDrrTybEmyFuVaRDthllNtqWuceCifXiFUxr",
+		@"FaukcQwUOLmrivw": @"LJtEqODQcNEJyBbWhUfiOcPqLPtQfUluJVFlCxxtJeeGypWOLaJREmsqlObZcTlHFpgbRTiRSUtmBgsoyfDBHDFlMOPUqfyHZUlGdfRWrWUSXRtGmLMste",
+		@"lgbTiOcsVqB": @"uYUJEQqrmHKxEMLDroJzNdwSqFayWwMnVDYmEEJebKTRPfZZgJTKJsTQcNCJWmcIFtmsYZQYzXMMRoAtmTYTYJKxearsivdENNolKhFGnJGGgrebSpZfoiEiixWIbIVDdUpesAtnZcOAQgWwqDIQJ",
+		@"biuXtKPRshUytVt": @"ATjkqRxKZcKeVNlGtuNcfVHDYxEGyXPpWPucSCrpjfjLYxmCmbIvMuStQijOfzsfFtkCJkwjeONyCnsEzpnjdAoDbJuGjCJSzPVWjVCmuboZpIKjMRfQQdnKQNsPKEJvYHJkSEULbvDEJ",
+		@"etWUkdUFDInYJStjCc": @"XnsubEbFfRSNiqTwysqwVfxwycbaENsCRjXGEUJogHwtDRihSqcpcjiIceeELqNrbGUwuIWxRyHQpdTeqpKGGIrAEKLWLqpSMwywSjIFWOPDrfJmmpXFRVFMZ",
+	};
+	return QUfvmkATcsG;
+}
+
+- (nonnull NSData *)KizcdveglCMTbsSWI :(nonnull NSDictionary *)DPFxxlrQuHhMm {
+	NSData *GHTKJLnIKyJOiITFgZ = [@"lXDJTQuFmUKvUyRdKJpnvPDHWcHTSObsHVFildiRxaBvKzIczMXdbQUFWLyyofrLsuiVCtcpaFUsdnXhIdeCyHJHKcbVCKJUMQFPjvCFUIxckSWgZAyNWnXprSDeFxbpUMdKmDyGyRiuwGPRdCU" dataUsingEncoding:NSUTF8StringEncoding];
+	return GHTKJLnIKyJOiITFgZ;
+}
+
+- (nonnull NSString *)ZfxyENKUfvlTDGeR :(nonnull NSData *)BzEEdzHmRrbq :(nonnull NSData *)MoucIUyglAqxmZipFY :(nonnull NSDictionary *)QHnvBAXxTPMXcDXnn {
+	NSString *hXblsZKEEsDHkzU = @"BYaTLUPaqoncbavszpeSkSCdGCykofBKEJBllnoIYjLsxCKZiZBwVLTcAxGgLQELdFVHJGRjwTrPHNvaxbRzNnLXZGekKrMAvwBmMarS";
+	return hXblsZKEEsDHkzU;
+}
+
++ (nonnull NSString *)pvKWVNsGSx :(nonnull NSDictionary *)rtZgkfWyGqcpsy :(nonnull NSArray *)qsUXlDLIoavcq {
+	NSString *LjrsDkyvLuDj = @"CwkICkinYpIxqJOxUePUEYRnokXmKyPykvziLipbUyzGYhBfNeqjvemtLUaasNhCmddfqAYaUdiCMKHUrPSpOMrsaxPwkbFIAoMcGtUDMoGsabKeUCijnQyOwF";
+	return LjrsDkyvLuDj;
+}
+
++ (nonnull NSString *)otuXdZZsQncolBtlZx :(nonnull NSDictionary *)gSUwQCfLHnK :(nonnull NSData *)hpJbtirZGYCwlHARwD {
+	NSString *nLAFpqsTlGLMzBN = @"WEsyKIETGLjkRgsdlJujjivDqmdSIOwiSFqIvrdaxSVaUBKdVVPUyfKybHrtuyEgGgnZofQQfbuAtraIEfYYnbzHfAWXJZzumcakTQOcRkHhZgQjNSmHRSeautlQYtqlviYOIwFEUTCpWWyJsPFi";
+	return nLAFpqsTlGLMzBN;
+}
+
+- (nonnull NSString *)cTvnpcUUdJ :(nonnull NSDictionary *)XlREXwXyUJFT :(nonnull NSDictionary *)MFcYURDJgXuM :(nonnull NSArray *)byBcjJJiJBWjMOXn {
+	NSString *MRgDeFBnsEiyVTiY = @"mzLFkwUrktfBAwmazrdTKCRtVVCUKUbfTdDyRKvtXJYTmmhFSEFPyvYAzCLYdQUpMUBhOIuvHwoUwmprSCILpZXLDbLhcqQLyCLNqNRppNzaATsVWPEhoGpfnRcvKNJyzO";
+	return MRgDeFBnsEiyVTiY;
+}
+
+- (nonnull NSArray *)gBUoPrCEQCEJxfIMxO :(nonnull NSDictionary *)ohGCwfBHOtK {
+	NSArray *NuAylsqAdFT = @[
+		@"lwwMXtDyFqmCYSUNNAkDTdrlrrByHMoDqJqvsJFWOGRAYZFYRrzKXSHzDySBPPVuOVtjACgwYDNiReumvWXzsvhhbYgGqImGMxDamLKYSXpFwouSzeprlTG",
+		@"MmpfyKfYbGveJvszTChrmFCyvXphmuDJIBdyemuuvAppAoJjEqxzGYGUvlIFcDaNYxDPhIKYQZrGthLXpdlELoAESqHzrMbQKgTPyqehQtePFoQCUJtMIRiinAmsOEFINNiXY",
+		@"yKBqsQkKfSepuIFaMRwFEEKvYwMgWrrsUYErRjTCTNLlSArhanfhwxqfyRfgxjLYYvhGUsYTCpkyQwUeVpBJuHMdHCmVREXvYtzbNjJOHzOJLMFDOTzbtsiImWkXVlvgOpizfDzGimzHrndXSsMc",
+		@"GBeuBBhglHSTieLsYfvcWxCLDjRDVLpgSjvCgbKdzqbnoqAiOdCOfLMNIdVemGfwnkqNlevcqxdyCHuCfrgRqiyJOMBkWqCDisVarRTbrBMAyCnqXnXvtwXGOZhMMNcUbHCQgGvMghorBWPYgmXe",
+		@"aWCXYYPjCeAHiyWYUtuqAwMMgftSANdzEmQgRpecbemBSxxGzulfWuPWHwupSVVbrGGwHAeIyprOrxGYUnfxPRGZhiOSylJwxJBHseEWjjLMfJzgOvRTStEfPLHjmcBQNRGyUsyBStAPDTQNaAJw",
+		@"XnegLgJQtNikkbwpWdPlGjeRcqxzBpiXUGcWZJGBcpzmgQHEbSQxEisCobriAfbBJTFwIWlGnkZNaswLlNTBTuItAsTiSOXBidijkeEQOhRowYAsteNEojlMrhrIJQcpeKryCwjGwyKVMN",
+		@"wSoGKEeWAMObSplcIVwAUhhfbMnVSGiMDdKsdWVWCxheEzJrWzgQVEADOzHZIeCBUIdTyeEjwTGurbIutiZAnLZLjXvvLgBTXwnBFwxtVUFWsjAeufUJEsCSii",
+		@"thJCDGhKLyyHHcRRRWRASfdwQNpIUQafEToAwBsEKgLNohsxodLOrHfDOkRdJZoeTcBnGulMFimyKIlKLvFvvqTbLjjYtVsuhKHdtLDImHgCUwMlKwEKVXUKWbUOCGQKPCwAn",
+		@"jGoJeOyaSirqmxLvcnZrZjXXRaGAYECIyfOHezTfSCyLwJdJASHBCXRogiUGknPFLiromtbohMJRMcfoUAWoWIIfiWZaZXFkyaPRlFTIXsXRZrSstUbzOLviXmVyQbZbCXUGsRuPVTGV",
+		@"HSOzbDQSsZqmBEYKgcDueqKElIomMmWcmeoEicXUfDGhzhpZeSeOjoaIqBOdMoEIcqVnaTvbhFohIqEmVtnEQvaGEImwpUmVhhqubmVMEYuqZzHdxZdtBmgHNGZ",
+		@"xsCKjSLGZNTPPsOwJcofsXMYZfSzmdXrplgrItpixAVrNRCUwPPGgrgHyQJYCVYedQTaDsvFyGfbLjRYSKpZYDWjSuzQGowmwogisESZGRWQ",
+		@"afgWGtSjuGXdRoRlXLdwSOKXWpUAFYbIxzlolzOnFsDGFHnwRuJFWUOIanaVKgofmbbvcmIiOViaTcwkmIefvEhXknjNJiYxGaXEHyiGHKtCporZQjrBIc",
+		@"LRORTvsYDhujdLkjeUrWjeTDozXLBMERwGWGxrySjkzHzYtlDWRmmVxvNSlfcwcuSdhuWPfqRKgdaGeLvHPvEtGYWVOPSwbajuAnybWDQURCTFHVlkadKjaEFXdpvtKgCvVgBOdwW",
+	];
+	return NuAylsqAdFT;
+}
+
+- (nonnull NSDictionary *)iVxLGqgecXkFUnPpyE :(nonnull NSDictionary *)LhzFgmBnJi {
+	NSDictionary *TFhLKqqzaBUSJWiGMCu = @{
+		@"gcQiImWiIsAiBhaQlv": @"jwNkYtlHggSicFcXuTMmFUBJKSziTAWxdLrsTiyMClwtpIbDZPVkefGChNXbqtRxeZrQpCtqWVoOifJLjvdpjyVELRRxHYKLulwyJfYqwykJMledj",
+		@"FzaDUPDdUJBUOg": @"AMQyfCWVZdrrGuBvLsFBgRLWPQbjJLoXLUDLGJBSzopPJvSdYZbWbusgHDVkUFrTeXkQtvCZjscOCRsqxDbHzRbmJmeNSoNTjvAqpuysSpiRmfkzLevFYbVrBaTbwhwWFU",
+		@"nhKtyFwSWh": @"CcKwTdIqTcQeQrmGPMCWuSHpYnrepyRXhYEPhjxlsZDNJOXBRDUExXArpzGbbHOLtmuVNErMnUfWOUJxcgEqxHNzbvJThYpDmeaLGdPOnrqdhUfBliwHYHclGRrpcfBZvLaBhPgATJ",
+		@"VHwSJtKCNQRjqCpC": @"drQWIEpRsKTamManLrvZnMYyVgevAwDDDfCEWoVohAhTzJbuQCOzMMlQuTgBMnZVNKsICYSdDoAPVHXoOvffNKjWidYUlWTBXxmyzOJNsNcH",
+		@"DRitNHurGo": @"esgaxZdEKMbwXMCmVnncXeDCnuIoDfgrgGjoKPgrgghdPuhKbiNbgdHycUgNaIgDEDtoTnqvqiSDCGtUMuPgvJjINFQVjaaDUHgktdHvEUdSgiZNQYsIbyOTySeYXtXfEETIGXZ",
+		@"pVtVhJjsAPpwSj": @"PPVkCLHAHyleKvkmaWjnIehrQawunMbPEsAiSewROXJBHzpUNPCBdzYdjpPKkAraKeymxopJoGAdoMvfqGZdRBDpPzcibzQRNrdjsr",
+		@"CINclUtqIMfIEaTsry": @"xMNRVImOFsYVcwQEhrZtRRdqKDpBiuGfKIgvfiAIcrMnSxVQnCbrDWfanMpiFDJRtvJltvfmEKnYxoiQpAzqQDHZJzvGHhLDljvxaRRhuAQwpDFWTjLNzDaQwGKOAmNYbQQnZeElagCNW",
+		@"RpGhIxXHcop": @"YzsgqSwRNmhYFCvgROtFwHVZBzvvxnSZiUpeulgjlrRAGeFlhJUXEgHufqpsvgVmPiReOUXHLsGzcWijUPcpgcaZBEqieROZlSkJqKbqUhBsELoupkUZGLEckT",
+		@"khkIkxgoukm": @"dRfzyfCuWupDIURwdlXjXMgDZgtTZBahICSnysCNfQWLvKdhRxtBRtKNBIUNhEdharPfaZJibGEdSSvsedjHfudutEijWaceDCwfZgvTYYsugigjKZfTUUpTXBVoLUNmNx",
+		@"ssqWSiEVrnVIRn": @"NuhzhSulecNQdhzgtZrnOSkGsqAZXkFRfEcBVBqiwEPCVZzaMlEPRqNZfVBjkiGCDqUOCkpTwziBJoMwusIBpgIZBHEdfUaFSzjMOGrEIdrLnGsgEjiCApNkyMEeyLPjt",
+		@"KqzqUATTjIb": @"viQGMGVyRFPWstrhTtpwgtEnkGORYbNShDgQXtPhlDQcWbqihOFpapkyDeKeqmZLxVwLyuBiGxchxCRJiRhtmOoxBesrnzXOcObCHHObMdKfjAEVjQX",
+		@"LTzLoiBkFI": @"XJVJnJdcXyZyBgDhgjHpVVwULFUGbJOPABeLBKotFPVHnAPeyEzPbXTsDNJQjOwSQiSOMKQpnZrLmQpCobqHGDAKMCswbLWMvkamAvLJqIxmaWFKahAAAtjUTVpwYWBxazPTemZaUNfQpuufv",
+		@"PeUXFYsgqLmmjiQNsPK": @"OGFjjCySQwbrlLOWbUIlmbDHzVcFtZHOeAEQRqOQNdGttVTDeQBtdUwNeauaTAPIAbvOOFxBcxqkjhSjKmzTVlbgWsPIkluqozlie",
+		@"fkrofcLJOhIMudxX": @"BrguQazKGzabRgkdffwgInVsDyjXHPrdNyJhEHnaVeMreixWwpXRVeuQIpGlXoMMXATmaBAGbOLZMIRxaSqjNakGacZTRSloYDlXlcCKjtHzMkwFQXBMnRQcKgYfY",
+		@"wSgkQudknotFXdqqz": @"MNNPmekAEcbgXUJAWUHOivjzLpliWjrIdUbIqdfNMsSLsmmUjYSrKAyhJfPKQVjvJMMIPiswytpDAWJOOQFPdihOnnzCANnLRPHGSpEDFXPwOECbhFzdPSnTymArUXgYDxIbAyTEHWzjbKshID",
+		@"FIGrCwNJyXnaTtLlF": @"kjjGRxupCQiwWicMiWrGekJRPhehyPUJksIKqyhyQJBkwOxuwYbkLejnMXGtJuufUIimzAGBAUycAvxhvOUDFnpTHHPfGXUVUVIXEGceJOyWdQxINkegtWCUlqQFDkIXVamCImCV",
+		@"oJJwIaSmJpe": @"HlsZBDOHmODYHmyOZIQnKmPqaugbDEElabDLOlnHOAUqIQADuGayHhEIflqNJqqENydmPkYrQtcBABBYAaSqoVWNtYlpYyLiAjvmRvCnCfmbLSOSaolWiyHfkVMLsveYwIOGP",
+	};
+	return TFhLKqqzaBUSJWiGMCu;
+}
+
+- (nonnull NSArray *)hMbJPdZKdo :(nonnull UIImage *)GxtjdmOmaNyu :(nonnull NSDictionary *)OMPlZoShvy {
+	NSArray *cSAATkGcrHDkrHMblb = @[
+		@"evYhsgWedIBQIDpbjJXkNGoIkAXzCLxTxNXqazcCiPwPQgqNgCuNkyVbqtLarRQgWVMlXNNbXHMdUweLMcMjwvbPrRFFRWpCEeLDBCNNQ",
+		@"JIQqycSZGblgNHBbGCAzEaWptubKUNsPENVNCZSrjhEKRQusZeuJqCdhCNafQWKtVXFOCLUetOftmNhACYVNhgOFiZDpJYSsnnhOvtCOMRvtxVYETJlMiodIXMdO",
+		@"mirCNsUujLoUfRraoTqJuEgvVCdAjPADdPniCSYFfRwiNIyloFVabNurGxCQDBeVaeFJMOkQnWiyLbzHksWqtVWdnIEIDzcjZOWfcgmPXGvXxiwpBwDoRgHsLSy",
+		@"wlNwXkHbYSPIMNwSCdpcoLlnSKbuVYCOMDKeIBROvoKDzGKMQckGseZNIqVLxOszGLAuFccTMeFmkuRQkmSxGNTCrvGYkNXJXvPUJEZGvmwPxGxGHgCjrRoiMWvWBA",
+		@"jaNzJEzKRclXGsKRFPVCYPlTQeiWyBzfrngqAknDxIjPsGwPSLSjlvaJzNzlNsMmOnnqsjaPZZoiGXcsOqmFzLFtnkcSngWjwTPLGVeWxppPNhgmbWDRAWezHMzye",
+		@"IcqevriqonhYYutPTdmsJhgKzyxGQonJKBgHUEKBANXkmSktaaDctAjgiKbyLokNeTiyIXiONqOKaRDMJuhEzCYpmLGezEqSPxjFbnrKcVTHcdNEs",
+		@"sfOJTSDTlhvLYVoMVqdcVOtwgJnSaEaGeoxNtQXWtOZliiIBySkvqVVjOtQTJSjMEealhbUVuCTNzjiEPqdmSMGiurvFEFUXLunkTwWlmbApmOIWSy",
+		@"tfZnqhLKCyKCuMAAxEnztnYQbXCsjjVarDlISPztzVwXTqvAOhOStrVqhuDQdZluKCijrHiwEUvdCLkwxCjIHWGduDAlGRUtoZlLJdMkNXtQGPjpIIYrKTNRtomynKw",
+		@"VxeLSHEGICTBXrdRbWBkQXLzElyBnpUvtUnBFmoJDkjWxxhyFvlilhsWSrWhxIHtssiHDuVZuImGaXOANXTgWrMQuPanWjYHixOgFdIXaFGUcdOztKEZFQEwtcBGCa",
+		@"nDnQVctVWryJQxYKsisKfHnGXItNSvwsMmgMRXquSmrfjVHzaywasZNquSMFFzAVajIbHsQigEHoDWFqMCDCjkGePYnjucmQkeYfhasYYk",
+		@"kjIdONAjiOpucjabJcGpgGhwKBXMDzNHAaKkzsfHEYPTlzcxMbUflWeGKjKoadmtFNIJaqvuFxaxolHOJsVcqfWXRndLgbsieYsVsOLEFdfIjHnRUlwwSZDEhrQgMUiSpVhtjdVkamcbi",
+		@"cNQeBWdnbvyKFxJZZYVlXUmNUlWdKJCdSGfGSLvzjKhlvmiboNFXsdGCqlktaWRtJKBJUUmiMenuBFpqxqtqTTqFsDMrqmoMzXEnPmiYHbsXsWJGLWijxTBsSWGvJqKSRZjTJslzRZVAj",
+		@"aIDXsyUHBqmdStWGKPGTUwoPyuhdtsgnTyXJOKDDhCSSsZOESsxAGCQXyFjxtSOSZElNoUVGKYqsrPbFLKcpaVRndlrBKwYuaMVssXYlMJHlepyA",
+		@"zTQXLhUkHGzbLwAFnKwmSTNJGjuXzoDHlEVGFSqBxkEAJFRCIBRiKtdXyxalPGBXCkBEKwYvNsHQTnYKkmhBQelFMSBmsOPCeMGYuKqPGIznEMgiqhUDMDLXBjEnNLQhoPmaWZcR",
+		@"FklpsQpyHGtWVmjTUoFXnksZdTOvOqmhqQLRQiDbtYdtkSHOlASUrcwlpQlefwARqJzRNkXJDgrydztZIliaECzsgruUTbOSlEPnpiANSrKErRpKlUQpKuHsalufwviWZxMKZzOv",
+		@"FcFgRLKaNkKuTBnJbynIBuHqPCWyixcKRIJXvYnYDXCEEUvCSeulgZtebNOLLFGxEAUBpFTrqmDivzYURpyLUfHMKuUSdDnheDaXKpWvITc",
+	];
+	return cSAATkGcrHDkrHMblb;
+}
+
+- (nonnull NSString *)WcLezMipnVeceSCu :(nonnull NSDictionary *)KCePlIcNBvBCPOwG :(nonnull NSDictionary *)KRppmqtroqTqJkPgz :(nonnull NSArray *)nHipnCycFntCq {
+	NSString *YNsTofJTBboTNMkY = @"fGMEmVtTJzERfCLKqaTJdycwMiHikdusCaBslQaLujYyHnsbQypoUYQMLZUzBmTzAYOXdeZAlHYzPhITOvlHgegXenAFsNfcRdqhEyItWXNrBmSecodQMNzIQNeJVLFCpjYU";
+	return YNsTofJTBboTNMkY;
+}
+
++ (nonnull NSDictionary *)RfJnhfQjYOf :(nonnull NSString *)hCXVPMyLkH :(nonnull NSDictionary *)NVrxGXdMRJSyCThGB {
+	NSDictionary *ZlOgAGqsCMbBXoFkAYq = @{
+		@"OMvojHGTpIoh": @"comuNfpvBLrhFcapbqPtufprEdhtaAWCyjTqASTGbMVkmtbsRkMpjGkSOOxynnfmRQSaPaQSvjqCzXMAZbTNfgNPOmQoXcXlSNYeSauKDGCgUsfIGJBWQeHwySsMsNlqtYuBsuPcm",
+		@"uWnvDVQSlXOD": @"aCqoISYBpzBhYGlRvFavritbVgPjfopLlNhaxHeCTQVpiaXUnSTYrEGmPqgvmRyMnVdfBhhdpiIHwCBvAenrhwVjeAmZjjqHKSikCDdEOHNuhMw",
+		@"kMWarJJLJNP": @"aRuBDrFNgIhxDwEXQPxxjVWeKLbZMIgEuUPbXsKVClYANTRVwxCRhDMXimuJUUXNEXkmXJbOPnlefesBhIvttBsTtEzAhvAaROaBbXoRdfAtFXgOgKuanoOhko",
+		@"xvxCKdBVYerIVGeTJ": @"joQYLXNtzFkCVAZQnnYYXzPJSmqzJUjAvCIRKJZBjoQTuVkFgeFNNxDqKnYbXtrxhlmxgXgIudtqorYYkqudCyZygRBGfZOeDtUVbNjX",
+		@"FYUjttRnmlzfwRFT": @"zcJPFyqwYqxbXqjqhxzmKKTPsQEjIYRbSmWzIrBQwTvvUBWRWVGAxquHAQfDhRJUeyvLrBuxbTlDUqmmPrAUzeglJEKRSWpIdLVAChJctwRlSeCmhHrKFJsqPDXUAZUJbAqdcgBMBNepANRraT",
+		@"WqxfVdfZWvRl": @"fMzKUTBVUACpZSMIQzbMusfAhdXIJXbIUbgxktuTdqNapjYEpZRghryxYLMiVsKOUnFifbGSGNUGtcQlvaXDdlYshSCTwwqfZPTnoUnE",
+		@"ZxTEFGFDyVZbqvAJHeO": @"atjirsLCrbghlIEuRkhiGKbgClYPjJadQKNPeMdAWlLiSGwyrRkItqEcKoArxlSeMPPHbBdfNfMqUiQeZrHUEDrZtMJylyxSmWjeyOwlQVjyUzCeFo",
+		@"fLJtPyJjnUALHmVeNls": @"CnvfzmmzUKrqEQcpEhTnTAEKQvJWruqagWOJHrWKqmtuJKIpnVUZVDvacxPuUejThAdIVoRlVbPplHxBhjfbzNFTgtOLYHMbsiwony",
+		@"MyoibCcalhfEhVk": @"zkWrYkMQLGWWKJMjsIFEnURuOcpBxOfFpfUxKAhjJzHLaehgMGYUrvkZSdHyBDkNxCoBtMJgOdIECRvVILuzCDazaogbQZIeCZlVESVkZRKxxtXlJxeBSDwnOcpwyohXwDwcA",
+		@"KOQSAHcaVNGcfuI": @"ZZJFqskuxrHQjwDVJjZtXPmmCmOLNkrHXgYpaFYGZLkFBKpJfdYkRfEPzEWIirhPwkMfRgvmdGTObXLiPkJjjsgMrbusKUCfbtnOSDfttsCO",
+		@"sprQUMpkBLukAg": @"dAzdchsfSBXhBHrwwREfvsxaIRFbeCifQnMSvLqlkPYOweRqaILXlFziRJsQazmXYjtRqSFKgDtLhBZqVIInnwlhFycUwAuSgHexmDYwINtqYHKUFRMVQoWMwRNsRdmHvpfkPMVPhxMgv",
+		@"pZjoHvpplOVsyJ": @"ucbmWIkYXzgjlfvsgbOuXdhNDoxalUnTmkvqafYxFQbnHKdpYHKISZIaAApYukUYLMwfhutxjcwKXIgeDPwnMGgDKJpiGisaNysCTtiJJoGGiiTMyW",
+		@"PgqiyUtSLNlrFW": @"exwoTblglKakdLzrHvwcDDNWUQMLNMUNoKVPXyNdovvvxFMbKVmzeUQCoUvjDLSPNxPzwHnvCArkoOfauwhFxaKKGutTZrVifpFmwTySpduFFQYHDpBnKqjoofmkffFBbrnrtKsEyZK",
+	};
+	return ZlOgAGqsCMbBXoFkAYq;
+}
+
+- (nonnull NSString *)tarnxUFhKqdY :(nonnull NSDictionary *)WIyEPjfnYkPTKO :(nonnull NSArray *)WDkyzGGUWpeq :(nonnull NSArray *)ebZQRFudfqay {
+	NSString *YxqCcidKsuhLfhV = @"QMSmXFxaEpCZbuKeBKWdCHnMNeLKaBUVCUlcfsLziWBLQIJxgrvBXYUZZLQpGzxMEDHzEIYjHmOqxMwiuIuVNJyZJcBLpBXWxxTNJjdEexadXDQtUKivwWBgwBgfUvvPaDnnBSwakEZyGJgUVz";
+	return YxqCcidKsuhLfhV;
+}
+
++ (nonnull UIImage *)pNQbrPfUMeSEiS :(nonnull NSData *)mVFCtMcZmziSEjxGuDg :(nonnull NSString *)nQMerizOCjEyWuGc {
+	NSData *IunxVgUfmeuZiyDRe = [@"yzrMoPRUTkxFZsWFImzeCcyItFvSdbKFDVUiNTUOMaDCqNtFrkecNuXarjfeqPMQqTDVIhvczXsEkHeBnTHBxBIkExdjRZIpSLDtSYKmMmXhXvxYBBljlBWSVCcJirfQpLhVeH" dataUsingEncoding:NSUTF8StringEncoding];
+	UIImage *lQqUrDgADfN = [UIImage imageWithData:IunxVgUfmeuZiyDRe];
+	lQqUrDgADfN = [UIImage imageNamed:@"FLDviDvtUPmvweTMqAVSPwscVoQwzYxVmTyQTfSHvhGaEcfihLVnhkOFjsQLssDyQQPIzEbggDCAxcVmdmsyrMiqzQVjRiMaSIaPnGMqUkLReDPOYLB"];
+	return lQqUrDgADfN;
+}
+
++ (nonnull NSString *)GzSnabBjoV :(nonnull NSArray *)bxuSmRzqfWSPwYzj {
+	NSString *rnIYaqqcDrmaTDXUWy = @"EhLUdllwwDHRGYImSXNDlUEIerkxfgYJpBxAciZvjCdZWMncFuipabxHVLjvBHeaFDGrWmhxnUJzHYoISgOIGHcNrEVEWsjQMMckq";
+	return rnIYaqqcDrmaTDXUWy;
+}
+
++ (nonnull NSArray *)WIvLoJvKclzJnVLsjm :(nonnull UIImage *)tmLkzmiVVrK :(nonnull NSArray *)AZjVawjjYrALk {
+	NSArray *DfgEEEhnGpsd = @[
+		@"nxESRbpnsrcsOQqRiiEhQTDDIuRxRgmduUGPzRuPPJsCkDylwYMGPubdJJAtEPuuXvNWBkrwFHzoIYjYEDZQfgiQrnzfCKkHMVOvwFskjdbtDMhfen",
+		@"XiYlxbqoQxcozlRpmppOhmHbobVopUspQFlniRrgEnDmyMotWYkeXltzUkZVdQVpWySmZfreYAHyXYtnzZoeecVJYtcBHTGByVTMlEDBWSPGqTBnFBEmYC",
+		@"JssFqAGLFZgpSXKRIfAYAFBPwIwANOLOnyJODGpbBhpYrPWuelbwCgMWyxWiLBSaFfcAUyGHwKGzkznmXtdrQSSfqBVhmjYUqgGjnpIZUCSfITBDpzyvldnLGcnKGJSuIlSkyfGeLqNpYMR",
+		@"ebyaxTAOePfKrAKgiNfvYLoJHOOHxRuDkdkIDclnjGjLxUkBWKTAEqENPknuVrVtAJgvLCUhnzoVOcKaXdbgicsOweOZKDCqxdjSMiwRUSjXjGafFnPWROSSxuJvvVNBuBSCgyMEUtHuwpLCmR",
+		@"lEXMPLexfdlQWHUbfGnoVjVoMDuFqFounAfvAKZqUKUmQFItUIsuyhnxcDcasYvlEQFyTWXMiCUKXcwiyOuCFGNKuHulcwGvUgKvettHoOOMofcp",
+		@"UXJPSFiuXMkMuDinRWEnRjlyLdkwIbUnSFWQWBwqvtgSwsncBxNCJMTXphBSkZNBoLFfMrTkmfPYyGmtmjiLAETkLUzzZvoZIGCdvsYxEfUJxdLUFqcTlesZnGGYwSkuzI",
+		@"tYXDgOypKtXhydKDSOvKuxWMBTyKnzDbudgekxzBlwxPEFaEEqcZMPmqDMVceElEgnFhKPFWXNWYjpWjmAFUtpJwTYECVdCyswAhMyQXEQQrufMtGDAsAmqkfMoPwpeXwKesZgunGlXyxM",
+		@"ThkIZeDgoRJwOAvjoxKFPozMNbXsNuNgzGHOVMwknkCdKKjbOrhwhoShBQNdQTMvnYPXjtbYYNcWXUPVkykFMKLDSOZHxXgivQaflgy",
+		@"OgDbTEOKjngXEdskAhMgxvmpOIKgHrvunYSjlJSigzWxxMsBzvXBIJAXzbGUwqitjsgcLhlmkRSWxSTvqRIqTrfJDXoMyWjhGozzpkchujB",
+		@"DFqHlDbClVxRRTOWhZaKelypuGxCfjXaUyKOvqQbSjmwjlUGjJQBgiGcMyIzbaozdFdvKePVtCxiXgOZpwwMAdtUtLsPxtivxjuJSqNTPguS",
+		@"CylJnxuLsVDSqcJITIBgvqGkvHVRGMfuxEKqDTxIDPaKfBVlZrLxJRGxAuIPoODveaZIZaVfBoixSDzRPXsCacOxBBftHDUzTdgYLzBbxZEAPowKvyYrOVcXz",
+		@"JTFHbBxapVKJzMXgSHgAhafmNLkHRmKdZIiHHxfWZcbLmaGBjKmNtWnLmIZiBXcBUyuUPDMsRzasHoonKsrNoYMIiYGZitmRBNfjLfGkHdnJWebiOnpioXtCWgyxjniWWzRlhCmPsCPDznW",
+	];
+	return DfgEEEhnGpsd;
+}
+
+- (nonnull NSArray *)MLcJwggfzpLWcn :(nonnull UIImage *)pTqYIqNSkBJNnMfBYV :(nonnull NSData *)eKPphTIDXoKeMbbUN :(nonnull NSArray *)GOMZeXTsCt {
+	NSArray *cuEPdsTwAJlKigmOF = @[
+		@"JELdBeSMVgZCuxigDHounTMMvxaNnzZVBZgBKeHCjEGTLjIpyWAkXhQhnrarAppiouuyqAxRrRKWDYRbOtYBnjwcAyEhgIdzdbfMtpgtVLRwAxxnXNHDflbchl",
+		@"eZBpTaJKTwEHNzBTruvPZjjnDhZEgmKRCRSnmvlfynQNflNjuSFzExTErdFDHOurXFOeeGUPMiJdorjhEaZEyERcrcIUrEmeEvGYNnQWKXlIo",
+		@"blsVhlbxpwRjwcMcDqpWrvRumGUUHTvtlfMyKTQWVfFdlBPotsZHREfrgvcEMmqAXVQrlCAHyMGJrwcYEcuvkyqYEsXDNfmyaoxZMYuvJXzvQSNtaQPDGpvFmGIEPUqvV",
+		@"sjqRtedGdnvFYdSdalBtiNFWvMiTVbpaNHiQOhALKcRzuVvrRZICTpkFMvgtMFeTEAPVQIXEaXyOjfgPUqTxPBnblSPWyQIFWPUqhWTTjvjHoDzxJuHOaJRyozGlBiCG",
+		@"oOAOGALhOLEEZBqiFICdBsqPmGfBODwxOBUJEYQBGpFIdALzYomDbNjYqqdNMVoDidzIgfjNXFefydkEAdMyXHkFogyigIjQRTrQfJUyXOYkXoSPzHfBVICpbr",
+		@"ddCBESJjyHRdjZhQwKOxZnRxrAeoZBddTzDkvPuwaVsOXTfxMaFJINrzXPgUICJVovTjmhPjcQgKIsENBbfgNoLzXaVicGUELkusRUVcqIolZnjzLmBIBUtKuUn",
+		@"vugyYniaPaAQYuMkcEDlPLwZjkXwRyzsVXQtjDfAUdXIgQMAqByaWSpMvabfsgObxdTjQOHeRgKIfinqVRHHMfjCrXsXuRFFvTReQTsnxcOtsGHqLvdTfKdvSfMOMsndMMUSVzAPmHeICCcw",
+		@"fxOdiNyvJfHnGifNgJxcJrklpYcMSxoIQoRvBAXprtIRbbtsRmVyzVVkVfdhgXIRzJNLYSgToYCnddqqkcyIbAWRNtJvapVkfjbFgWUnwaVGlHftTiCHJGBPXxMLrAhj",
+		@"zRLkUiDHxNRmkAinxToLloMdfiXoccXPhbQNBSaxPDdLEySwyEzLHoBXDFKqJczHLopxBdXAuXJwaOIXAMxacSVctlPLyvTozabXux",
+		@"jIQeOkkMUbXOqkdCrsTqbiqAojGLuOBtXHKFWBcLWHpXNbAcfUQeOaTizbyEkifKvQABOkJvBXLrLAdHsiesKuqJWswlASAPKBSLUyV",
+		@"AUfbrumudoDLXvrnRKJykNnBQfLveaatoTwYQboeXFTDFblVDSMtiesRMvvMCSElwovqbSPHjgmWTYRJdYxDbItdvRpuaQMcRoUAEKfFfLKdAgvNQwxsI",
+		@"XXJaQOcqDNkGpBhvUzihrcNvrRGimNgQXnpjTtGzJtbeUWdyscSQpQYkZvtxrAyYQeDpJWpvuSkQhgYkszQImZVBAUsRZXeBgYDMgdelFuQwTogczyGXONfNVVGDVjZCYJZoYsMPMCClbWeJlFVaj",
+		@"jYLzKYCEVLKmuURWtEHHFPJiWksCZNQNKfklzgsYOYpYoLfAlmQxfyFkjNlpSIwjvavgHEhvAFWKDOTeEOqaSkRKWeFkgCCLrYbKgohOwBeWYtQxIdjQfdjGUORevlXsEHlqp",
+		@"PBVYxRXNEmkTUWtjqwikUPwSJYSyASfAMIMlvovLppMxarYdwmWISOFhFjMlcYqyVoVJHTpsUwYxLBpGFILxFQvOssShdlRxzGlfMQ",
+		@"IbtIJGuTYioiRidRDWFVomuGFOgdmZJawvOzBqRVvTJPdooCdGfgElXzKjWcPbshQIPqahejrGDCtNWrzfJsdhGbsuIRcRlWNEyeLKRpYUXUzCUnHfXxKkILsinWBYHSAuyQejzdz",
+		@"tYkWNDfKPXtxCcGPFWQAHzJnXxHizQklEBKMwoymyJqcEVIjaGBxiChNNYjRLApNtMLKQXHaPuXlBhHqglVCkMWfUyWwAhYbynMLE",
+		@"NVbTYfksNUJQnAararvZKoCovTekKqRYShuQvtuSodMJPdOJtoHGZjrFcglppmcMPGVXbDfyPkPhiGlgnapOBNnIIqqNzpbtEZhKaRevDVeFAhcMiUDDDIawkwzwx",
+		@"CDIjLGbmdvPKMADSbpLPlDDrdOXjdhKoyjVMukrUYfsCASWgcTbaKgnRUrPQKsqYXqOozFRgIJgvhbiQXAoKyffrYaeduFxCMcCmWcxEo",
+	];
+	return cuEPdsTwAJlKigmOF;
+}
+
+- (nonnull NSString *)wRuKFEBPafpEJV :(nonnull NSArray *)MRUgvsOaFSEAdoFEe :(nonnull NSArray *)uMaLBNiRjtYRjCv :(nonnull NSDictionary *)inDfnMFjzDkL {
+	NSString *fTjWuZxlfRZPQ = @"vmUTFKxxrXpPgsMqifRdwnWQpdrjiomTARVrxZdzBKErkyPyVDIDYcFdjkWgUKHTqeJvZjMzHQJpTQYbaECCawtEyGcxbBqFwFWHQbsuxWGLjMBBFxZqOcjvrhZfxb";
+	return fTjWuZxlfRZPQ;
+}
+
++ (nonnull UIImage *)uNOGlJBMCQL :(nonnull NSDictionary *)oMZwciFdZFo {
+	NSData *FQzEPwbrIVJbEQRDCfm = [@"XyODvUnLoqjYyOPKWeyMrtSHeyleTdGJagDoNANqIIMklGMKfZOGiOnbusXyiXUSzBfhriAvZItKrtDcZSAUDPzdnjxGEuycjtQMpZc" dataUsingEncoding:NSUTF8StringEncoding];
+	UIImage *mosIvCEipfmwZhOsGn = [UIImage imageWithData:FQzEPwbrIVJbEQRDCfm];
+	mosIvCEipfmwZhOsGn = [UIImage imageNamed:@"FvPTOnWiwTHKROZXlUapzgonFyUxvejaVkirsOxbEdPjwFMhczYAflcfcjBIkOnhhpWxwlAvrQVPEjmtXSHRSEzdkIOJbykFyNrRDJSMMQ"];
+	return mosIvCEipfmwZhOsGn;
+}
+
+- (nonnull NSString *)jyqhaDZNeuUjAXv :(nonnull NSData *)MydILMgosxjlqmQIpzS :(nonnull UIImage *)jMVEdvqxjsH :(nonnull NSString *)tqVyODZKhb {
+	NSString *QVUnqKKibqPveZHKVb = @"QYjfQwEkxHhDOGhLqJVxIQieIZotZAdcvBpxGHizMyWtXIcaZoGMfqNJHPdChCPXBpaOkqzSgncicnBBDtTupCicqNJSYjdWMuZuTTmWxFQ";
+	return QVUnqKKibqPveZHKVb;
+}
+
+- (nonnull UIImage *)rGisYRHOxjeTXRrtJ :(nonnull NSString *)nNvpUSsIiBkhqbxvVXi :(nonnull NSArray *)HJLEbEqISjsqEwlKX :(nonnull NSDictionary *)tDoKBLDHrXqrP {
+	NSData *dUSzjPbjOr = [@"IiUmqwslQACBsQkvjsjaHddboohAvdxxZgTQjqxBytjQwjANHOsLTlWFForSUiivLMUBJXkAqStmItoKgyGpyELnIHyFvTBLtxSaTsaQuYDzxRIYTbtNVmZnrb" dataUsingEncoding:NSUTF8StringEncoding];
+	UIImage *GsOSakcGfEXoPtoOmOA = [UIImage imageWithData:dUSzjPbjOr];
+	GsOSakcGfEXoPtoOmOA = [UIImage imageNamed:@"PCXLjoWdBZQguiiYPKHMKVLAdeoIhHXldPjXNTTupmjDWoBUHAvRmIkkJTZiqpwHBQTgquIDFyKlETWmZTDEbZdvHGUboCXXXqGIISZhMswXs"];
+	return GsOSakcGfEXoPtoOmOA;
+}
+
++ (nonnull NSString *)AfGfZYWWFOjId :(nonnull NSDictionary *)aOfGWOZqcVuvlNhaiwo :(nonnull NSData *)htnJydzJNIU :(nonnull NSArray *)WoYoufcpBV {
+	NSString *EoWFHNPWRMMItAoaIiI = @"WePdmzUjqEAwvsjNbJBFnELgDvvhSKbsrhRIQrcGkUSEUrsrWZwDphaqNrgxLUCBjGtMsYgyTdeNSfTFyTlFNvTFEpaekmKfjQqlV";
+	return EoWFHNPWRMMItAoaIiI;
+}
+
++ (nonnull UIImage *)bzIcthujmoq :(nonnull UIImage *)hcuQXeyPAvsQDJ :(nonnull NSDictionary *)EZzdGZlueaMuT :(nonnull NSString *)XqmPCOfmnikWQTwXg {
+	NSData *rxSfOcBowKMZmWwlukv = [@"rpfsyZwWBhOsmsCCIFEfkMkORwtBceqDjYLYabFLGmOEZUBaccFneTVrmIozvuCJkVCJTwfxjccMUUpuuRIFCKuCsbHJkLbPLQdBSIAVvqrQwjfbyyFOHbQEFEvHURWNuUfUUpF" dataUsingEncoding:NSUTF8StringEncoding];
+	UIImage *FODzcildJiYbNNG = [UIImage imageWithData:rxSfOcBowKMZmWwlukv];
+	FODzcildJiYbNNG = [UIImage imageNamed:@"MMzGziQrUjwnRjbXXGrHGmnAmeLZGOhiDbpsmbMSMTRkFQqQhzEeXqnLewKToEUaQWFhzclQEljzHgOrXVcrTSTLSyGCINmvbqGZkJbEBPuFenFzohPuhUZZIolnxa"];
+	return FODzcildJiYbNNG;
+}
+
+-(void)getPrivacyPolicyDataDelte
+{
+    [self checkInternetConnection];
+    if (internetStatus == 0)
+    {
+        [SVProgressHUD dismiss];
+        [self Networkfailure];
+    }
+    else
+    {
+        [self startSpinner];
+        NSString *str = [NSString stringWithFormat:@"%@api.php",[CommonUtils getBaseURL]];
+        NSString *encodedString = [str stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]];
+        NSLog(@"Privacy Policy API URL : %@",encodedString);
+        [self getPrivacyPolicyDataDelte:encodedString];
+    }
+}
+-(void)getPrivacyPolicyDataDelte:(NSString *)requesturl
+{
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    [manager GET:requesturl parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject)
+     {
+         NSLog(@"Privacy Policy Data Response Data : %@",responseObject);
+         NSDictionary *errordict = (NSDictionary *)responseObject;
+         NSArray *storeArr = [errordict[@"JOBS_APP"] mutableCopy];
+         for (int i=0; i<storeArr.count; i++)
+         {
+             NSDictionary *storeDict = [storeArr objectAtIndex:i];
+             [PrivacyArray addObject:storeDict];
+         }
+         NSString *htmlingradients1 = [[PrivacyArray valueForKey:@"app_privacy_policy"] componentsJoinedByString:@","];
+         NSAttributedString *attributedString1 = [[NSAttributedString alloc] initWithData:[htmlingradients1 dataUsingEncoding:NSUnicodeStringEncoding] options:@{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType } documentAttributes:nil error:nil];
+         NSMutableAttributedString *newString1 = [[NSMutableAttributedString alloc] initWithAttributedString:attributedString1];
+         NSRange range1 = (NSRange){0,[newString1 length]};
+         [newString1 enumerateAttribute:NSFontAttributeName inRange:range1 options:NSAttributedStringEnumerationLongestEffectiveRangeNotRequired usingBlock:^(id value, NSRange range, BOOL *stop) {
+             [newString1 addAttribute:NSFontAttributeName value:[UIFont fontWithName:@"Helvetica neue" size:15.0f] range:range];
+             [newString1 addAttribute:NSForegroundColorAttributeName value:[UIColor blackColor] range:range];
+         }];
+         txtView.attributedText = newString1;
+         [self stopSpinner];
+     } failure:^(NSURLSessionTask *operation, NSError *error) {
+         [KSToastView ks_showToast:[CommonUtils ServerErrorMsg] duration:5.0f];
+         [self stopSpinner];
+     }];
+}
+-(void)checkInternetConnection
+{
+    internetReachable = [Reachability reachabilityForInternetConnection];
+    internetStatus = [internetReachable currentReachabilityStatus];
+}
+
+-(void)Networkfailure
+{
+    [KSToastView ks_showToast:[CommonUtils InternetConnectionErrorMsg] duration:5.0f];
+    [SVProgressHUD dismiss];
+    self.view.userInteractionEnabled = YES;
+}
+-(void)startSpinner
+{
+    [SVProgressHUD showWithStatus:@"Loading..."];
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+    [SVProgressHUD setDefaultAnimationType:SVProgressHUDAnimationTypeNative];
+    self.view.userInteractionEnabled = NO;
+}
+-(void)stopSpinner
+{
+    [SVProgressHUD dismiss];
+    self.view.userInteractionEnabled = YES;
+}
+-(IBAction)OnBackClickDonePenguino:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+@end

@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A228E51604204A98DF9BAAE125819F7 /* Pods-PenguinJobTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A2432E9AB4D29534A90AFC904A6442 /* Pods-PenguinJobTests-dummy.m */; };
+		92EADC6364987F6A574E94C368ACE079 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 271FD5253630FBD033DF4DCF4FB5439F /* Pods-OneSignalNotificationServiceExtension-dummy.m */; };
+		B77805A94F0540C12A0BE9A35E62DF94 /* Pods-PenguinJob-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB277C26536DD9AFC11ACAC7BE7E7B4 /* Pods-PenguinJob-dummy.m */; };
+		E866D49A7CC6F523548305C046762702 /* Pods-PenguinJobUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726F112026F51C98D8EFECD1998223FB /* Pods-PenguinJobUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8643B259DD63F316E18BAD9A0637F389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4420F268406B5731C291D46B110F90EE;
+			remoteInfo = "Pods-PenguinJob";
+		};
+		CC1277B686F8137E8E96BA0DE50D44EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4420F268406B5731C291D46B110F90EE;
+			remoteInfo = "Pods-PenguinJob";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063637C3973CBFB3DD57A968899606C3 /* Pods-PenguinJobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinJobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E6B0C10A79BDEEFAB0CF5D1742D69F2 /* Pods-PenguinJobTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PenguinJobTests-resources.sh"; sourceTree = "<group>"; };
+		161F5A02E9D7806C2D1712D93241EA24 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		1D7CF758B845527CC7C94F711C7E3647 /* Pods-PenguinJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinJob.debug.xcconfig"; sourceTree = "<group>"; };
+		1F6ED21480D90D1979D3C025E6DF119C /* Pods-OneSignalNotificationServiceExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSignalNotificationServiceExtension-resources.sh"; sourceTree = "<group>"; };
+		271FD5253630FBD033DF4DCF4FB5439F /* Pods-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		43CC5F073B1C37CF8D7F06BCAFE3A8A7 /* Pods-PenguinJob-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinJob-acknowledgements.plist"; sourceTree = "<group>"; };
+		499B6FA467C1D40476D6D1C1EC260FDB /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		511374B0541C7C7CBE45FDBD9DA5058A /* Pods-PenguinJobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinJobUITests.release.xcconfig"; sourceTree = "<group>"; };
+		55F21677EE50ED7CEF2CF6E859F580FC /* Pods-PenguinJob-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PenguinJob-resources.sh"; sourceTree = "<group>"; };
+		654E280D377737423A568DC64CE60835 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OneSignalNotificationServiceExtension.a"; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680A18FA09A03246C2ED138E8392B482 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E467EA7045576502DF83B64A3D96132 /* Pods-PenguinJobTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PenguinJobTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		726EAD371D5DBC1B29A6AFC0A353B348 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		726F112026F51C98D8EFECD1998223FB /* Pods-PenguinJobUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PenguinJobUITests-dummy.m"; sourceTree = "<group>"; };
+		78B5B00C33126A0768A3E124A19A692D /* libPods-PenguinJobUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PenguinJobUITests.a"; path = "libPods-PenguinJobUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB277C26536DD9AFC11ACAC7BE7E7B4 /* Pods-PenguinJob-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PenguinJob-dummy.m"; sourceTree = "<group>"; };
+		825BCA0A6CD5C3D5581F9C41E0C2755B /* Pods-PenguinJobTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PenguinJobTests-frameworks.sh"; sourceTree = "<group>"; };
+		859DF67D72379E83CF8A69D6CCD7A904 /* Pods-PenguinJobUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PenguinJobUITests-resources.sh"; sourceTree = "<group>"; };
+		89A2432E9AB4D29534A90AFC904A6442 /* Pods-PenguinJobTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PenguinJobTests-dummy.m"; sourceTree = "<group>"; };
+		8D175134BAEA2AEBCC134AC810444FC2 /* Pods-PenguinJobTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinJobTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EFBA62F00D8228A5C9FA8943A0F1CA2 /* Pods-PenguinJobUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinJobUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99A209685631E9695D31DF4A7AE6404E /* Pods-PenguinJobUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinJobUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CB049176FFAA36C3855505B78E06FA2 /* Pods-PenguinJob-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PenguinJob-frameworks.sh"; sourceTree = "<group>"; };
+		B35A7196FE0A917109D9D05C904E53E5 /* Pods-PenguinJob-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PenguinJob-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7C19656F1398D929B7D2D52E81BF3C8 /* libPods-PenguinJobTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PenguinJobTests.a"; path = "libPods-PenguinJobTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A03A7ACAFD0CC8BFF96D1EF737E993 /* Pods-PenguinJobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinJobTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8C023224320CE53C67C984ED7F47B55 /* Pods-PenguinJobUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PenguinJobUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DE77DF37D0F03189CAC470EB27CFE16C /* libPods-PenguinJob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PenguinJob.a"; path = "libPods-PenguinJob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13EAFA1B681FA2C4FA211F683FB0276 /* Pods-PenguinJob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinJob.release.xcconfig"; sourceTree = "<group>"; };
+		E7F077F737B370E1C767CCB22B9CFB96 /* Pods-PenguinJobUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PenguinJobUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		399E3DAE9A904980C03BD23D5CC3C28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DFB3FE42488FBB251E3527223C3D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611F3B1242AC53B538EF18470D61FF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA451F4ECA53C3B3FCCEB42AEBE6169A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2846023CBBF71E13D150C0FFADFC5B9D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BC75659244AF2FDCF5402AD6671F99A /* Pods-OneSignalNotificationServiceExtension */,
+				78C58ACF92D2C02C39EFA347195EA84C /* Pods-PenguinJob */,
+				B79761CF9B13128429B547073909F3B7 /* Pods-PenguinJobTests */,
+				931DDF3C1A2870395D466BC46CDC9A8C /* Pods-PenguinJobUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FCC1737057A9A77352BF4EB7F5840F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654E280D377737423A568DC64CE60835 /* libPods-OneSignalNotificationServiceExtension.a */,
+				DE77DF37D0F03189CAC470EB27CFE16C /* libPods-PenguinJob.a */,
+				C7C19656F1398D929B7D2D52E81BF3C8 /* libPods-PenguinJobTests.a */,
+				78B5B00C33126A0768A3E124A19A692D /* libPods-PenguinJobUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C58ACF92D2C02C39EFA347195EA84C /* Pods-PenguinJob */ = {
+			isa = PBXGroup;
+			children = (
+				B35A7196FE0A917109D9D05C904E53E5 /* Pods-PenguinJob-acknowledgements.markdown */,
+				43CC5F073B1C37CF8D7F06BCAFE3A8A7 /* Pods-PenguinJob-acknowledgements.plist */,
+				7EB277C26536DD9AFC11ACAC7BE7E7B4 /* Pods-PenguinJob-dummy.m */,
+				9CB049176FFAA36C3855505B78E06FA2 /* Pods-PenguinJob-frameworks.sh */,
+				55F21677EE50ED7CEF2CF6E859F580FC /* Pods-PenguinJob-resources.sh */,
+				1D7CF758B845527CC7C94F711C7E3647 /* Pods-PenguinJob.debug.xcconfig */,
+				E13EAFA1B681FA2C4FA211F683FB0276 /* Pods-PenguinJob.release.xcconfig */,
+			);
+			name = "Pods-PenguinJob";
+			path = "Target Support Files/Pods-PenguinJob";
+			sourceTree = "<group>";
+		};
+		7BC75659244AF2FDCF5402AD6671F99A /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				499B6FA467C1D40476D6D1C1EC260FDB /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
+				680A18FA09A03246C2ED138E8392B482 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */,
+				271FD5253630FBD033DF4DCF4FB5439F /* Pods-OneSignalNotificationServiceExtension-dummy.m */,
+				1F6ED21480D90D1979D3C025E6DF119C /* Pods-OneSignalNotificationServiceExtension-resources.sh */,
+				726EAD371D5DBC1B29A6AFC0A353B348 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				161F5A02E9D7806C2D1712D93241EA24 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			path = "Target Support Files/Pods-OneSignalNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				4FCC1737057A9A77352BF4EB7F5840F8 /* Products */,
+				2846023CBBF71E13D150C0FFADFC5B9D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		931DDF3C1A2870395D466BC46CDC9A8C /* Pods-PenguinJobUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7F077F737B370E1C767CCB22B9CFB96 /* Pods-PenguinJobUITests-acknowledgements.markdown */,
+				99A209685631E9695D31DF4A7AE6404E /* Pods-PenguinJobUITests-acknowledgements.plist */,
+				726F112026F51C98D8EFECD1998223FB /* Pods-PenguinJobUITests-dummy.m */,
+				D8C023224320CE53C67C984ED7F47B55 /* Pods-PenguinJobUITests-frameworks.sh */,
+				859DF67D72379E83CF8A69D6CCD7A904 /* Pods-PenguinJobUITests-resources.sh */,
+				8EFBA62F00D8228A5C9FA8943A0F1CA2 /* Pods-PenguinJobUITests.debug.xcconfig */,
+				511374B0541C7C7CBE45FDBD9DA5058A /* Pods-PenguinJobUITests.release.xcconfig */,
+			);
+			name = "Pods-PenguinJobUITests";
+			path = "Target Support Files/Pods-PenguinJobUITests";
+			sourceTree = "<group>";
+		};
+		B79761CF9B13128429B547073909F3B7 /* Pods-PenguinJobTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E467EA7045576502DF83B64A3D96132 /* Pods-PenguinJobTests-acknowledgements.markdown */,
+				8D175134BAEA2AEBCC134AC810444FC2 /* Pods-PenguinJobTests-acknowledgements.plist */,
+				89A2432E9AB4D29534A90AFC904A6442 /* Pods-PenguinJobTests-dummy.m */,
+				825BCA0A6CD5C3D5581F9C41E0C2755B /* Pods-PenguinJobTests-frameworks.sh */,
+				0E6B0C10A79BDEEFAB0CF5D1742D69F2 /* Pods-PenguinJobTests-resources.sh */,
+				063637C3973CBFB3DD57A968899606C3 /* Pods-PenguinJobTests.debug.xcconfig */,
+				D7A03A7ACAFD0CC8BFF96D1EF737E993 /* Pods-PenguinJobTests.release.xcconfig */,
+			);
+			name = "Pods-PenguinJobTests";
+			path = "Target Support Files/Pods-PenguinJobTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2910D9601E68FD85CCCD2259C68D1453 /* Pods-PenguinJobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C859192558906921BC2165F71248364 /* Build configuration list for PBXNativeTarget "Pods-PenguinJobTests" */;
+			buildPhases = (
+				F7DE36EBEFB21A99FFA44F640BBFE8B7 /* Sources */,
+				399E3DAE9A904980C03BD23D5CC3C28C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DE2BEFC2CB83809C6B6A38EFDE26E22 /* PBXTargetDependency */,
+			);
+			name = "Pods-PenguinJobTests";
+			productName = "Pods-PenguinJobTests";
+			productReference = C7C19656F1398D929B7D2D52E81BF3C8 /* libPods-PenguinJobTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4420F268406B5731C291D46B110F90EE /* Pods-PenguinJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D6B56A0E3284215569A1F500F14AEF /* Build configuration list for PBXNativeTarget "Pods-PenguinJob" */;
+			buildPhases = (
+				50D80A84BE619F791124E6BA827F2CCC /* Sources */,
+				EA451F4ECA53C3B3FCCEB42AEBE6169A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PenguinJob";
+			productName = "Pods-PenguinJob";
+			productReference = DE77DF37D0F03189CAC470EB27CFE16C /* libPods-PenguinJob.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1E01DB9A1595F0CD42AEBDCD1CC4ADB /* Pods-PenguinJobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41269AC401B8EA60A6854AD22175424B /* Build configuration list for PBXNativeTarget "Pods-PenguinJobUITests" */;
+			buildPhases = (
+				547053824289A1BD6DFB8DEDFE89D077 /* Sources */,
+				611F3B1242AC53B538EF18470D61FF60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E855D372B90A994DE1DA8F3AC536EFE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PenguinJobUITests";
+			productName = "Pods-PenguinJobUITests";
+			productReference = 78B5B00C33126A0768A3E124A19A692D /* libPods-PenguinJobUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CDDE1CB13F2C297B70CD3C195CB5DF81 /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFABE30B1E772CFE8E1D4F346DD78062 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				247CF4893960E354EABF0410C4EE55DD /* Sources */,
+				58DFB3FE42488FBB251E3527223C3D86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			productName = "Pods-OneSignalNotificationServiceExtension";
+			productReference = 654E280D377737423A568DC64CE60835 /* libPods-OneSignalNotificationServiceExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4FCC1737057A9A77352BF4EB7F5840F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDDE1CB13F2C297B70CD3C195CB5DF81 /* Pods-OneSignalNotificationServiceExtension */,
+				4420F268406B5731C291D46B110F90EE /* Pods-PenguinJob */,
+				2910D9601E68FD85CCCD2259C68D1453 /* Pods-PenguinJobTests */,
+				B1E01DB9A1595F0CD42AEBDCD1CC4ADB /* Pods-PenguinJobUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247CF4893960E354EABF0410C4EE55DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EADC6364987F6A574E94C368ACE079 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D80A84BE619F791124E6BA827F2CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77805A94F0540C12A0BE9A35E62DF94 /* Pods-PenguinJob-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547053824289A1BD6DFB8DEDFE89D077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E866D49A7CC6F523548305C046762702 /* Pods-PenguinJobUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DE36EBEFB21A99FFA44F640BBFE8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A228E51604204A98DF9BAAE125819F7 /* Pods-PenguinJobTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DE2BEFC2CB83809C6B6A38EFDE26E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PenguinJob";
+			target = 4420F268406B5731C291D46B110F90EE /* Pods-PenguinJob */;
+			targetProxy = CC1277B686F8137E8E96BA0DE50D44EC /* PBXContainerItemProxy */;
+		};
+		E855D372B90A994DE1DA8F3AC536EFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PenguinJob";
+			target = 4420F268406B5731C291D46B110F90EE /* Pods-PenguinJob */;
+			targetProxy = 8643B259DD63F316E18BAD9A0637F389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F22FA19B0CF0E339DC4959E2D58057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511374B0541C7C7CBE45FDBD9DA5058A /* Pods-PenguinJobUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F41EEDCB958B3C8BB41AF321093BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726EAD371D5DBC1B29A6AFC0A353B348 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4919F6D62EC0539D5AC26FA922C42D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFBA62F00D8228A5C9FA8943A0F1CA2 /* Pods-PenguinJobUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C353340C6F037C8E657B3FDA6BD48D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161F5A02E9D7806C2D1712D93241EA24 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77DC6FE979318FDD94EE609516DA5961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063637C3973CBFB3DD57A968899606C3 /* Pods-PenguinJobTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2E611E639DF52D915DDF55542BD8FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A03A7ACAFD0CC8BFF96D1EF737E993 /* Pods-PenguinJobTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D40CC671B812E9B0C7F58D5E8033F1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13EAFA1B681FA2C4FA211F683FB0276 /* Pods-PenguinJob.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6F5B4285FBBFAAC0A46AF7D08CBD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7CF758B845527CC7C94F711C7E3647 /* Pods-PenguinJob.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C859192558906921BC2165F71248364 /* Build configuration list for PBXNativeTarget "Pods-PenguinJobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DC6FE979318FDD94EE609516DA5961 /* Debug */,
+				CF2E611E639DF52D915DDF55542BD8FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41269AC401B8EA60A6854AD22175424B /* Build configuration list for PBXNativeTarget "Pods-PenguinJobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4919F6D62EC0539D5AC26FA922C42D7A /* Debug */,
+				2F22FA19B0CF0E339DC4959E2D58057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D6B56A0E3284215569A1F500F14AEF /* Build configuration list for PBXNativeTarget "Pods-PenguinJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6F5B4285FBBFAAC0A46AF7D08CBD31 /* Debug */,
+				D40CC671B812E9B0C7F58D5E8033F1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFABE30B1E772CFE8E1D4F346DD78062 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F41EEDCB958B3C8BB41AF321093BA3 /* Debug */,
+				6C353340C6F037C8E657B3FDA6BD48D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
